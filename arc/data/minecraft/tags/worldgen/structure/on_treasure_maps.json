@@ -1,6 +1,6 @@
 {
   "values": [
     "minecraft:buried_treasure",
-    "arc:outposts"
+    "#arc:outposts"
   ]
 }
