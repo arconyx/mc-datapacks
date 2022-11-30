@@ -3,6 +3,10 @@
         {
             "structure": "arc:hut",
             "weight": 1
+        },
+        {
+            "structure": "arc:tower",
+            "weight": 1
         }
     ],
     "placement": {
