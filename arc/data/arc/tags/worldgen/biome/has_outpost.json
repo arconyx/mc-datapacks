@@ -5,6 +5,10 @@
         "#minecraft:is_jungle",
         "#minecraft:is_mountain",
         "#minecraft:is_savanna",
-        "#minecraft:is_taiga"
+        "#minecraft:is_taiga",
+        "#minecraft:is_badlands",
+        "minecraft:desert",
+        "minecraft:swamp",
+        "minecraft:mangrove_swamp"
     ]
 }
