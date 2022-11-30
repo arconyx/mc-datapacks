@@ -9,6 +9,7 @@
         "#minecraft:is_badlands",
         "minecraft:desert",
         "minecraft:swamp",
-        "minecraft:mangrove_swamp"
+        "minecraft:mangrove_swamp",
+        "minecraft:plains"
     ]
 }
