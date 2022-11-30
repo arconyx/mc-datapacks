@@ -7,6 +7,10 @@
         {
             "structure": "arc:tower",
             "weight": 1
+        },
+        {
+            "structure": "arc:cave_house",
+            "weight": 1
         }
     ],
     "placement": {
