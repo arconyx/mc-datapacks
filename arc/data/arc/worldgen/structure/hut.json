@@ -8,7 +8,7 @@
     "start_height": {
         "absolute": 0
     },
-    "start_pool": "arc:hut_pool",
+    "start_pool": "arc:hut",
     "step": "surface_structures",
     "terrain_adaptation": "beard_thin",
     "use_expansion_hack": false
