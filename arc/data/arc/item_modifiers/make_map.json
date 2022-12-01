@@ -1,6 +1,7 @@
 {
-    "decoration": "blue_marker",
+    "decoration": "target_point",
+    "destination": "arc:altars",
     "function": "minecraft:exploration_map",
     "skip_existing_chunks": false,
-    "zoom": 1
+    "zoom": 2
 }
