@@ -1,1 +1,0 @@
-execute at @s as @e[distance=..3,predicate=arc:sacrifice] if predicate arc:sacrifice run function arc:altar_sacrifice

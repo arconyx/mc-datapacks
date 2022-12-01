@@ -1,1 +1,1 @@
-execute as @e[type=minecraft:marker,tag=altar] run function arc:_altar_monitor2
+execute as @e[type=minecraft:marker,tag=altar] run execute at @s as @e[distance=..3,predicate=arc:sacrifice] if predicate arc:sacrifice run function arc:altar_sacrifice
