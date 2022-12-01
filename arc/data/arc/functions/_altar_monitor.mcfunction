@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=altar] run function arc:_altar_monitor2
