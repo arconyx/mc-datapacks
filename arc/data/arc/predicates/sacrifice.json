@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:goat",
+    "distance": {
+      "absolute": {
+        "min": 0,
+        "max": 1.2
+      }
+    }
+  }
+}
