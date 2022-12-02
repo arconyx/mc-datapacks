@@ -12,13 +12,19 @@
                             "destination": "arc:altars",
                             "function": "minecraft:exploration_map",
                             "skip_existing_chunks": false,
-                            "zoom": 1
+                            "zoom": 4
                         },
                         {
                             "function": "minecraft:set_name",
                             "name": {
                                 "translate": "filled_map.buried_treasure"
                             }
+                        }
+                    ],
+                    "conditions": [
+                        {
+                            "condition": "minecraft:random_chance",
+                            "chance": 0.6
                         }
                     ],
                     "name": "minecraft:map"
