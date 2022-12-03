@@ -16,10 +16,16 @@ tell @s Created objective #DataStore teleportPosX with default value 0
 
 scoreboard objectives add teleportPosY dummy
 scoreboard players set #DataStore teleportPosY 200
-tell @s Created objective #DataStore altarTeleportPosY with default value 200
+tell @s Created objective #DataStore teleportPosY with default value 200
 
-scoreboard objectives add altarTeleportPosZ dummy
+scoreboard objectives add teleportPosZ dummy
 scoreboard players set #DataStore teleportPosZ 0
-tell @s Created objective #DataStore altarTeleportPosZ with default value 0
+tell @s Created objective #DataStore teleportPosZ with default value 0
+
+scoreboard objectives add altarReturnTeleportPosX dummy
+scoreboard objectives add altarReturnTeleportPosY dummy
+scoreboard objectives add altarReturnTeleportPosZ dummy
+scoreboard players set #DataStore teleportPosZ 0
+tell @s Created objectives altarReturnTeleportPos<axis>
 
 tell @s Setup complete.
