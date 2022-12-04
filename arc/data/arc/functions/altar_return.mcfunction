@@ -5,7 +5,7 @@
 # playsound minecraft:entity.enderman.teleport block @a ~ ~ ~ 100
 
 # Prepare players
-tag @a[distance=..2] add returningPlayerAltar
+tag @a[distance=..1.5] add returningPlayerAltar
 execute as @a[tag=returningPlayerAltar,gamemode=adventure] run gamemode survival @s
 
 # Do teleport
