@@ -18,7 +18,6 @@ execute as @a[distance=..2.5] at @s store result score @s altarReturnTeleportPos
 # Do teleport
 summon minecraft:marker ~ ~ ~ {Tags: ["teleportMarkerAltar"]}
 execute as @e[tag=teleportMarkerAltar] run function arc:_altar_teleport_to_marker
-execute as @a[tag=teleportingPlayerAltar] in arc:beyond run teleport @s ~ ~ ~
 
 # Cleanup
 tag @a[tag=teleportingPlayerAltar] remove teleportingPlayerAltar
