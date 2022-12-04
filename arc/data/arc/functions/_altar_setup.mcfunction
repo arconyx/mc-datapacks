@@ -1,1 +1,0 @@
-setblock ~ ~ ~ repeating_command_block{Command: "execute positioned ~ ~3 ~ as @e[distance=..3,predicate=arc:sacrifice] if predicate arc:sacrifice run function arc:altar_sacrifice", auto: 1b} replace

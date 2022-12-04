@@ -1,4 +1,4 @@
-# Run as ??
+# Run as command block
 
 # Special effects
 # particle minecraft:portal ~ ~ ~ 1 1 1 0 500
@@ -6,7 +6,7 @@
 
 # Prepare players
 tag @a[distance=..2] add returningPlayerAltar
-gamemode survival @a[tag=returningPlayerAltar]
+execute as @a[tag=returningPlayerAltar,gamemode=adventure] run gamemode survival @s
 
 # Do teleport
 summon minecraft:marker ~ ~ ~ {Tags: ["returnMarkerAltar"]}

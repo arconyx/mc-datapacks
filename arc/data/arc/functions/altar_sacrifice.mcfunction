@@ -10,7 +10,7 @@ playsound minecraft:entity.enderman.teleport block @a ~ ~ ~ 100
 
 # Prepare players
 tag @a[distance=..2.5] add teleportingPlayerAltar
-gamemode adventure @a[tag=teleportingPlayerAltar]
+execute as @a[tag=teleportingPlayerAltar,gamemode=survival] run gamemode adventure @s
 execute as @a[distance=..2.5] at @s store result score @s altarReturnTeleportPosX run data get entity @s Pos[0]
 execute as @a[distance=..2.5] at @s store result score @s altarReturnTeleportPosY run data get entity @s Pos[1]
 execute as @a[distance=..2.5] at @s store result score @s altarReturnTeleportPosZ run data get entity @s Pos[2]
