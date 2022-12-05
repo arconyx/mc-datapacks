@@ -16,9 +16,7 @@
                         },
                         {
                             "function": "minecraft:set_name",
-                            "name": {
-                                "translate": "filled_map.buried_treasure"
-                            }
+                            "name": "Pilgrimage Map"
                         }
                     ],
                     "conditions": [
