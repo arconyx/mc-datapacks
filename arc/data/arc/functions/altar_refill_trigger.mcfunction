@@ -1,0 +1,1 @@
+execute if predicate arc:refill run function arc:altar_refill
