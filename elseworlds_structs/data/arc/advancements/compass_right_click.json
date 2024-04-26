@@ -1,0 +1,29 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:stone"
+        },
+        "title": "Test",
+        "description": "TadadA",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "criteria": {
+        "compass_rc": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": "minecraft:compass",
+                    "custom_data": {
+                        "teleporting": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "arc:lodestone_compass_handler"
+    }
+}

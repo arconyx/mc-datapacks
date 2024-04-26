@@ -1,0 +1,14 @@
+{
+    "display": {
+        "icon": {
+            "id": "minecraft:ender_pearl"
+        },
+        "title": "Elseworlds",
+        "description": "Placeholder root advancement"
+    },
+    "criteria": {
+        "test": {
+            "trigger": "tick"
+        }
+    }
+}

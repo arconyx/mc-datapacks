@@ -1,0 +1,12 @@
+{
+    "condition": "location_check",
+    "offsetY": -2,
+    "predicate": {
+        "block": {
+            "blocks": [
+                "minecraft:beacon",
+                "minecraft:jigsaw"
+            ]
+        }
+    }
+}
