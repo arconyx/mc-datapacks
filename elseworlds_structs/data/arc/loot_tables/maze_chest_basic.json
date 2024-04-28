@@ -1,0 +1,47 @@
+{
+    "type": "minecraft:chest",
+    "pools": [
+        {
+            "rolls": 2,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:deepslate_bricks",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "arc:labyrinth_brick"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:compass",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "reference",
+                            "name": "arc:teleporting_compass"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:glowstone",
+                    "weight": 2
+                }
+            ],
+            "functions": [
+                {
+                    "function": "minecraft:set_count",
+                    "count": {
+                        "type": "minecraft:binomial",
+                        "n": 3,
+                        "p": 0.3
+                    }
+                }
+            ]
+        }
+    ]
+}

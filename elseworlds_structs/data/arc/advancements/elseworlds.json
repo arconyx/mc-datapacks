@@ -4,11 +4,18 @@
             "id": "minecraft:ender_pearl"
         },
         "title": "Elseworlds",
-        "description": "Placeholder root advancement"
+        "description": "Placeholder root advancement",
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": false
     },
     "criteria": {
         "test": {
             "trigger": "tick"
         }
+    },
+    "rewards": {
+        "function": "arc:init"
     }
 }
