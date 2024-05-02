@@ -11,5 +11,5 @@ execute in arc:maze run teleport @s @e[tag=maze_entrance,distance=..128,sort=nea
 execute in arc:maze run forceload remove ~-64 ~-64 ~64 ~64
 # Switch to adventure mode
 # Tag player so we know adventure mode is because of the maze
-tag @s add mazerunner
-gamemode adventure @s
+execute if entity @s[gamemode=!creative] run tag @s add mazerunner
+execute if entity @s[gamemode=!creative] run gamemode adventure @s
