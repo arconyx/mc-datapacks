@@ -1,8 +1,8 @@
 {
     "values": [
         "arc:wither/monitor",
-        "arc:maze_internal_teleport_monitor",
-        "arc:maze_gamemode_monitor",
-        "arc:maze_exit_monitor"
+        "arc:maze/internal_teleport_monitor",
+        "arc:maze/gamemode_monitor",
+        "arc:maze/exit_monitor"
     ]
 }
