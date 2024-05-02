@@ -16,7 +16,8 @@
             "conditions": {
                 "item": {
                     "items": [
-                        "minecraft:compass"
+                        "minecraft:compass",
+                        "minecraft:recovery_compass"
                     ],
                     "custom_data": {
                         "teleporting": true
