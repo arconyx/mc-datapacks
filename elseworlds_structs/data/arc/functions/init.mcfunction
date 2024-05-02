@@ -1,1 +1,2 @@
 scoreboard objectives add teleportDimensionValid dummy
+scoreboard objectives add mazeJoinSuccess dummy
