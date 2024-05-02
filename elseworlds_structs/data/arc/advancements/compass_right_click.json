@@ -27,6 +27,6 @@
         }
     },
     "rewards": {
-        "function": "arc:lodestone_compass_teleport"
+        "function": "arc:recall_compass/recall_handler"
     }
 }
