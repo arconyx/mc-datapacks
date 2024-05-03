@@ -2,9 +2,9 @@
     "parent": "arc:elseworlds",
     "display": {
         "icon": {
-            "id": "minecraft:compass"
+            "id": "minecraft:wheat_seeds"
         },
-        "title": "Compass right click detection",
+        "title": "Portal seed right click detection",
         "description": "You shouldn't be able to see this",
         "show_toast": false,
         "announce_to_chat": false,
@@ -16,8 +16,7 @@
             "conditions": {
                 "item": {
                     "items": [
-                        "minecraft:compass",
-                        "minecraft:recovery_compass"
+                        "minecraft:wheat_seeds"
                     ],
                     "custom_data": {
                         "teleporting": true
@@ -27,6 +26,6 @@
         }
     },
     "rewards": {
-        "function": "arc:recall_compass/recall_handler"
+        "function": "arc:portals/seeds/dimension_selector"
     }
 }

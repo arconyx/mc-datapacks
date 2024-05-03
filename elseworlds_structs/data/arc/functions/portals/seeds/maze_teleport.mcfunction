@@ -1,0 +1,1 @@
+execute in arc:maze run teleport @s ~ ~ ~

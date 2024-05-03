@@ -1,0 +1,1 @@
+execute in arc:spaghetti run teleport @s ~ ~ ~
