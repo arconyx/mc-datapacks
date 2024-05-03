@@ -1,0 +1,50 @@
+{
+    "condition": "all_of",
+    "terms": [
+        {
+            "condition": "inverted",
+            "term": {
+                "condition": "location_check",
+                "offsetY": -1,
+                "predicate": {
+                    "block": {
+                        "blocks": [
+                            "minecraft:air",
+                            "minecraft:void_air",
+                            "minecraft:cave_air",
+                            "minecraft:lava"
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetY": 0,
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "minecraft:air",
+                        "minecraft:void_air",
+                        "minecraft:cave_air",
+                        "minecraft:water"
+                    ]
+                }
+            }
+        },
+        {
+            "condition": "location_check",
+            "offsetY": 1,
+            "predicate": {
+                "block": {
+                    "blocks": [
+                        "minecraft:air",
+                        "minecraft:void_air",
+                        "minecraft:cave_air",
+                        "minecraft:water"
+                    ]
+                }
+            }
+        }
+    ]
+}
