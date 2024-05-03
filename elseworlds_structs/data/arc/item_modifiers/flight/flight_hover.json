@@ -1,0 +1,26 @@
+[
+    {
+        "function": "reference",
+        "name": "arc:flight/flight_base"
+    },
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Hover",
+                "attribute": "generic.gravity",
+                "operation": "add_multiplied_base",
+                "amount": -1,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Hover",
+                "attribute": "generic.gravity",
+                "operation": "add_multiplied_base",
+                "amount": -1,
+                "slot": "offhand"
+            }
+        ],
+        "replace": true
+    }
+]

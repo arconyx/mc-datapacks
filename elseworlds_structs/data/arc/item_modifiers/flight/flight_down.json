@@ -1,0 +1,40 @@
+[
+    {
+        "function": "reference",
+        "name": "arc:flight/flight_base"
+    },
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Go Down",
+                "attribute": "generic.gravity",
+                "operation": "add_multiplied_base",
+                "amount": -0.9375,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Go Down",
+                "attribute": "generic.gravity",
+                "operation": "add_multiplied_base",
+                "amount": -0.9375,
+                "slot": "offhand"
+            },
+            {
+                "name": "Go Down",
+                "attribute": "generic.fall_damage_multiplier",
+                "operation": "add_multiplied_base",
+                "amount": -0.9375,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Go Down",
+                "attribute": "generic.fall_damage_multiplier",
+                "operation": "add_multiplied_base",
+                "amount": -0.9375,
+                "slot": "offhand"
+            }
+        ],
+        "replace": true
+    }
+]

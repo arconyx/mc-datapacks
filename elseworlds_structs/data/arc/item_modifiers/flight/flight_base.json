@@ -1,0 +1,24 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:custom_data": {
+                "flight": true
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "is_meat": false,
+                "can_always_eat": true,
+                "eat_seconds": 3000,
+                "effects": []
+            },
+            "minecraft:rarity": "uncommon"
+        }
+    },
+    {
+        "function": "set_name",
+        "name": "Flight Feather",
+        "target": "item_name"
+    }
+]

@@ -1,0 +1,43 @@
+[
+    {
+        "function": "reference",
+        "name": "arc:flight/flight_base"
+    },
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Go Up",
+                "attribute": "generic.gravity",
+                "operation": "add_multiplied_base",
+                "amount": -1.0625,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Go Up",
+                "attribute": "generic.gravity",
+                "operation": "add_multiplied_base",
+                "amount": -1.0625,
+                "slot": "offhand"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:custom_data": {
+                "flight": true
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "is_meat": false,
+                "can_always_eat": true,
+                "eat_seconds": 3000,
+                "effects": []
+            },
+            "minecraft:rarity": "uncommon"
+        }
+    }
+]
