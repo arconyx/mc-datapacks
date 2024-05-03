@@ -13,7 +13,10 @@ execute if predicate arc:item_dimension/nether run function arc:portals/seeds/ne
 execute if predicate arc:item_dimension/end run function arc:portals/seeds/end_teleport
 
 execute if predicate arc:item_dimension/purelake run function arc:portals/seeds/purelake_teleport
-execute if predicate arc:item_dimension/maze run function arc:portal/seeds/maze_teleport
+execute if predicate arc:item_dimension/maze run function arc:portals/seeds/maze_teleport
 execute if predicate arc:item_dimension/spaghetti run function arc:portals/seeds/spaghetti_teleport
+
+effect give @s minecraft:resistance 6 5 true
+execute at @s unless block ~ ~1 ~ #arc:head_safe run fill ~ ~1 ~ ~ ~1 ~ air destroy
 
 item modify entity @s weapon.mainhand arc:remove_one_item
