@@ -1,1 +1,1 @@
-execute in arc:maze run teleport @s ~ ~ ~
+function arc:maze/enter
