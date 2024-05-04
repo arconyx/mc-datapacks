@@ -1,0 +1,50 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Big",
+                "attribute": "generic.scale",
+                "operation": "add_multiplied_base",
+                "amount": 3,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Long Legs",
+                "attribute": "generic.step_height",
+                "operation": "add_multiplied_base",
+                "amount": 3,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Long Stride",
+                "attribute": "generic.movement_speed",
+                "operation": "add_multiplied_base",
+                "amount": 1,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Strong",
+                "attribute": "generic.jump_strength",
+                "operation": "add_multiplied_base",
+                "amount": 3,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Long Arms",
+                "attribute": "player.block_interaction_range",
+                "operation": "add_multiplied_base",
+                "amount": 2,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Long Arms",
+                "attribute": "player.block_interaction_range",
+                "operation": "add_multiplied_base",
+                "amount": 2,
+                "slot": "mainhand"
+            }
+        ],
+        "replace": true
+    }
+]

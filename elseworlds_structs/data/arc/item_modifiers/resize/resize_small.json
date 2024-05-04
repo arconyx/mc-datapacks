@@ -1,0 +1,36 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Smol",
+                "attribute": "generic.scale",
+                "operation": "add_multiplied_base",
+                "amount": -0.75,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Short Legs",
+                "attribute": "generic.step_height",
+                "operation": "add_multiplied_base",
+                "amount": -0.5,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Little Arms",
+                "attribute": "player.block_interaction_range",
+                "operation": "add_multiplied_base",
+                "amount": -0.25,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Little Arms",
+                "attribute": "player.block_interaction_range",
+                "operation": "add_multiplied_base",
+                "amount": -0.25,
+                "slot": "mainhand"
+            }
+        ],
+        "replace": true
+    }
+]
