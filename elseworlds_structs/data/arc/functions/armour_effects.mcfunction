@@ -1,0 +1,1 @@
+effect give @a[predicate=arc:nightvision_helmet] night_vision 12 0 true
