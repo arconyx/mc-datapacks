@@ -6,7 +6,7 @@ execute if items entity @s weapon.mainhand minecraft:compass[!minecraft:lodeston
 data modify storage arc:recall_compass dimension set from entity @s SelectedItem.components.minecraft:lodestone_tracker.target.dimension
 # Returns false (0) when dimensions match
 execute store success score @s teleportDimensionValid run data modify storage arc:recall_compass dimension set from entity @s Dimension
-execute if score @s teleportDimensionValid matches 1 run tellraw @s {"text":"Unable to breach dimensional barrier","color":"red"}
+execute if score @s teleportDimensionValid matches 1 run title @s actionbar {"text":"Unable to breach dimensional barrier","color":"red"}
 execute if score @s teleportDimensionValid matches 1 run return 0
 
 # Save teleport target

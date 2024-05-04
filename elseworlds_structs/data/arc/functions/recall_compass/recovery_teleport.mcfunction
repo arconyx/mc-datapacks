@@ -2,7 +2,7 @@
 data modify storage arc:recall_compass dimension set from entity @s LastDeathLocation.dimension
 # Returns false (0) when dimensions match
 execute store success score @s teleportDimensionValid run data modify storage arc:recall_compass dimension set from entity @s Dimension
-execute if score @s teleportDimensionValid matches 1 run tellraw @s {"text":"Unable to breach dimensional barrier","color":"red"}
+execute if score @s teleportDimensionValid matches 1 run title @s actionbar {"text":"Unable to breach dimensional barrier","color":"red"}
 execute if score @s teleportDimensionValid matches 1 run return 0
 
 # Save teleport target
