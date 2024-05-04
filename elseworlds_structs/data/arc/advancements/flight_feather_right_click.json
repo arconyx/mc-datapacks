@@ -1,0 +1,31 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:feather"
+        },
+        "title": "Flight feather right click detection",
+        "description": "You shouldn't be able to see this",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "compass_rc": {
+            "trigger": "minecraft:using_item",
+            "conditions": {
+                "item": {
+                    "items": [
+                        "minecraft:feather"
+                    ],
+                    "custom_data": {
+                        "flight": true
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "arc:flight_feather_toggle"
+    }
+}

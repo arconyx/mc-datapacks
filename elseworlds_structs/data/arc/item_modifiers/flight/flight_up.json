@@ -4,6 +4,12 @@
         "name": "arc:flight/flight_base"
     },
     {
+        "function": "set_custom_data",
+        "tag": {
+            "flight_mode": 1
+        }
+    },
+    {
         "function": "set_attributes",
         "modifiers": [
             {
@@ -19,25 +25,22 @@
                 "operation": "add_multiplied_base",
                 "amount": -1.0625,
                 "slot": "offhand"
+            },
+            {
+                "name": "Safe Fall",
+                "attribute": "generic.fall_damage_multiplier",
+                "operation": "add_multiplied_base",
+                "amount": -1,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Safe Fall",
+                "attribute": "generic.fall_damage_multiplier",
+                "operation": "add_multiplied_base",
+                "amount": -1,
+                "slot": "offhand"
             }
         ],
         "replace": true
-    },
-    {
-        "function": "set_components",
-        "components": {
-            "minecraft:custom_data": {
-                "flight": true
-            },
-            "minecraft:food": {
-                "nutrition": 0,
-                "saturation": 0,
-                "is_meat": false,
-                "can_always_eat": true,
-                "eat_seconds": 3000,
-                "effects": []
-            },
-            "minecraft:rarity": "uncommon"
-        }
     }
 ]

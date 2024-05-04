@@ -3,6 +3,7 @@
         "arc:wither/monitor",
         "arc:maze/internal_teleport_monitor",
         "arc:maze/gamemode_monitor",
-        "arc:maze/exit_monitor"
+        "arc:maze/exit_monitor",
+        "arc:update_counters"
     ]
 }

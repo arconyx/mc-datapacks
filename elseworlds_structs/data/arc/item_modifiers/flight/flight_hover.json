@@ -4,6 +4,12 @@
         "name": "arc:flight/flight_base"
     },
     {
+        "function": "set_custom_data",
+        "tag": {
+            "flight_mode": 0
+        }
+    },
+    {
         "function": "set_attributes",
         "modifiers": [
             {
@@ -16,6 +22,20 @@
             {
                 "name": "Hover",
                 "attribute": "generic.gravity",
+                "operation": "add_multiplied_base",
+                "amount": -1,
+                "slot": "offhand"
+            },
+            {
+                "name": "Safe Fall",
+                "attribute": "generic.fall_damage_multiplier",
+                "operation": "add_multiplied_base",
+                "amount": -1,
+                "slot": "mainhand"
+            },
+            {
+                "name": "Safe Fall",
+                "attribute": "generic.fall_damage_multiplier",
                 "operation": "add_multiplied_base",
                 "amount": -1,
                 "slot": "offhand"

@@ -4,6 +4,12 @@
         "name": "arc:flight/flight_base"
     },
     {
+        "function": "set_custom_data",
+        "tag": {
+            "flight_mode": -1
+        }
+    },
+    {
         "function": "set_attributes",
         "modifiers": [
             {
@@ -21,17 +27,17 @@
                 "slot": "offhand"
             },
             {
-                "name": "Go Down",
+                "name": "Safe Fall",
                 "attribute": "generic.fall_damage_multiplier",
                 "operation": "add_multiplied_base",
-                "amount": -0.9375,
+                "amount": -1,
                 "slot": "mainhand"
             },
             {
-                "name": "Go Down",
+                "name": "Safe Fall",
                 "attribute": "generic.fall_damage_multiplier",
                 "operation": "add_multiplied_base",
-                "amount": -0.9375,
+                "amount": -1,
                 "slot": "offhand"
             }
         ],
