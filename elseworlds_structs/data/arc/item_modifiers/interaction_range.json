@@ -1,0 +1,26 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Long Arms",
+                "attribute": "player.block_interaction_range",
+                "operation": "add_multiplied_total",
+                "amount": 0.6,
+                "slot": "offhand"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_name",
+        "name": "10ft. Pole",
+        "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:rarity": "uncommon"
+        }
+    }
+]
