@@ -1,4 +1,4 @@
-say Checking portal dimension
+# Wrapper for attuned portal seed teleportation
 
 advancement revoke @s only arc:portal_seed_right_click
 
