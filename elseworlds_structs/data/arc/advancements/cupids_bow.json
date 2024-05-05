@@ -1,0 +1,42 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:bow"
+        },
+        "title": "Cupid attack detection",
+        "description": "You shouldn't be able to see this",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "hit_mainhand": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "blocked": false,
+                    "type": {
+                        "source_entity": {
+                            "equipment": {
+                                "mainhand": {
+                                    "predicates": {
+                                        "minecraft:custom_data": {
+                                            "cupids_bow": true
+                                        }
+                                    }
+                                }
+                            }
+                        },
+                        "direct_entity": {
+                            "type": "minecraft:arrow"
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "arc:cupids_bow"
+    }
+}
