@@ -1,0 +1,8 @@
+[
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "sharpness": 5
+        }
+    }
+]
