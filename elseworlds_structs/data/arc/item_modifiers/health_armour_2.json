@@ -1,0 +1,26 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Zoom!",
+                "attribute": "generic.max_health",
+                "operation": "add_multiplied_base",
+                "amount": 0.2,
+                "slot": "chest"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_name",
+        "name": "Comfortable Armour",
+        "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:rarity": "uncommon"
+        }
+    }
+]
