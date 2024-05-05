@@ -1,0 +1,15 @@
+[
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "glowing": true
+        }
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:enchantment_glint_override": true
+        }
+    }
+]
