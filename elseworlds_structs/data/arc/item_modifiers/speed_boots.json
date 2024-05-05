@@ -1,0 +1,26 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Zoom!",
+                "attribute": "generic.movement_speed",
+                "operation": "add_multiplied_total",
+                "amount": 0.1,
+                "slot": "feet"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_name",
+        "name": "Roller Boots",
+        "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:rarity": "uncommon"
+        }
+    }
+]
