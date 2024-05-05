@@ -1,0 +1,26 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Boing!",
+                "attribute": "generic.jump_strength",
+                "operation": "add_multiplied_total",
+                "amount": 0.3,
+                "slot": "feet"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_name",
+        "name": "Springheeled Boots",
+        "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:rarity": "uncommon"
+        }
+    }
+]
