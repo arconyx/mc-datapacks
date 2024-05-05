@@ -1,3 +1,5 @@
 scoreboard objectives add teleportDimensionValid dummy
 scoreboard objectives add mazeJoinSuccess dummy
 scoreboard objectives add featherRightClickCooldown dummy
+
+schedule function arc:lightning_thorns 5s replace
