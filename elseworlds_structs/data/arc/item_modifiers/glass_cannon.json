@@ -1,0 +1,40 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Glass",
+                "attribute": "generic.max_health",
+                "operation": "add_multiplied_base",
+                "amount": -0.6,
+                "slot": "chest"
+            },
+            {
+                "name": "Cannon",
+                "attribute": "generic.attack_damage",
+                "operation": "add_multiplied_base",
+                "amount": 3,
+                "slot": "chest"
+            },
+            {
+                "name": "Zoom",
+                "attribute": "generic.movement_speed",
+                "operation": "add_multiplied_base",
+                "amount": 1,
+                "slot": "chest"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_name",
+        "name": "The Best Defense",
+        "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:rarity": "uncommon"
+        }
+    }
+]
