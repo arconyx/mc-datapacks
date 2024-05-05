@@ -1,0 +1,56 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:honeycomb"
+        },
+        "title": "Bee attack detection",
+        "description": "You shouldn't be able to see this",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "hit_mainhand": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "mainhand": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "attack_bee": true
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "hit_offhand": {
+            "trigger": "minecraft:entity_hurt_player",
+            "conditions": {
+                "player": {
+                    "equipment": {
+                        "offhand": {
+                            "predicates": {
+                                "minecraft:custom_data": {
+                                    "attack_bee": true
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "requirements": [
+        [
+            "hit_mainhand",
+            "hit_offhand"
+        ]
+    ],
+    "rewards": {
+        "function": "arc:attack_bee"
+    }
+}
