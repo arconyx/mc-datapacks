@@ -126,6 +126,15 @@
                 "location": "arc:maze_dark_room",
                 "processors": "minecraft:empty"
             }
+        },
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "location": "arc:voidtowerbase",
+                "processors": "minecraft:empty"
+            }
         }
     ]
 }
