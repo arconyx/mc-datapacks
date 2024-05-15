@@ -1,14 +1,6 @@
 {
   "processors": [
     {
-      "processor_type": "repurposed_structures:noise_replace_with_properties_processor",
-      "output_block": "minecraft:mossy_cobblestone",
-      "input_block": "minecraft:cobblestone",
-      "threshold": 0.4,
-      "xz_scale": 0.45,
-      "y_scale": 0.45
-    },
-    {
       "rules": [
         {
           "output_state": {
@@ -259,11 +251,11 @@
       "pillar_processor_list": "repurposed_structures:cities/overworld_randomize",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:red_stained_glass"
           },
-          "replacement" : {
-            "Name": "minecraft:cobblestone"
+          "replacement": {
+            "Name": "minecraft:oak_wood"
           }
         }
       ]
@@ -274,14 +266,22 @@
       "pillar_processor_list": "repurposed_structures:cities/overworld_randomize",
       "pillar_trigger_and_replacements": [
         {
-          "trigger" : {
+          "trigger": {
             "Name": "minecraft:orange_stained_glass"
           },
-          "replacement" : {
-            "Name": "minecraft:cobblestone"
+          "replacement": {
+            "Name": "minecraft:oak_wood"
           }
         }
       ]
+    },
+    {
+      "input_block": "minecraft:cobblestone_stairs",
+      "output_blocks": [
+        "minecraft:oak_stairs"
+      ],
+      "probability": 1.0,
+      "processor_type": "repurposed_structures:random_replace_with_properties_processor"
     },
     {
       "processor_type": "repurposed_structures:waterlogging_fix_processor"
