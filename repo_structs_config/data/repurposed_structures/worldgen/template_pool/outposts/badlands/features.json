@@ -1,0 +1,74 @@
+{
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:outposts/badlands/cage1",
+        "processors": "repurposed_structures:outposts/overworld_pillar",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:outposts/badlands/cage2",
+        "processors": "repurposed_structures:outposts/overworld_pillar",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:outposts/badlands/cage3",
+        "processors": "repurposed_structures:outposts/overworld_pillar",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:outposts/badlands/logs",
+        "processors": "repurposed_structures:outposts/overworld_pillar",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:outposts/badlands/tent1",
+        "processors": "repurposed_structures:outposts/overworld_pillar",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:outposts/badlands/tent2",
+        "processors": "repurposed_structures:outposts/overworld_pillar",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "location": "repurposed_structures:outposts/badlands/targets",
+        "processors": "repurposed_structures:outposts/overworld_pillar",
+        "projection": "rigid",
+        "element_type": "minecraft:single_pool_element"
+      }
+    },
+    {
+      "weight": 40,
+      "element": {
+        "element_type": "minecraft:empty_pool_element"
+      }
+    }
+  ]
+}
