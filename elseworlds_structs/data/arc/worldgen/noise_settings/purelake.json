@@ -42,7 +42,7 @@
             "shift_y": 0,
             "shift_z": "minecraft:shift_z"
         },
-        "continents": "arc:purelake",
+        "continents": "minecraft:overworld/continents",
         "erosion": "minecraft:overworld/erosion",
         "depth": {
             "type": "minecraft:y_clamped_gradient",
