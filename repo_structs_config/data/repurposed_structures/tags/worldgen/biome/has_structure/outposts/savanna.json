@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#repurposed_structures:collections/savannas"
+    "#repurposed_structures:collections/savannas",
+    "arc:savanna"
   ]
 }
