@@ -1,7 +1,6 @@
 {
     "replace": false,
     "values": [
-        "arc:savanna",
         "lake:savanna"
     ]
 }
