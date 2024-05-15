@@ -1,0 +1,171 @@
+{
+    "processors": [
+        {
+            "processor_type": "minecraft:protected_blocks",
+            "value": "#arc:treeland_surface_blocks"
+        },
+        {
+            "processor_type": "minecraft:block_rot",
+            "integrity": 0.9,
+            "rottable_blocks": "#arc:cobblestone"
+        },
+        {
+            "processor_type": "minecraft:rule",
+            "rules": [
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:cobblestone",
+                        "probability": 0.8
+                    },
+                    "output_state": {
+                        "Name": "minecraft:mossy_cobblestone"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:cobblestone_slab",
+                            "Properties": {
+                                "type": "top",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.8
+                    },
+                    "output_state": {
+                        "Name": "minecraft:mossy_cobblestone_slab",
+                        "Properties": {
+                            "type": "top",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:cobblestone_slab",
+                            "Properties": {
+                                "type": "bottom",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.8
+                    },
+                    "output_state": {
+                        "Name": "minecraft:mossy_cobblestone_slab",
+                        "Properties": {
+                            "type": "bottom",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:cobblestone_slab",
+                            "Properties": {
+                                "type": "double",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.8
+                    },
+                    "output_state": {
+                        "Name": "minecraft:mossy_cobblestone_slab",
+                        "Properties": {
+                            "type": "double",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_blockstate_match",
+                        "block_state": {
+                            "Name": "minecraft:cobblestone_stairs",
+                            "Properties": {
+                                "facing": "north",
+                                "half": "top",
+                                "shape": "straight",
+                                "waterlogged": "false"
+                            }
+                        },
+                        "probability": 0.8
+                    },
+                    "output_state": {
+                        "Name": "minecraft:mossy_cobblestone_stairs",
+                        "Properties": {
+                            "facing": "north",
+                            "half": "top",
+                            "shape": "straight",
+                            "waterlogged": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:stone_pressure_plate",
+                        "probability": 0.3
+                    },
+                    "output_state": {
+                        "Name": "minecraft:moss_carpet"
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:stone_pressure_plate",
+                        "probability": 0.2
+                    },
+                    "output_state": {
+                        "Name": "minecraft:stone_button",
+                        "Properties": {
+                            "face": "floor",
+                            "facing": "north",
+                            "powered": "false"
+                        }
+                    }
+                },
+                {
+                    "location_predicate": {
+                        "predicate_type": "minecraft:always_true"
+                    },
+                    "input_predicate": {
+                        "predicate_type": "minecraft:random_block_match",
+                        "block": "minecraft:spore_blossom",
+                        "probability": 0.2
+                    },
+                    "output_state": {
+                        "Name": "minecraft:air"
+                    }
+                }
+            ]
+        }
+    ]
+}

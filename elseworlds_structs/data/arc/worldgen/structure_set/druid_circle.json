@@ -1,0 +1,14 @@
+{
+    "structures": [
+        {
+            "structure": "arc:druid_circle",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 1455730913,
+        "spacing": 10,
+        "separation": 5
+    }
+}

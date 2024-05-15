@@ -1,0 +1,28 @@
+{
+    "feature": "minecraft:forest_flowers",
+    "placement": [
+        {
+            "type": "minecraft:count_on_every_layer",
+            "count": {
+                "type": "minecraft:clamped",
+                "min_inclusive": 0,
+                "max_inclusive": 3,
+                "source": {
+                    "type": "minecraft:uniform",
+                    "min_inclusive": -1,
+                    "max_inclusive": 3
+                }
+            }
+        },
+        {
+            "type": "minecraft:rarity_filter",
+            "chance": 7
+        },
+        {
+            "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:biome"
+        }
+    ]
+}

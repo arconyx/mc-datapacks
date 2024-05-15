@@ -1,0 +1,120 @@
+{
+    "type": "arc:treeland",
+    "generator": {
+        "type": "minecraft:noise",
+        "settings": "arc:spaghetti",
+        "biome_source": {
+            "type": "minecraft:multi_noise",
+            "biomes": [
+                {
+                    "biome": "arc:forest",
+                    "parameters": {
+                        "temperature": -0.4,
+                        "humidity": -0.4,
+                        "continentalness": -0.4,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "arc:flower_forest",
+                    "parameters": {
+                        "temperature": -0.4,
+                        "humidity": -0.4,
+                        "continentalness": -0.4,
+                        "erosion": 0,
+                        "weirdness": 1,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "arc:dark_forest",
+                    "parameters": {
+                        "temperature": 0.4,
+                        "humidity": 0.4,
+                        "continentalness": 0.4,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "arc:birch_forest",
+                    "parameters": {
+                        "temperature": -0.5,
+                        "humidity": -0.6,
+                        "continentalness": -0.6,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "arc:cherry_grove",
+                    "parameters": {
+                        "temperature": 0.5,
+                        "humidity": 0.5,
+                        "continentalness": 0.5,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "arc:jungle",
+                    "parameters": {
+                        "temperature": 0.6,
+                        "humidity": 0.6,
+                        "continentalness": -0.6,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "arc:mangrove",
+                    "parameters": {
+                        "temperature": 0.6,
+                        "humidity": 0.6,
+                        "continentalness": -0.4,
+                        "erosion": 0,
+                        "weirdness": 0.5,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "arc:savanna",
+                    "parameters": {
+                        "temperature": 0.6,
+                        "humidity": -0.6,
+                        "continentalness": 0.6,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                },
+                {
+                    "biome": "arc:old_growth_spruce_taiga",
+                    "parameters": {
+                        "temperature": -0.6,
+                        "humidity": 0.6,
+                        "continentalness": 0.6,
+                        "erosion": 0,
+                        "weirdness": 0,
+                        "depth": 0,
+                        "offset": 0
+                    }
+                }
+            ]
+        }
+    }
+}

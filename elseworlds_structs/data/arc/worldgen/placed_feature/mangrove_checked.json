@@ -1,0 +1,9 @@
+{
+    "feature": "minecraft:mangrove",
+    "placement": [
+        {
+            "type": "minecraft:count",
+            "count": 1
+        }
+    ]
+}

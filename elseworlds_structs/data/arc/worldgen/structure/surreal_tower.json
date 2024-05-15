@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "#minecraft:is_overworld",
+    "step": "surface_structures",
+    "spawn_overrides": {},
+    "terrain_adaptation": "bury",
+    "start_pool": "arc:surreal_tower",
+    "size": 2,
+    "start_height": {
+        "type": "minecraft:uniform",
+        "min_inclusive": {
+            "above_bottom": 0
+        },
+        "max_inclusive": {
+            "absolute": 0
+        }
+    },
+    "start_jigsaw_name": "arc:tower_top",
+    "project_start_to_heightmap": "MOTION_BLOCKING_NO_LEAVES",
+    "max_distance_from_center": 80,
+    "use_expansion_hack": false
+}

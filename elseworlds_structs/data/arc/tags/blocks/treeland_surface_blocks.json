@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "#arc:wood",
+        "minecraft:moss_block",
+        "minecraft:grass_block"
+    ]
+}
