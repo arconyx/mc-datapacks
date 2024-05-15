@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "#lake:is_ocean",
+    "#lake:is_river",
+    "#lake:is_beach",
+    "#lake:is_mountain",
+    "#lake:is_hill",
+    "#lake:is_taiga",
+    "#lake:is_jungle",
+    "#lake:is_forest",
+    "lake:stony_shore",
+    "lake:mushroom_fields",
+    "lake:ice_spikes",
+    "lake:windswept_savanna",
+    "lake:desert",
+    "lake:savanna",
+    "lake:snowy_plains",
+    "lake:plains",
+    "lake:sunflower_plains",
+    "lake:swamp",
+    "lake:mangrove_swamp",
+    "lake:savanna_plateau",
+    "lake:dripstone_caves",
+    "lake:lush_caves"
+  ]
+}

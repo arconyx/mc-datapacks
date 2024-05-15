@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "arc:frozen_ocean",
-    "arc:cold_ocean",
-    "arc:ocean",
-    "arc:deep_frozen_ocean",
-    "arc:deep_cold_ocean",
-    "arc:deep_ocean"
+    "lake:frozen_ocean",
+    "lake:cold_ocean",
+    "lake:ocean",
+    "lake:deep_frozen_ocean",
+    "lake:deep_cold_ocean",
+    "lake:deep_ocean"
   ]
 }

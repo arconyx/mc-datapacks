@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "arc:lukewarm_ocean",
-    "arc:warm_ocean",
-    "arc:deep_lukewarm_ocean"
+    "lake:lukewarm_ocean",
+    "lake:warm_ocean",
+    "lake:deep_lukewarm_ocean"
   ]
 }
