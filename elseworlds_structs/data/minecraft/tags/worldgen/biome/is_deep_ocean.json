@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "lake:deep_frozen_ocean",
+    "lake:deep_cold_ocean",
+    "lake:deep_ocean",
+    "lake:deep_lukewarm_ocean"
+  ]
+}

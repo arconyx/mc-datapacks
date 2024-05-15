@@ -7,7 +7,6 @@
         "lake:savanna",
         "lake:snowy_plains",
         "lake:taiga",
-        "#lake:is_mountain",
         "lake:grove"
     ]
 }

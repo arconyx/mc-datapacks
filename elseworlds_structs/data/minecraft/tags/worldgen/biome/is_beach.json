@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "#lake:is_beach"
+    "lake:beach",
+    "lake:snowy_beach"
   ]
 }

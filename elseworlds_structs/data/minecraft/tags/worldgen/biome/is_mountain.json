@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "lake:meadow",
+    "lake:frozen_peaks",
+    "lake:jagged_peaks",
+    "lake:stony_peaks",
+    "lake:snowy_slopes",
+    "lake:cherry_grove"
+  ]
+}
