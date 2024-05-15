@@ -66,7 +66,15 @@
       "minecraft:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "lake:extra_iron",
+      "lake:extra_gold",
+      "lake:extra_redstone",
+      "lake:extra_emerald",
+      "lake:extra_diamond",
+      "lake:extra_copper",
+      "lake:extra_coal",
+      "lake:extra_lapis"
     ],
     [
       "minecraft:sculk_vein",
