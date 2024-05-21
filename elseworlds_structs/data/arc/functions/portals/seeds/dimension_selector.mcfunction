@@ -17,6 +17,6 @@ execute if predicate arc:item_dimension/maze run function arc:portals/seeds/maze
 execute if predicate arc:item_dimension/spaghetti run function arc:portals/seeds/spaghetti_teleport
 
 effect give @s minecraft:resistance 6 5 true
-execute at @s unless block ~ ~1 ~ #arc:head_safe run fill ~ ~1 ~ ~ ~1 ~ air destroy
+function arc:portals/safe_landing
 
 item modify entity @s weapon.mainhand arc:remove_one_item

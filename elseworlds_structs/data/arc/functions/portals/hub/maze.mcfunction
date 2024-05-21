@@ -1,0 +1,1 @@
+function arc:maze/enter
