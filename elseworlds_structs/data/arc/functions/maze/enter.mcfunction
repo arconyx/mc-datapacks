@@ -5,6 +5,7 @@
 # Tag player so we know adventure mode is because of the maze
 execute if entity @s[gamemode=!creative] run tag @s add mazerunner
 execute if entity @s[gamemode=!creative] run gamemode adventure @s
+execute if dimension arc:hub run tag @s add fromHub
 
 # Load area
 execute in arc:maze run forceload add ~ ~
