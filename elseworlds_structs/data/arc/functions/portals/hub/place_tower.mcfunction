@@ -6,9 +6,9 @@ tellraw @s {"text": "Generating...", "color": "gray"}
 
 execute in arc:hub run place jigsaw arc:surreal_tower_start arc:tower_base 2 ~ ~ ~
 
-execute in arc:hub as @e[type=minecraft:marker,tag=tower_centre] run say hi
-execute in arc:hub as @e[type=minecraft:marker,tag=tower_centre,sort=nearest,limit=1] run function arc:portals/hub/save_hub_centre
+schedule function arc:portals/hub/find_hub 10t replace
+
+data modify storage arc:hub_core init set value 1
 
 # Confirm completition
 tellraw @s {"text": "Hub ready", "color": "gray"}
-execute in arc:hub run forceload remove ~ ~
