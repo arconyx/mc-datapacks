@@ -1,0 +1,36 @@
+{
+    "type": "crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {
+            "item": "minecraft:chain_command_block"
+        },
+        {
+            "item": "minecraft:compass"
+        }
+    ],
+    "result": {
+        "id": "minecraft:compass",
+        "components": {
+            "minecraft:custom_data": {
+                "teleporting": true
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "is_meat": false,
+                "can_always_eat": true,
+                "eat_seconds": 3000,
+                "effects": []
+            },
+            "minecraft:max_stack_size": 1,
+            "minecraft:rarity": "uncommon",
+            "minecraft:can_place_on": {
+                "blocks": [
+                    "minecraft:lodestone"
+                ]
+            },
+            "minecraft:item_name": "{\"text\":\"Recall Compass\"}"
+        }
+    }
+}
