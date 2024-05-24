@@ -1,7 +1,6 @@
 {
   "replace": false,
   "values": [
-    "#lake:is_deep_ocean",
     "lake:frozen_ocean",
     "lake:ocean",
     "lake:cold_ocean",
