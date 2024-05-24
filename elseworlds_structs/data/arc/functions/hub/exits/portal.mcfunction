@@ -6,4 +6,4 @@ execute unless entity @a[distance=..5] run return fail
 particle minecraft:portal ~ ~ ~ 0.05 1 0.05 1 10
 
 # If player within 1 block run teleport handler
-execute if entity @a[distance=..1] run function arc:portals/hub/select_dimension
+execute if entity @a[distance=..1] run function arc:hub/exits/select_dimension

@@ -6,7 +6,7 @@ tellraw @s {"text": "Generating...", "color": "gray"}
 
 execute in arc:hub run place jigsaw arc:surreal_tower_start arc:tower_base 2 ~ ~ ~
 
-schedule function arc:portals/hub/find_hub 10t replace
+schedule function arc:hub/enter/find_hub 10t replace
 
 data modify storage arc:hub_core init set value 1
 
