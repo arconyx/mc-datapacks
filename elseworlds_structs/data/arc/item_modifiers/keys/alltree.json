@@ -1,0 +1,13 @@
+[
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "key": true
+        }
+    },
+    {
+        "function": "set_name",
+        "name": "Heartwood",
+        "target": "item_name"
+    }
+]

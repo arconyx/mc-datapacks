@@ -1,0 +1,13 @@
+[
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "key": true
+        }
+    },
+    {
+        "function": "set_name",
+        "name": "Water Essence",
+        "target": "item_name"
+    }
+]
