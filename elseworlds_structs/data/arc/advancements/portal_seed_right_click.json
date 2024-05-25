@@ -16,7 +16,7 @@
             "conditions": {
                 "item": {
                     "items": [
-                        "minecraft:wheat_seeds"
+                        "minecraft:jigsaw"
                     ],
                     "custom_data": {
                         "teleporting": true

@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "###",
+        "#X#",
+        "###"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:ender_pearl"
+        },
+        "X": [
+            {
+                "item": "minecraft:beetroot_seeds"
+            },
+            {
+                "item": "minecraft:melon_seeds"
+            },
+            {
+                "item": "minecraft:pumpkin_seeds"
+            },
+            {
+                "item": "minecraft:wheat_seeds"
+            }
+        ]
+    },
+    "result": {
+        "id": "minecraft:jigsaw",
+        "count": 1,
+        "components": {
+            "minecraft:custom_data": {
+                "teleporting": true
+            },
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 3000
+            },
+            "minecraft:item_name": "{\"text\":\"Portal Seed\"}"
+        }
+    }
+}
