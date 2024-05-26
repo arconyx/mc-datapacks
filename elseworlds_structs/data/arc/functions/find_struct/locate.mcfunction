@@ -3,7 +3,7 @@
 $say calling locate with current step $(step)
 
 # Find distance to structure
-$execute positioned $(x) ~ $(z) store result score @s locationSearch1 run locate structure #village
+$execute positioned $(x) ~ $(z) store result score @s locationSearch1 run locate structure $(target)
 
 # If distance is below threshold terminate
 execute if score @s locationSearch1 matches 0..10 run return run say location search done
