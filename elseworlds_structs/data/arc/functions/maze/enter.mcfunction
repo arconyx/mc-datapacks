@@ -11,5 +11,5 @@ execute if dimension arc:hub run tag @s add fromHub
 execute in arc:maze if entity @a[x=0,y=0,z=0,tag=mazerunner] run return run function arc:maze/join_player
 
 # Setup maze at random coordinates and teleport player in
-function arc:randomise_coordinates
+function arc:randomise_coordinates {mag: 100000}
 execute in arc:maze run function arc:maze/setup_random with storage arc:random_coord

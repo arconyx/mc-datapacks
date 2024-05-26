@@ -9,7 +9,5 @@ function arc:maze/setup
 # Order is important here. Don't rearrange these or we'll teleport the player in then trigger the second teleport
 teleport @s @e[tag=maze_entrance,sort=nearest,limit=1]
 
-say teleported
-
 # Cleanup forceload
 forceload remove ~ ~
