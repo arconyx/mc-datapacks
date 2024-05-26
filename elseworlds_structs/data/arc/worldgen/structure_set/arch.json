@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "structure": "arc:arch",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 52452265,
+        "spacing": 10,
+        "frequency": 0.5,
+        "separation": 3
+    }
+}
