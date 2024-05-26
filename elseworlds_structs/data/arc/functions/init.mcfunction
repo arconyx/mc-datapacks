@@ -18,4 +18,12 @@ scoreboard objectives add purelakeCoordinateX dummy
 scoreboard objectives add purelakeCoordinateY dummy
 scoreboard objectives add purelakeCoordinateZ dummy
 
+scoreboard objectives add locationSearch1 dummy
+scoreboard objectives add locationSearch2 dummy
+scoreboard objectives add locationSearchOffsetX dummy
+scoreboard objectives add locationSearchOffsetZ dummy
+scoreboard objectives add locationSearchX dummy
+scoreboard objectives add locationSearchZ dummy
+
+
 schedule function arc:lightning_thorns 5s replace
