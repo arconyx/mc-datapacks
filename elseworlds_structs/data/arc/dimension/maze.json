@@ -48,7 +48,7 @@
         },
         "biome_source": {
             "type": "minecraft:fixed",
-            "biome": "minecraft:the_void"
+            "biome": "arc:labyrinth"
         }
     }
 }
