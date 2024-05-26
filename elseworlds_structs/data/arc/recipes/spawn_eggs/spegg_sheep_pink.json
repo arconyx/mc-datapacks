@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xXx",
+    "X#X",
+    "xXx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:pink_wool"
+    },
+    "X": {
+      "item": "minecraft:mutton"
+    },
+    "#": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "result": {
+    "id": "minecraft:sheep_spawn_egg",
+    "components": {
+      "minecraft:item_name": "{\"text\":\"Pink Sheep Spawn Egg\"}",
+      "minecraft:entity_data": {
+        "id": "minecraft:sheep",
+        "Color":6
+      }
+    }
+  }
+}

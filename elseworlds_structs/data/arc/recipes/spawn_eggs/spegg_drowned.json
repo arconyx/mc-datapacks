@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xXx",
+    "X#X",
+    "xXx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:kelp"
+    },
+    "X": {
+      "item": "minecraft:rotten_flesh"
+    },
+    "#": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "result": {
+    "id": "minecraft:drowned_spawn_egg"
+  }
+}

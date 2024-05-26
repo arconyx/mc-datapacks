@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xXx",
+    "X#X",
+    "xXx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:chorus_fruit"
+    },
+    "X": {
+      "item": "minecraft:ender_pearl"
+    },
+    "#": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "result": {
+    "id": "minecraft:enderman_spawn_egg"
+  }
+}

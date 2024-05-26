@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "xXx",
+    "X#X",
+    "xXx"
+  ],
+  "key": {
+    "x": [
+      {
+        "tag": "minecraft:tall_flowers"
+      },
+      {
+        "tag": "minecraft:small_flowers"
+      }
+    ],
+    "X": {
+      "item": "minecraft:honeycomb"
+    },
+    "#": {
+      "item": "minecraft:dragon_egg"
+    }
+  },
+  "result": {
+    "id": "minecraft:bee_spawn_egg"
+  }
+}

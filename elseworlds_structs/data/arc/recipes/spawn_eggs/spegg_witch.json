@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "yXY",
+    "X#X",
+    "zXZ"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:glass_bottle"
+    },
+    "#": {
+      "item": "minecraft:dragon_egg"
+    },
+    "y": {
+      "item": "minecraft:gunpowder"
+    },
+    "Y": {
+      "item": "minecraft:redstone"
+    },
+    "z": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "Z": {
+      "item": "minecraft:sugar"
+    }
+  },
+  "result": {
+    "id": "minecraft:witch_spawn_egg",
+    "count": 1
+  }
+}
