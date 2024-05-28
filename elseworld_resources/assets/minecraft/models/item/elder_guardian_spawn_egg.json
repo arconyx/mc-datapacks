@@ -36,6 +36,12 @@
         "custom_model_data": 106
       },
       "model": "minecraft:item/oak_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 107
+      },
+      "model": "minecraft:item/spruce_sapling"
     }
   ]
 }

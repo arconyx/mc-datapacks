@@ -1,0 +1,30 @@
+[
+    {
+        "function": "reference",
+        "name": "arc:tree/sapling_base"
+    },
+    {
+        "function": "set_name",
+        "name": "Spruce Jungle Portal Sapling",
+        "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "portal_sapling"
+                ],
+                "data": {
+                    "sapling": {
+                        "tree": "arc:tree/spruce_jungle",
+                        "left": 10,
+                        "back": 2
+                    }
+                }
+            },
+            "minecraft:custom_model_data": 107
+        }
+    }
+]
