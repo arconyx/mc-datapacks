@@ -18,6 +18,12 @@
         "custom_model_data": 103
       },
       "model": "minecraft:item/dark_oak_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 104
+      },
+      "model": "minecraft:item/mangrove_propagule"
     }
   ]
 }
