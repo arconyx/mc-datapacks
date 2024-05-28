@@ -1,0 +1,30 @@
+[
+    {
+        "function": "reference",
+        "name": "arc:tree/sapling_base"
+    },
+    {
+        "function": "set_name",
+        "name": "Dark Oak Portal Sapling",
+        "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "portal_sapling"
+                ],
+                "data": {
+                    "sapling": {
+                        "tree": "arc:tree/dark_oak1",
+                        "left": 5,
+                        "back": 3
+                    }
+                }
+            },
+            "minecraft:custom_model_data": 103
+        }
+    }
+]

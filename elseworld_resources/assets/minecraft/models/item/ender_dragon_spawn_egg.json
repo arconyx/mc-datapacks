@@ -12,6 +12,12 @@
         "custom_model_data": 102
       },
       "model": "minecraft:item/cherry_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 103
+      },
+      "model": "minecraft:item/dark_oak_sapling"
     }
   ]
 }
