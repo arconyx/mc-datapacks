@@ -1,0 +1,29 @@
+[
+    {
+        "function": "reference",
+        "name": "arc:tree/sapling_base"
+    },
+    {
+        "function": "set_name",
+        "name": "Azalea Mangrove Portal Sapling",
+        "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "portal_sapling"
+                ],
+                "data": {
+                    "sapling": {
+                        "tree": "arc:tree/azalea_mangrove",
+                        "left": 5,
+                        "forwards": 0
+                    }
+                }
+            }
+        }
+    }
+]

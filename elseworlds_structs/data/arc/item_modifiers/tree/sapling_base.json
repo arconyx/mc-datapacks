@@ -14,20 +14,7 @@
         "function": "set_components",
         "components": {
             "minecraft:rarity": "uncommon",
-            "minecraft:enchantment_glint_override": true,
-            "minecraft:entity_data": {
-                "id": "minecraft:marker",
-                "Tags": [
-                    "portal_sapling"
-                ],
-                "data": {
-                    "sapling": {
-                        "tree": "arc:tree/azalea_mangrove",
-                        "left": 5,
-                        "forwards": 0
-                    }
-                }
-            }
+            "minecraft:enchantment_glint_override": true
         }
     }
 ]
