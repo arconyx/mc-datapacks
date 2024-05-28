@@ -1,3 +1,4 @@
 tellraw @p {"text": "Growing sapling", "color": "gray"}
-place template arc:tree/azalea_mangrove
+$say rotation is $(rotation)
+$place template arc:tree/azalea_mangrove ~ ~ ~ $(rotation)
 kill @s
