@@ -1,3 +1,7 @@
+execute if entity @s[gamemode=!creative] run tag @s add hubber
+execute if entity @s[gamemode=!creative] run gamemode adventure @s
+
+# save player position in their dimension
 execute if dimension minecraft:overworld run function arc:hub/enter/overworld
 execute if dimension arc:spaghetti run function arc:hub/enter/alltree
 execute if dimension arc:purelake run function arc:hub/enter/purelake
