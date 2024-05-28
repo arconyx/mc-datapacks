@@ -30,6 +30,12 @@
         "custom_model_data": 105
       },
       "model": "minecraft:item/red_mushroom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 106
+      },
+      "model": "minecraft:item/oak_sapling"
     }
   ]
 }
