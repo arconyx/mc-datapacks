@@ -20,10 +20,12 @@
                 "Tags": [
                     "portal_sapling"
                 ],
-                "sapling": {
-                    "tree": "arc:tree/azalea_mangrove",
-                    "left": 5,
-                    "forwards": 0
+                "data": {
+                    "sapling": {
+                        "tree": "arc:tree/azalea_mangrove",
+                        "left": 5,
+                        "forwards": 0
+                    }
                 }
             }
         }
