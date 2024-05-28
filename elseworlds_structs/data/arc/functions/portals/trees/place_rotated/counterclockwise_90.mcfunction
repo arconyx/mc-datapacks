@@ -1,2 +1,2 @@
-say rotation is counterclockwise_90
+# say rotation is counterclockwise_90
 $place template $(tree) ~-$(left) ~ ~$(back) counterclockwise_90
