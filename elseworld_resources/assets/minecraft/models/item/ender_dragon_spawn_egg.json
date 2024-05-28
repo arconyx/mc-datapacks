@@ -6,6 +6,12 @@
         "custom_model_data": 101
       },
       "model": "minecraft:item/flowering_azalea"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 102
+      },
+      "model": "minecraft:item/cherry_sapling"
     }
   ]
 }
