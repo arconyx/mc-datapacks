@@ -23,7 +23,8 @@
                         "forwards": 0
                     }
                 }
-            }
+            },
+            "minecraft:custom_model_data": 101
         }
     }
 ]
