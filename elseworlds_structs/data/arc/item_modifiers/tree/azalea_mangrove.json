@@ -20,7 +20,7 @@
                     "sapling": {
                         "tree": "arc:tree/azalea_mangrove",
                         "left": 6,
-                        "forwards": 0
+                        "back": 0
                     }
                 }
             },
