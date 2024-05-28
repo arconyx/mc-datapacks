@@ -24,6 +24,12 @@
         "custom_model_data": 104
       },
       "model": "minecraft:item/mangrove_propagule"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 105
+      },
+      "model": "minecraft:item/red_mushroom"
     }
   ]
 }
