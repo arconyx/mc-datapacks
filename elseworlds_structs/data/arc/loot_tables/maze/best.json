@@ -60,7 +60,16 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_golden_apple",
-          "weight": 2
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -96,64 +105,18 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:smith"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:music_disc_cat",
+          "name": "minecraft:wayfinder_armor_trim_smithing_template",
           "weight": 2
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:deepslate_bricks",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:light_gray_glazed_terracotta",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:warped_planks",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "min": 3,
-                "max": 8
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "minecraft:soul_torch",
-          "weight": 3,
+          "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
+                "min": 2,
                 "max": 4
               }
             }
@@ -161,22 +124,22 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:golden_carrot",
+          "name": "minecraft:respawn_anchor",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone",
           "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 3,
-                "max": 10
+                "min": 2,
+                "max": 4
               }
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:glowstone",
-          "weight": 3
         },
         {
           "type": "minecraft:item",
@@ -186,8 +149,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
+                "min": 5,
+                "max": 16
               }
             }
           ]
@@ -200,8 +163,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 5,
+                "max": 16
               }
             }
           ]
@@ -214,8 +177,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 5,
+                "max": 10
               }
             }
           ]
@@ -228,8 +191,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 5,
+                "max": 10
               }
             }
           ]
@@ -243,22 +206,8 @@
             {
               "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:coal",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
                 "min": 3,
-                "max": 10
+                "max": 8
               }
             }
           ]
@@ -271,23 +220,38 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:enchanted_book",
-          "weight": 2,
+          "weight": 3,
           "quality": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 25,
+                "max": 40
+              },
+              "treasure": true
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:netherite_scrap",
+          "name": "minecraft:netherite_ingot",
           "quality": 1
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:jigsaw",
-          "weight": 2
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:binomial",
+                "n": 3,
+                "p": 0.5
+              }
+            }
+          ]
         },
         {
           "type": "minecraft:item",
@@ -346,7 +310,12 @@
       ],
       "functions": [
         {
-          "function": "minecraft:enchant_randomly"
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 25,
+            "max": 40
+          },
+          "treasure": true
         }
       ]
     }

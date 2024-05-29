@@ -246,7 +246,15 @@
           "quality": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_randomly"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "min": 20,
+                "max": {
+                  "min": 25,
+                  "max": 35
+                }
+              },
+              "treasure": true
             }
           ]
         },
@@ -317,7 +325,15 @@
       ],
       "functions": [
         {
-          "function": "minecraft:enchant_randomly"
+          "function": "minecraft:enchant_with_levels",
+          "levels": {
+            "min": 20,
+            "max": {
+              "min": 25,
+              "max": 35
+            }
+          },
+          "treasure": true
         }
       ]
     }
