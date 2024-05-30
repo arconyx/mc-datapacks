@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=buried_lab_tree] at @s if entity @a[distance=..30] run function arc:portals/trees/buried_lab/teleport
