@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "structure": "arc:buried_lab",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "salt": 563523,
+        "spacing": 20,
+        "separation": 10,
+        "frequency": 0.6
+    }
+}
