@@ -1,0 +1,22 @@
+{
+    "function": "filtered",
+    "item_filter": {
+        "items": "minecraft:structure_block"
+    },
+    "modifier": [
+        {
+            "function": "set_components",
+            "components": {
+                "minecraft:custom_data": {
+                    "currency": true
+                },
+                "minecraft:rarity": "common"
+            }
+        },
+        {
+            "function": "set_name",
+            "name": "Ruby",
+            "target": "item_name"
+        }
+    ]
+}
