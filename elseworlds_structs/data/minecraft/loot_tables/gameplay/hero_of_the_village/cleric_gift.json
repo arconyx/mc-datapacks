@@ -1,0 +1,74 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:redstone"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "reference",
+              "name": "arc:keys/lake"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "arc:purelake"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "reference",
+              "name": "arc:keys/maze"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "arc:maze"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "reference",
+              "name": "arc:keys/alltree"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "arc:spaghetti"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/hero_of_the_village/cleric_gift"
+}
