@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:fishing",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/fishing_default",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "inverted",
+              "term": {
+                "condition": "location_check",
+                "predicate": {
+                  "dimension": "arc:purelake"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "minecraft:gameplay/fishing/fishing_purelake",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "arc:purelake"
+              }
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:gameplay/fishing"
+}

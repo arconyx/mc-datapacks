@@ -66,6 +66,42 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:nautilus_shell"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "functions": [
+            {
+              "function": "reference",
+              "name": "arc:currency"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "arc:purelake"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:repeating_command_block",
+          "functions": [
+            {
+              "function": "reference",
+              "name": "arc:keys/lake"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "arc:purelake"
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0
