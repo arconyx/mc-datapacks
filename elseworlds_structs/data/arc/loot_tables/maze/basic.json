@@ -14,6 +14,10 @@
           "weight": 2,
           "functions": [
             {
+              "function": "minecraft:reference",
+              "name": "arc:currency"
+            },
+            {
               "function": "minecraft:set_count",
               "count": {
                 "min": 1,
@@ -25,7 +29,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:chain_command_block",
-          "weight": 1
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "arc:keys/maze"
+            }
+          ]
         },
         {
           "type": "minecraft:item",
