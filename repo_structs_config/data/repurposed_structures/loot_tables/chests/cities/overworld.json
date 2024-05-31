@@ -820,6 +820,40 @@
               "add": false
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "arc:randomiser/portal_seed",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:structure_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "arc:currency"
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 8,
+                "max": 16
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:reference",
+              "name": "arc:keys/alltree"
+            }
+          ]
         }
       ]
     },
