@@ -125,7 +125,7 @@
           "functions": [
             {
               "function": "minecraft:reference",
-              "value": "arc:portal_seed/purelake_portal_seed"
+              "name": "arc:portal_seed/purelake_portal_seed"
             }
           ]
         }

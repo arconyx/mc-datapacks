@@ -151,7 +151,7 @@
           "functions": [
             {
               "function": "minecraft:reference",
-              "value": "arc:portal_seed/spaghetti_portal_seed"
+              "name": "arc:portal_seed/spaghetti_portal_seed"
             }
           ]
         },

@@ -44,7 +44,7 @@
           "functions": [
             {
               "function": "minecraft:reference",
-              "value": "arc:portal_seed/maze_portal_seed"
+              "name": "arc:portal_seed/maze_portal_seed"
             }
           ]
         }

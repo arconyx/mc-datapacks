@@ -281,7 +281,7 @@
         },
         {
           "type": "minecraft:loot_table",
-          "name": "arc:randomiser/portal_seed",
+          "value": "arc:randomiser/portal_seed",
           "weight": 2
         },
         {
