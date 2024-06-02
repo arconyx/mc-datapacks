@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " w ",
+        "psp",
+        "fff"
+    ],
+    "key": {
+        "f": {
+            "item": "minecraft:feather"
+        },
+        "w": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "p": {
+            "item": "minecraft:phantom_membrane"
+        },
+        "s": {
+            "item": "minecraft:nether_star"
+        }
+    },
+    "result": {
+        "id": "minecraft:feather",
+        "components": {
+            "minecraft:custom_data": {
+                "flight": true,
+                "flight_mode": -1
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "is_meat": false,
+                "can_always_eat": true,
+                "eat_seconds": 3000,
+                "effects": []
+            },
+            "minecraft:rarity": "uncommon",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_name": "{\"text\":\"Flight Feather\"}"
+        }
+    }
+}
