@@ -4,7 +4,7 @@
             "id": "minecraft:ender_pearl"
         },
         "title": "Elseworlds",
-        "description": "Placeholder root advancement",
+        "description": "All these worlds are ours.",
         "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
         "show_toast": false,
         "announce_to_chat": false,
