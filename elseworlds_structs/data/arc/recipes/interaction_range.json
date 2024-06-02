@@ -1,0 +1,43 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        " s ",
+        " h ",
+        " s "
+    ],
+    "key": {
+        "s": {
+            "item": "minecraft:stick"
+        },
+        "h": {
+            "item": "minecraft:command_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:stick",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:item_name": "{\"text\":\"10ft. Pole\"}",
+            "minecraft:attribute_modifiers": {
+                "modifiers": [
+                    {
+                        "name": "Long Arms",
+                        "type": "player.block_interaction_range",
+                        "operation": "add_multiplied_total",
+                        "amount": 0.6,
+                        "slot": "offhand",
+                        "uuid": [
+                            -980697121,
+                            -673756000,
+                            -1332750329,
+                            928314546
+                        ]
+                    }
+                ],
+                "show_in_tooltip": true
+            }
+        }
+    }
+}
