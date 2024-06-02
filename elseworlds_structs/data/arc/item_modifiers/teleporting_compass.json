@@ -5,7 +5,8 @@
             "minecraft:custom_data": {
                 "teleporting": true,
                 "store": {
-                    "cost": 10
+                    "cost": 10,
+                    "recipe": "arc:compasses/recall_compass"
                 }
             },
             "minecraft:food": {

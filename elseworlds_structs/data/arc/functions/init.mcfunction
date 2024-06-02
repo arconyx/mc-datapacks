@@ -27,8 +27,9 @@ scoreboard objectives add locationSearchOffsetZ dummy
 scoreboard objectives add locationSearchX dummy
 scoreboard objectives add locationSearchZ dummy
 
-# hub item cost
+# hub shop stuff
 scoreboard objectives add cost dummy
 scoreboard objectives add currencyCount dummy
+scoreboard objectives add recipeGrantSuccess dummy
 
 schedule function arc:lightning_thorns 5s replace
