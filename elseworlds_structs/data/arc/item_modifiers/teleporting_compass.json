@@ -3,7 +3,10 @@
         "function": "set_components",
         "components": {
             "minecraft:custom_data": {
-                "teleporting": true
+                "teleporting": true,
+                "store": {
+                    "cost": 10
+                }
             },
             "minecraft:food": {
                 "nutrition": 0,
