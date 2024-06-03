@@ -1,0 +1,32 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:structure_block"
+        },
+        "title": "Hub left click detection",
+        "description": "You shouldn't be able to see this",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "rightclick": {
+            "trigger": "minecraft:player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:interaction",
+                    "location": {
+                        "dimension": "arc:hub"
+                    },
+                    "passenger": {
+                        "type": "minecraft:item_display"
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "arc:hub/shop/left_click"
+    }
+}
