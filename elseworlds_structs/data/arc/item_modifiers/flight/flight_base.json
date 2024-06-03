@@ -3,7 +3,11 @@
         "function": "set_components",
         "components": {
             "minecraft:custom_data": {
-                "flight": true
+                "flight": true,
+                "store": {
+                    "cost": 48,
+                    "recipe": "arc:flight_feather"
+                }
             },
             "minecraft:food": {
                 "nutrition": 0,

@@ -32,5 +32,15 @@
             }
         ],
         "replace": true
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:custom_data": {
+                "store": {
+                    "cost": 48
+                }
+            }
+        }
     }
 ]

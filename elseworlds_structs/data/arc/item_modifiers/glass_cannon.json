@@ -34,7 +34,12 @@
     {
         "function": "set_components",
         "components": {
-            "minecraft:rarity": "uncommon"
+            "minecraft:rarity": "uncommon",
+            "minecraft:custom_data": {
+                "store": {
+                    "cost": 24
+                }
+            }
         }
     }
 ]

@@ -23,5 +23,16 @@
             "minecraft:rarity": "uncommon",
             "minecraft:enchantment_glint_override": true
         }
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:custom_data": {
+                "store": {
+                    "cost": 24,
+                    "recipe": "arc:interaction_range"
+                }
+            }
+        }
     }
 ]

@@ -16,5 +16,16 @@
         "function": "set_name",
         "name": "Condensed Light",
         "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:custom_data": {
+                "store": {
+                    "cost": 12,
+                    "recipe": "arc:glowing"
+                }
+            }
+        }
     }
 ]
