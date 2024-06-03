@@ -19,6 +19,6 @@
         }
     },
     "rewards": {
-        "function": "arc:recall_compass/grant_recipe"
+        "function": "arc:additional_recipes/compass"
     }
 }
