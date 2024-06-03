@@ -1,6 +1,7 @@
 scoreboard objectives add teleportDimensionValid dummy
 scoreboard objectives add mazeJoinSuccess dummy
 scoreboard objectives add featherRightClickCooldown dummy
+scoreboard objectives add showMarker trigger
 
 # dimension exit coordinates
 scoreboard objectives add overworldCoordinateX dummy
