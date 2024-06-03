@@ -1,0 +1,40 @@
+[
+    {
+        "function": "set_attributes",
+        "modifiers": [
+            {
+                "name": "Glass",
+                "attribute": "generic.armor",
+                "operation": "add_multiplied_base",
+                "amount": 0.6,
+                "slot": "chest"
+            },
+            {
+                "name": "Cannon",
+                "attribute": "generic.attack_damage",
+                "operation": "add_multiplied_base",
+                "amount": 2,
+                "slot": "chest"
+            },
+            {
+                "name": "Zoom",
+                "attribute": "generic.movement_speed",
+                "operation": "add_multiplied_base",
+                "amount": -0.4,
+                "slot": "chest"
+            }
+        ],
+        "replace": true
+    },
+    {
+        "function": "set_name",
+        "name": "Turret Armour",
+        "target": "item_name"
+    },
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:rarity": "uncommon"
+        }
+    }
+]
