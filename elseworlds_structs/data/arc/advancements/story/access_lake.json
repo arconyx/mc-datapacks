@@ -1,0 +1,24 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:repeating_command_block"
+        },
+        "title": "Lakewalker",
+        "description": "Tread the waters of the Unceasing Lake",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "lake": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "arc:lake"
+            }
+        }
+    },
+    "rewards": {
+        "function": "arc:story/access_lake"
+    }
+}

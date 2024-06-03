@@ -1,0 +1,24 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:command_block"
+        },
+        "title": "Treerunner",
+        "description": "Ascend to the All-tree",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "lake": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "arc:spaghetti"
+            }
+        }
+    },
+    "rewards": {
+        "function": "arc:story/access_alltree"
+    }
+}
