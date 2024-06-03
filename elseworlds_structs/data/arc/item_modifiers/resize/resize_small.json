@@ -7,28 +7,28 @@
                 "attribute": "generic.scale",
                 "operation": "add_multiplied_base",
                 "amount": -0.75,
-                "slot": "mainhand"
+                "slot": "chest"
             },
             {
                 "name": "Short Legs",
                 "attribute": "generic.step_height",
                 "operation": "add_multiplied_base",
                 "amount": -0.5,
-                "slot": "mainhand"
+                "slot": "chest"
             },
             {
                 "name": "Little Arms",
                 "attribute": "player.block_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": -0.25,
-                "slot": "mainhand"
+                "slot": "chest"
             },
             {
                 "name": "Little Arms",
                 "attribute": "player.block_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": -0.25,
-                "slot": "mainhand"
+                "slot": "chest"
             }
         ],
         "replace": true

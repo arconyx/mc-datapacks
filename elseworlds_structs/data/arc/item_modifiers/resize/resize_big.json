@@ -7,49 +7,49 @@
                 "attribute": "generic.scale",
                 "operation": "add_multiplied_base",
                 "amount": 3,
-                "slot": "mainhand"
+                "slot": "chest"
             },
             {
                 "name": "Long Legs",
                 "attribute": "generic.step_height",
                 "operation": "add_multiplied_base",
                 "amount": 3,
-                "slot": "mainhand"
+                "slot": "chest"
             },
             {
                 "name": "Long Stride",
                 "attribute": "generic.movement_speed",
                 "operation": "add_multiplied_base",
                 "amount": 0.5,
-                "slot": "mainhand"
+                "slot": "chest"
             },
             {
                 "name": "Strong",
                 "attribute": "generic.jump_strength",
                 "operation": "add_multiplied_base",
                 "amount": 1,
-                "slot": "mainhand"
+                "slot": "chest"
             },
             {
                 "name": "Strong",
                 "attribute": "generic.safe_fall_distance",
                 "operation": "add_multiplied_base",
                 "amount": 0.5,
-                "slot": "mainhand"
+                "slot": "chest"
             },
             {
                 "name": "Long Arms",
                 "attribute": "player.entity_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": 0.5,
-                "slot": "mainhand"
+                "slot": "chest"
             },
             {
                 "name": "Long Arms",
                 "attribute": "player.block_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": 0.5,
-                "slot": "mainhand"
+                "slot": "chest"
             }
         ],
         "replace": true
