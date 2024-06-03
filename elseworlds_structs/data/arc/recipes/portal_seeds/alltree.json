@@ -27,7 +27,8 @@
             },
             "minecraft:max_stack_size": 1,
             "minecraft:rarity": "uncommon",
-            "minecraft:item_name": "{\"text\":\"All-Tree Portal Seed\"}"
+            "minecraft:item_name": "{\"text\":\"All-Tree Portal Seed\"}",
+            "minecraft:enchantment_glint_override": true
         }
     }
 }
