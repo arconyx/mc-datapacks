@@ -1,0 +1,24 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:wheat_seeds"
+        },
+        "title": "Grant second recipe",
+        "description": "There are multiple recipes so this is a bit of a hack",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "compass_rc": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "arc:portal_seeds/portal_seed"
+            }
+        }
+    },
+    "rewards": {
+        "function": "arc:additional_recipes/portal_seeds"
+    }
+}

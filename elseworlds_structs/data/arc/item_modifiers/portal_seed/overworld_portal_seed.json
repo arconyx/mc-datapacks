@@ -4,7 +4,11 @@
         "components": {
             "minecraft:custom_data": {
                 "teleporting": true,
-                "dimension": "minecraft:overworld"
+                "dimension": "minecraft:overworld",
+                "store": {
+                    "cost": 12,
+                    "recipe": "arc:portal_seeds/portal_seed"
+                }
             },
             "minecraft:food": {
                 "nutrition": 0,
