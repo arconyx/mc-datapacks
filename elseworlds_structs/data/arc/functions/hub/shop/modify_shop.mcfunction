@@ -1,1 +1,2 @@
 data modify entity @e[type=minecraft:item_display,tag=shop_display,sort=nearest,limit=1] item set from entity @s SelectedItem
+execute as @e[type=minecraft:interaction,tag=shop,distance=0,sort=nearest,limit=1] run data modify entity @e[type=minecraft:item_display,tag=shop_display,sort=nearest,limit=1] Rotation[0] set from entity @s Rotation[0]
