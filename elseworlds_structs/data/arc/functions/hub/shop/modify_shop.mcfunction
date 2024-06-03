@@ -1,0 +1,1 @@
+data modify entity @e[type=minecraft:item_display,tag=shop_display,sort=nearest,limit=1] item set from entity @s SelectedItem

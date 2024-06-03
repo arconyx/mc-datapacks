@@ -1,0 +1,2 @@
+summon interaction ~ ~ ~ {Tags: ["shop"], response: 1b, Passengers: [{id: "minecraft:item_display", Tags: ["shop_display"], item_display: "none", item: {id: "minecraft:stone", count: 1}}]}
+function arc:hub/shop/modify_shop
