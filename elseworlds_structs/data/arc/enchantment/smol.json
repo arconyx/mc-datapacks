@@ -1,0 +1,63 @@
+{
+  "anvil_cost": 8,
+  "description": "Smol",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.75,
+          "per_level_above_first": -0.25
+        },
+        "attribute": "minecraft:generic.scale",
+        "id": "arc:enchantment.smol",
+        "operation": "add_multiplied_base"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.5,
+          "per_level_above_first": 0
+        },
+        "attribute": "minecraft:generic.step_height",
+        "id": "arc:enchantment.smol",
+        "operation": "add_multiplied_base"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.25,
+          "per_level_above_first": -0.08
+        },
+        "attribute": "player.entity_interaction_range",
+        "id": "arc:enchantment.smol",
+        "operation": "add_multiplied_base"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.25,
+          "per_level_above_first": -0.08
+        },
+        "attribute": "player.block_interaction_range",
+        "id": "arc:enchantment.smol",
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "exclusive_set": "#arc:exclusive_set/chest",
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 1
+}
