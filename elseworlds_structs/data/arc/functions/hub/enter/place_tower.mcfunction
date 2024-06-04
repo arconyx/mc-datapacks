@@ -5,7 +5,7 @@ execute in arc:hub run forceload add ~ ~
 tellraw @s {"text": "Generating...", "color": "gray"}
 
 # spawn hub
-execute in arc:hub run place jigsaw arc:surreal_tower_start arc:tower_base 2 ~ ~ ~
+execute in arc:hub run place jigsaw arc:surreal_tower_start arc:tower_base 2 ~ 100 ~
 
 # start searching for the location
 schedule function arc:hub/enter/find_hub 10t replace
