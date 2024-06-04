@@ -1,4 +1,4 @@
-advancement revoke @s only arc:triggers/price_trigger
+advancement revoke @s only arc:triggers/shop_left_click
 
 # Tag player so the interaction entity knows who is responsible
 tag @s add customer2
