@@ -1,9 +1,0 @@
-[
-    {
-        "function": "set_enchantments",
-        "enchantments": {
-            "mending": 1,
-            "infinity": 1
-        }
-    }
-]
