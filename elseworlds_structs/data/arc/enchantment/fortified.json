@@ -1,0 +1,53 @@
+{
+  "anvil_cost": 8,
+  "description": "Fortified",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.6,
+          "per_level_above_first": 0.2
+        },
+        "attribute": "minecraft:generic.armor",
+        "id": "arc:enchantment.fortified",
+        "operation": "add_multiplied_base"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 2,
+          "per_level_above_first": 0.5
+        },
+        "attribute": "minecraft:generic.attack_damage",
+        "id": "arc:enchantment.fortified",
+        "operation": "add_multiplied_base"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -0.4,
+          "per_level_above_first": -0.1
+        },
+        "attribute": "minecraft:generic.movement_speed",
+        "id": "arc:enchantment.fortified",
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "exclusive_set": "#arc:exclusive_set/chest",
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 0
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 0
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 1
+}
