@@ -1,5 +1,7 @@
 {
     "values": [
-        "#arc:size"
+        "#arc:size",
+        "arc:delicate",
+        "arc:fortified"
     ]
 }
