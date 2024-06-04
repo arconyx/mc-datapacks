@@ -1,7 +1,7 @@
 # Mode toggle for flight feather
 
 # First clear the advancement
-advancement revoke @s only arc:flight_feather_right_click
+advancement revoke @s only arc:triggers/flight_feather_right_click
 
 # Cooldown so you can't accidentally cycle it multiple times with a long click
 execute if score @s featherRightClickCooldown matches 1.. run return fail

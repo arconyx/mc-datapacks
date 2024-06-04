@@ -1,6 +1,6 @@
 # Wrapper for attuned portal seed teleportation
 
-advancement revoke @s only arc:portal_seed_right_click
+advancement revoke @s only arc:triggers/portal_seed_right_click
 
 # Check player is in a different dimension than the target.
 data modify storage arc:portal_seed dimension set from entity @s SelectedItem.components.minecraft:custom_data.dimension
