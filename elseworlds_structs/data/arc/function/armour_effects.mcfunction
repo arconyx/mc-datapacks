@@ -1,1 +1,0 @@
-effect give @a[predicate=arc:glowing_token] glowing 1 0 true

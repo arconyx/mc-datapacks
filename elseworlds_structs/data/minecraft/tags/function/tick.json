@@ -5,7 +5,6 @@
         "arc:gamemode_monitor",
         "arc:maze/exit_monitor",
         "arc:update_counters",
-        "arc:armour_effects",
         "arc:hub/exits/portal_monitor",
         "arc:hub/portal_up/monitor",
         "arc:portals/trees/tree_monitor",

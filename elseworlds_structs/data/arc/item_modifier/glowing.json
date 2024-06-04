@@ -1,25 +1,9 @@
 [
     {
-        "function": "set_custom_data",
-        "tag": {
-            "glowing": true
-        }
-    },
-    {
         "function": "set_components",
         "components": {
             "minecraft:rarity": "uncommon",
-            "minecraft:enchantment_glint_override": true
-        }
-    },
-    {
-        "function": "set_name",
-        "name": "Condensed Light",
-        "target": "item_name"
-    },
-    {
-        "function": "set_components",
-        "components": {
+            "minecraft:enchantment_glint_override": true,
             "minecraft:custom_data": {
                 "store": {
                     "cost": 12,
@@ -27,5 +11,15 @@
                 }
             }
         }
+    },
+    {
+        "function": "set_name",
+        "name": "Condensed Starlight",
+        "target": "item_name"
+    },
+    {
+        "function": "enchant_randomly",
+        "options": "arc:starlight_infusion",
+        "only_compatible": false
     }
 ]
