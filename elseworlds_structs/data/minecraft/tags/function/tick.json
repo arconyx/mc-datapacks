@@ -1,15 +1,15 @@
 {
     "values": [
-        "arc:wither/monitor",
-        "arc:maze/internal_teleport_monitor",
         "arc:gamemode_monitor",
-        "arc:maze/exit_monitor",
+        "arc:highlight_markers",
         "arc:update_counters",
         "arc:hub/exits/portal_monitor",
         "arc:hub/portal_up/monitor",
+        "arc:maze/internal_teleport_monitor",
+        "arc:maze/exit_monitor",
         "arc:portals/trees/tree_monitor",
         "arc:portals/trees/sapling_monitor",
         "arc:portals/trees/buried_lab/monitor",
-        "arc:highlight_markers"
+        "arc:wither/monitor"
     ]
 }
