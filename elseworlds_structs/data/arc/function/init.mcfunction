@@ -32,5 +32,3 @@ scoreboard objectives add locationSearchZ dummy
 scoreboard objectives add cost dummy
 scoreboard objectives add currencyCount dummy
 scoreboard objectives add recipeGrantSuccess dummy
-
-schedule function arc:lightning_thorns 5s replace
