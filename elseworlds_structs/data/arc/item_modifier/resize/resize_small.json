@@ -18,7 +18,7 @@
             },
             {
                 "id": "arc:resize_small",
-                "attribute": "player.block_interaction_range",
+                "attribute": "player.entity_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": -0.25,
                 "slot": "chest"
