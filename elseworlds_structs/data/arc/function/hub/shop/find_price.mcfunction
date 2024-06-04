@@ -7,7 +7,8 @@ execute unless data entity @s attack run return fail
 execute on attacker unless entity @s[tag=customer2] run return fail
 
 # Process the interaction
-function arc:hub/shop/show_price
+execute on passengers run data modify entity @s item.components."minecraft:custom_data".store.name set string entity @s item.components."minecraft:item_name"
+function arc:hub/shop/show_price with entity @s Passengers[0].item.components."minecraft:custom_data".store
 
 # clear tag
 # we're actually doing this on the outer layer too, but this provides security against duplicates
