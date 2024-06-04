@@ -3,6 +3,9 @@
 # First clear the advancement
 advancement revoke @s only arc:triggers/flight_feather_right_click
 
+# check mainhand so the remove works ok
+execute unless data entity @s SelectedItem.components.minecraft:custom_data.flight run return fail
+
 # Cooldown so you can't accidentally cycle it multiple times with a long click
 execute if score @s featherRightClickCooldown matches 1.. run return fail
 # If cooldown is inactive start it
