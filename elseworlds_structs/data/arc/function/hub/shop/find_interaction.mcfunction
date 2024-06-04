@@ -2,6 +2,7 @@
 # We execute on target so we are executing as the player that last right clicked it
 # Iff this is the tagged player then we proceed
 # Else we return a failure
+execute unless data entity @s interaction run return fail
 execute on target unless entity @s[tag=customer] run return fail
 
 # Process the interaction
