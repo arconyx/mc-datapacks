@@ -1,0 +1,38 @@
+{
+  "anvil_cost": 4,
+  "description": "Spring-Heeled",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:lookup",
+          "values": [
+            0.3,
+            3.5
+          ],
+          "fallback": {
+            "type": "minecraft:levels_squared",
+            "added": -0.7
+          }
+        },
+        "attribute": "minecraft:generic.jump_strength",
+        "id": "arc:enchantment.spring_heeled",
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 25,
+    "per_level_above_first": 10
+  },
+  "max_level": 2,
+  "min_cost": {
+    "base": 10,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "feet"
+  ],
+  "supported_items": "#minecraft:enchantable/foot_armor",
+  "weight": 2
+}
