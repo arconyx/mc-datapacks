@@ -3,7 +3,7 @@
         "function": "set_attributes",
         "modifiers": [
             {
-                "name": "Boing!",
+                "id": "arc:jump_height_safe",
                 "attribute": "generic.jump_strength",
                 "operation": "add_multiplied_total",
                 "amount": 0.3,

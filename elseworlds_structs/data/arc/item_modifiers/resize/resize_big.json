@@ -3,49 +3,49 @@
         "function": "set_attributes",
         "modifiers": [
             {
-                "name": "Big",
+                "id": "arc:resize_big",
                 "attribute": "generic.scale",
                 "operation": "add_multiplied_base",
                 "amount": 3,
                 "slot": "chest"
             },
             {
-                "name": "Long Legs",
+                "id": "arc:resize_big",
                 "attribute": "generic.step_height",
                 "operation": "add_multiplied_base",
                 "amount": 3,
                 "slot": "chest"
             },
             {
-                "name": "Long Stride",
+                "id": "arc:resize_big",
                 "attribute": "generic.movement_speed",
                 "operation": "add_multiplied_base",
                 "amount": 0.5,
                 "slot": "chest"
             },
             {
-                "name": "Strong",
+                "id": "arc:resize_big",
                 "attribute": "generic.jump_strength",
                 "operation": "add_multiplied_base",
                 "amount": 1,
                 "slot": "chest"
             },
             {
-                "name": "Strong",
+                "id": "arc:resize_big",
                 "attribute": "generic.safe_fall_distance",
                 "operation": "add_multiplied_base",
                 "amount": 0.5,
                 "slot": "chest"
             },
             {
-                "name": "Long Arms",
+                "id": "arc:resize_big",
                 "attribute": "player.entity_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": 0.5,
                 "slot": "chest"
             },
             {
-                "name": "Long Arms",
+                "id": "arc:resize_big",
                 "attribute": "player.block_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": 0.5,

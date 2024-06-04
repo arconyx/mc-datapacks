@@ -3,21 +3,21 @@
         "function": "set_attributes",
         "modifiers": [
             {
-                "name": "Glass",
+                "id": "arc:turret_armour",
                 "attribute": "generic.armor",
                 "operation": "add_multiplied_base",
                 "amount": 0.6,
                 "slot": "chest"
             },
             {
-                "name": "Cannon",
+                "id": "arc:turret_armour",
                 "attribute": "generic.attack_damage",
                 "operation": "add_multiplied_base",
                 "amount": 2,
                 "slot": "chest"
             },
             {
-                "name": "Zoom",
+                "id": "arc:turret_armour",
                 "attribute": "generic.movement_speed",
                 "operation": "add_multiplied_base",
                 "amount": -0.4,

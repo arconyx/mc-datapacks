@@ -13,28 +13,28 @@
         "function": "set_attributes",
         "modifiers": [
             {
-                "name": "Hover",
+                "id": "arc:flight_hover_mainhand",
                 "attribute": "generic.gravity",
                 "operation": "add_multiplied_base",
                 "amount": -1,
                 "slot": "mainhand"
             },
             {
-                "name": "Hover",
+                "id": "arc:flight_hover_offhand",
                 "attribute": "generic.gravity",
                 "operation": "add_multiplied_base",
                 "amount": -1,
                 "slot": "offhand"
             },
             {
-                "name": "Safe Fall",
+                "id": "arc:flight_hover_mainhand",
                 "attribute": "generic.fall_damage_multiplier",
                 "operation": "add_multiplied_base",
                 "amount": -1,
                 "slot": "mainhand"
             },
             {
-                "name": "Safe Fall",
+                "id": "arc:flight_hover_offhand",
                 "attribute": "generic.fall_damage_multiplier",
                 "operation": "add_multiplied_base",
                 "amount": -1,

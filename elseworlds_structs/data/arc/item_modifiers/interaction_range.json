@@ -3,7 +3,7 @@
         "function": "set_attributes",
         "modifiers": [
             {
-                "name": "Long Arms",
+                "id": "arc:interaction_range_stick",
                 "attribute": "player.block_interaction_range",
                 "operation": "add_multiplied_total",
                 "amount": 0.6,

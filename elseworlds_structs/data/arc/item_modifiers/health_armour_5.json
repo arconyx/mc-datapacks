@@ -3,7 +3,7 @@
         "function": "set_attributes",
         "modifiers": [
             {
-                "name": "Zoom!",
+                "id": "arc:health_armour_5",
                 "attribute": "generic.max_health",
                 "operation": "add_multiplied_base",
                 "amount": 0.5,

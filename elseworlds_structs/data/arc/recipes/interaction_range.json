@@ -23,17 +23,11 @@
             "minecraft:attribute_modifiers": {
                 "modifiers": [
                     {
-                        "name": "Long Arms",
+                        "id": "arc:interaction_range_stick",
                         "type": "player.block_interaction_range",
                         "operation": "add_multiplied_total",
                         "amount": 0.6,
-                        "slot": "offhand",
-                        "uuid": [
-                            -980697121,
-                            -673756000,
-                            -1332750329,
-                            928314546
-                        ]
+                        "slot": "offhand"
                     }
                 ],
                 "show_in_tooltip": true

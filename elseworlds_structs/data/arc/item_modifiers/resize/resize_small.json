@@ -3,28 +3,28 @@
         "function": "set_attributes",
         "modifiers": [
             {
-                "name": "Smol",
+                "id": "arc:resize_small",
                 "attribute": "generic.scale",
                 "operation": "add_multiplied_base",
                 "amount": -0.75,
                 "slot": "chest"
             },
             {
-                "name": "Short Legs",
+                "id": "arc:resize_small",
                 "attribute": "generic.step_height",
                 "operation": "add_multiplied_base",
                 "amount": -0.5,
                 "slot": "chest"
             },
             {
-                "name": "Little Arms",
+                "id": "arc:resize_small",
                 "attribute": "player.block_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": -0.25,
                 "slot": "chest"
             },
             {
-                "name": "Little Arms",
+                "id": "arc:resize_small",
                 "attribute": "player.block_interaction_range",
                 "operation": "add_multiplied_base",
                 "amount": -0.25,
