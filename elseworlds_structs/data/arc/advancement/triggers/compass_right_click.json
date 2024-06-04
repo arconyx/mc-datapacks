@@ -27,6 +27,6 @@
         }
     },
     "rewards": {
-        "function": "arc:recall_compass/recall_handler"
+        "function": "arc:item/recall_compass/recall_handler"
     }
 }
