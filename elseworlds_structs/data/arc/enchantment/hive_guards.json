@@ -7,7 +7,7 @@
         "affected": "attacker",
         "effect": {
           "type": "minecraft:run_function",
-          "function": "arc:attack_bee"
+          "function": "arc:item/attack_bee"
         },
         "enchanted": "victim"
       }

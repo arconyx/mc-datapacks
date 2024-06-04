@@ -26,6 +26,6 @@
         }
     },
     "rewards": {
-        "function": "arc:flight_feather_toggle"
+        "function": "arc:item/flight_feather_toggle"
     }
 }
