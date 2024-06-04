@@ -1,11 +1,5 @@
 [
     {
-        "function": "set_custom_data",
-        "tag": {
-            "attack_bee": true
-        }
-    },
-    {
         "function": "set_name",
         "name": "Beloved of Bees",
         "target": "item_name"
@@ -14,12 +8,17 @@
         "function": "set_components",
         "components": {
             "minecraft:rarity": "uncommon",
-            "minecraft:enchantment_glint_override": true,
             "minecraft:custom_data": {
+                "attack_bee": true,
                 "store": {
                     "cost": 24
                 }
             }
         }
+    },
+    {
+        "function": "enchant_randomly",
+        "options": "arc:hive_guards",
+        "only_compatible": false
     }
 ]
