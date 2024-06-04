@@ -1,0 +1,24 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:custom_data": {
+                "store": {
+                    "cost": 32
+                }
+            }
+        }
+    },
+    {
+        "function": "set_name",
+        "name": "Lightning Generator",
+        "target": "item_name"
+    },
+    {
+        "function": "set_enchantments",
+        "enchantments": {
+            "arc:electric_thorns": 1
+        }
+    }
+]
