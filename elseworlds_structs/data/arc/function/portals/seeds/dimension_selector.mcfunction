@@ -2,11 +2,14 @@
 
 advancement revoke @s only arc:triggers/portal_seed_right_click
 
+# check mainhand so the remove works ok
+execute unless data entity @s SelectedItem.components.minecraft:custom_data.dimension run return fail
+
 # Check player is in a different dimension than the target.
 data modify storage arc:portal_seed dimension set from entity @s SelectedItem.components.minecraft:custom_data.dimension
 # Returns false (0) when dimensions match
 execute store success score @s teleportDimensionValid run data modify storage arc:portal_seed dimension set from entity @s Dimension
-execute unless score @s teleportDimensionValid matches 1 run return 0
+execute unless score @s teleportDimensionValid matches 1 run return fail
 
 execute if predicate arc:item_dimension/overworld run function arc:portals/seeds/overworld_teleport
 execute if predicate arc:item_dimension/nether run function arc:portals/seeds/nether_teleport
