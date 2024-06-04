@@ -1,11 +1,5 @@
 [
     {
-        "function": "set_custom_data",
-        "tag": {
-            "cupids_bow": true
-        }
-    },
-    {
         "function": "set_name",
         "name": "Cupid's Bow",
         "target": "item_name"
@@ -16,6 +10,7 @@
             "minecraft:rarity": "uncommon",
             "minecraft:enchantment_glint_override": true,
             "minecraft:custom_data": {
+                "cupids_bow": true,
                 "store": {
                     "cost": 24
                 }
