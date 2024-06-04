@@ -20,5 +20,6 @@
     "dimension_padding": {
         "bottom": 10,
         "top": 0
-    }
+    },
+    "liquid_settings": "ignore_waterlogging"
 }
