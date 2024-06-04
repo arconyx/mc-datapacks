@@ -10,7 +10,7 @@
           "per_level_above_first": 1
         },
         "attribute": "minecraft:generic.max_health",
-        "id": "arc:enchantment.comfortable",
+        "id": "arc:enchantment.tailored",
         "operation": "add_value"
       }
     ]
