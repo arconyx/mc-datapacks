@@ -17,8 +17,9 @@
         "target": "item_name"
     },
     {
-        "function": "enchant_randomly",
-        "options": "arc:starlight_infusion",
-        "only_compatible": false
+        "function": "set_enchantments",
+        "enchantments": {
+            "arc:starlight_infusion": 1
+        }
     }
 ]

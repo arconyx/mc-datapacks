@@ -17,8 +17,9 @@
         }
     },
     {
-        "function": "enchant_randomly",
-        "options": "arc:hive_guards",
-        "only_compatible": false
+        "function": "set_enchantments",
+        "enchantments": {
+            "arc:hive_guards": 1
+        }
     }
 ]
