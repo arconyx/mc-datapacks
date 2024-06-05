@@ -1,5 +1,5 @@
 {
-    "parent": "arc:elseworlds",
+    "parent": "arc:hidden",
     "display": {
         "icon": {
             "id": "minecraft:feather"

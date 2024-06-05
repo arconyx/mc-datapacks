@@ -1,0 +1,18 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:potion"
+        },
+        "title": "Parent for all internal advancements",
+        "description": "Go away",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "lucky": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}
