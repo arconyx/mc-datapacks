@@ -1,0 +1,24 @@
+{
+    "parent": "arc:elseworlds",
+    "display": {
+        "icon": {
+            "id": "minecraft:potion"
+        },
+        "title": "Grant luck potion variant recipes",
+        "description": "There are multiple recipes so this is a bit of a hack",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "lucky": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "arc:luck_potion/potion"
+            }
+        }
+    },
+    "rewards": {
+        "function": "arc:additional_recipes/luck_potion"
+    }
+}
