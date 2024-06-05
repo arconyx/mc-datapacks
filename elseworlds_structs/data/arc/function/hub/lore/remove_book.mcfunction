@@ -37,3 +37,6 @@ function arc:hub/lore/spawn_shelf with storage arc:lore_shelf block_state
 
 # copy data across
 data modify block ~ ~ ~ Items set from storage arc:lore_shelf shelf.Items
+
+playsound minecraft:block.amethyst_block.break master @a ~ ~ ~ 1
+particle minecraft:wax_off ~ ~0.5 ~ 0.5 0.5 0.5 1 10
