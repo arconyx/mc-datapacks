@@ -1,0 +1,2 @@
+# execute as @a at @s if dimension arc:hub as @e[type=item_display,tag=shop_display,distance=..8] at @s run teleport @s ~ ~ ~ facing entity @p eyes
+# execute as @a at @s if dimension arc:hub as @e[type=item_display,tag=shop_display,distance=..8] at @s run teleport @s ~ ~ ~ ~1 0
