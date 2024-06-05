@@ -32,3 +32,8 @@ scoreboard objectives add locationSearchZ dummy
 scoreboard objectives add cost dummy
 scoreboard objectives add currencyCount dummy
 scoreboard objectives add recipeGrantSuccess dummy
+
+# lore table
+scoreboard objectives add lastShelfSlot dummy
+scoreboard objectives add selectedShelfSlot dummy
+scoreboard objectives add stringComparison dummy
