@@ -1,5 +1,5 @@
 # Find the chiseled bookshelf and copy data to storage (faster than working with data on the entity)
-execute as @e[type=minecraft:marker,tag=lore_shelf,distance=..12,sort=nearest,limit=1] at @s if block ~ ~ ~ minecraft:chiseled_bookshelf run data modify storage arc:lore_shelf shelf set from block ~ ~ ~
+execute at @e[type=minecraft:marker,tag=lore_shelf,distance=..12,sort=nearest,limit=1] if block ~ ~ ~ minecraft:chiseled_bookshelf run data modify storage arc:lore_shelf shelf set from block ~ ~ ~
 
 # extract book from slot to arc:lore_shelf item
 execute store success score @s getBookSuccess run function arc:hub/lore/get_book with storage arc:lore_shelf shelf
@@ -25,4 +25,4 @@ item modify entity @s weapon.offhand {function: 'minecraft:set_lore', mode: 'rep
 function arc:hub/lore/iterate_page
 
 # todo: destroy book
-# execute as @e[type=minecraft:marker,tag=lore_shelf,distance=..12,sort=nearest,limit=1] at @s if block ~ ~ ~ minecraft:chiseled_bookshelf run function arc:hub/lore/remove_book with storage arc:lore_shelf shelf
+execute at @e[type=minecraft:marker,tag=lore_shelf,distance=..12,sort=nearest,limit=1] if block ~ ~ ~ minecraft:chiseled_bookshelf run function arc:hub/lore/remove_book with storage arc:lore_shelf shelf
