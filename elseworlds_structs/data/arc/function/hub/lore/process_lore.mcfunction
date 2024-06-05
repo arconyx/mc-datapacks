@@ -1,5 +1,10 @@
-# Find the chiseled bookshelf and copy data to storage (faster than working with data on the entity)
-execute at @e[type=minecraft:marker,tag=lore_shelf,distance=..12,sort=nearest,limit=1] if block ~ ~ ~ minecraft:chiseled_bookshelf run data modify storage arc:lore_shelf shelf set from block ~ ~ ~
+# Find the chiseled bookshelf and copy data to storage (faster than working with data on the block)
+# If it fails abandon ship
+# User notification will be handled internally
+scoreboard players set @s raycastIteration 0
+execute anchored eyes unless function arc:hub/lore/find_block run return fail
+
+say found block
 
 # extract book from slot to arc:lore_shelf item
 execute store success score @s getBookSuccess run function arc:hub/lore/get_book with storage arc:lore_shelf shelf
@@ -24,5 +29,5 @@ say item name check passed
 item modify entity @s weapon.offhand {function: 'minecraft:set_lore', mode: 'replace_all', entity: 'this', lore: []}
 function arc:hub/lore/iterate_page
 
-# todo: destroy book
-execute at @e[type=minecraft:marker,tag=lore_shelf,distance=..12,sort=nearest,limit=1] if block ~ ~ ~ minecraft:chiseled_bookshelf run function arc:hub/lore/remove_book with storage arc:lore_shelf shelf
+# destroy book and play effects
+function arc:hub/lore/update_shelf with storage arc:lore_shelf shelf
