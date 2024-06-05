@@ -38,4 +38,3 @@ scoreboard objectives add lastShelfSlot dummy
 scoreboard objectives add selectedShelfSlot dummy
 scoreboard objectives add stringComparison dummy
 scoreboard objectives add pageCount dummy
-scoreboard objectives add getBookSuccess dummy
