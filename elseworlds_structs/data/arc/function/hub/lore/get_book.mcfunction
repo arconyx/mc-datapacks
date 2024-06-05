@@ -1,4 +1,4 @@
-say getting book
+$say getting book from slot $(last_interacted_slot)
 
 # check selected slot matches last interacted
 # this should always be true if the slot list is ordered
@@ -8,3 +8,4 @@ execute unless score @s selectedShelfSlot = @s lastShelfSlot run tellraw @s {"te
 execute unless score @s selectedShelfSlot = @s lastShelfSlot run return fail
 
 $data modify storage arc:lore_shelf item set from storage arc:lore_shelf shelf.Items[$(last_interacted_slot)]
+return 1
