@@ -36,6 +36,7 @@ scoreboard objectives add recipeGrantSuccess dummy
 # lore table
 scoreboard objectives add lastShelfSlot dummy
 scoreboard objectives add selectedShelfSlot dummy
+scoreboard objectives add targetSlotIndex dummy
 scoreboard objectives add stringComparison dummy
 scoreboard objectives add listSize dummy
 scoreboard objectives add getBookSuccess dummy

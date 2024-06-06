@@ -29,14 +29,17 @@ execute if block ~ ~ ~ minecraft:chiseled_bookshelf[facing=west] run data modify
 
 say state found
 
+# Remove book from data slot using targetSlotIndex from find_slot
+$data remove storage arc:lore_shelf shelf.Items[$(index)]
+# Remove index data since it isn't part of standard chiseled_bookshelf data
+data remove storage arc:lore_shelf shelf.index
 
-# Remove book from data slot
-$data remove storage arc:lore_shelf shelf.Items[$(last_interacted_slot)]
-
+# Spawn a new shelf with the correct blockstate
 function arc:hub/lore/spawn_shelf with storage arc:lore_shelf block_state
 
 # copy data across
 data modify block ~ ~ ~ Items set from storage arc:lore_shelf shelf.Items
 
+# play effects at position of shelf
 playsound minecraft:block.amethyst_block.break master @a ~ ~ ~ 1
 particle minecraft:wax_off ~ ~0.5 ~ 0.5 0.5 0.5 1 10

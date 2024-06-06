@@ -26,6 +26,7 @@ execute unless score @s stringComparison matches 0 run return fail
 
 say item name check passed
 
+# clear existing lore then append each page as lore
 item modify entity @s weapon.offhand {function: 'minecraft:set_lore', mode: 'replace_all', entity: 'this', lore: []}
 function arc:hub/lore/iterate_page
 
