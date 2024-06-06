@@ -37,6 +37,6 @@ scoreboard objectives add recipeGrantSuccess dummy
 scoreboard objectives add lastShelfSlot dummy
 scoreboard objectives add selectedShelfSlot dummy
 scoreboard objectives add stringComparison dummy
-scoreboard objectives add pageCount dummy
+scoreboard objectives add listSize dummy
 scoreboard objectives add getBookSuccess dummy
 scoreboard objectives add raycastIteration dummy

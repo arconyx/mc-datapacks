@@ -7,6 +7,6 @@ item modify entity @s weapon.offhand {function: 'minecraft:set_lore', mode: 'app
 data remove storage arc:lore_shelf item.components.minecraft:written_book_content.pages[0]
 
 # get number of remaining pages
-execute store result score @s pageCount run data get storage arc:lore_shelf item.components.minecraft:written_book_content.pages
+execute store result score @s listSize run data get storage arc:lore_shelf item.components.minecraft:written_book_content.pages
 # if we have at least one page left run the function again
-execute unless score @s pageCount matches 0 run function arc:hub/lore/iterate_page
+execute unless score @s listSize matches 0 run function arc:hub/lore/iterate_page

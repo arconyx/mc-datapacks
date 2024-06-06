@@ -7,7 +7,7 @@ execute anchored eyes unless function arc:hub/lore/find_block run return fail
 say found block
 
 # extract book from slot to arc:lore_shelf item
-execute store success score @s getBookSuccess run function arc:hub/lore/get_book with storage arc:lore_shelf shelf
+execute store success score @s getBookSuccess run function arc:hub/lore/get_book
 execute if score @s getBookSuccess matches 0 run tellraw @s {"text": "Error getting book", "color": "red"}
 execute if score @s getBookSuccess matches 0 run return fail
 
