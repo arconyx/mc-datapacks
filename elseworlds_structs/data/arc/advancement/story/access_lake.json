@@ -14,7 +14,7 @@
         "lake": {
             "trigger": "minecraft:changed_dimension",
             "conditions": {
-                "to": "arc:lake"
+                "to": "arc:purelake"
             }
         }
     },
