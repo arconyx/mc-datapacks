@@ -14,7 +14,7 @@
               "term": {
                 "condition": "location_check",
                 "predicate": {
-                  "dimension": "arc:lake"
+                  "dimension": "arc:purelake"
                 }
               }
             }
@@ -22,13 +22,13 @@
         },
         {
           "type": "minecraft:loot_table",
-          "value": "minecraft:gameplay/fishing/fishing_lake",
+          "value": "minecraft:gameplay/fishing/fishing_purelake",
           "weight": 1,
           "conditions": [
             {
               "condition": "location_check",
               "predicate": {
-                "dimension": "arc:lake"
+                "dimension": "arc:purelake"
               }
             }
           ]

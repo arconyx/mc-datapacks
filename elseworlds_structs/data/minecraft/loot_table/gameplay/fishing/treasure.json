@@ -80,7 +80,7 @@
             {
               "condition": "location_check",
               "predicate": {
-                "dimension": "arc:lake"
+                "dimension": "arc:purelake"
               }
             }
           ]
@@ -98,7 +98,7 @@
             {
               "condition": "location_check",
               "predicate": {
-                "dimension": "arc:lake"
+                "dimension": "arc:purelake"
               }
             }
           ]
