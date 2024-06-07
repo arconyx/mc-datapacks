@@ -1,3 +1,4 @@
+advancement revoke @s only arc:additional_recipes/spawn_egg
 recipe give @s arc:spawn_eggs/spegg_allay
 recipe give @s arc:spawn_eggs/spegg_armadillo
 recipe give @s arc:spawn_eggs/spegg_axolotl
