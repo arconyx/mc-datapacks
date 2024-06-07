@@ -1,5 +1,5 @@
 # Iteratively appends pages to lore
-say iterating page
+#say iterating page
 
 # append first page to lore
 item modify entity @s weapon.offhand {function: 'minecraft:set_lore', mode: 'append', entity: 'this', lore: [{nbt: 'item.components.minecraft:written_book_content.pages[0].raw', storage: 'arc:lore_shelf', interpret: true}]}

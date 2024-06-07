@@ -4,7 +4,7 @@
 scoreboard players set @s raycastIteration 0
 execute anchored eyes unless function arc:hub/lore/find_block run return fail
 
-say found block
+#say found block
 
 # extract book from slot to arc:lore_shelf item
 execute store success score @s getBookSuccess run function arc:hub/lore/get_book
@@ -17,14 +17,14 @@ execute store success score @s stringComparison run data modify storage arc:lore
 execute unless score @s stringComparison matches 0 run tellraw @s {"text": "Invalid item: not written book", "color": "red"}
 execute unless score @s stringComparison matches 0 run return fail
 
-say item type check passed
+#say item type check passed
 
 # title filter
 execute store success score @s stringComparison run data modify storage arc:lore_shelf item.components.minecraft:written_book_content.title.raw set value '[LORE]'
 execute unless score @s stringComparison matches 0 run tellraw @s {"text": "Invalid item: not titled [LORE]", "color": "red"}
 execute unless score @s stringComparison matches 0 run return fail
 
-say item name check passed
+#say item name check passed
 
 # clear existing lore then append each page as lore
 item modify entity @s weapon.offhand {function: 'minecraft:set_lore', mode: 'replace_all', entity: 'this', lore: []}

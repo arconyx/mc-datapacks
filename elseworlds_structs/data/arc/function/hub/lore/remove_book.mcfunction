@@ -1,4 +1,4 @@
-say removing book
+#say removing book
 
 # Find block state
 # Default value to 'false'
@@ -27,7 +27,7 @@ execute if block ~ ~ ~ minecraft:chiseled_bookshelf[facing=east] run data modify
 execute if block ~ ~ ~ minecraft:chiseled_bookshelf[facing=south] run data modify storage arc:lore_shelf block_state.facing set value 'south'
 execute if block ~ ~ ~ minecraft:chiseled_bookshelf[facing=west] run data modify storage arc:lore_shelf block_state.facing set value 'west'
 
-say state found
+#say state found
 
 # Remove book from data slot using targetSlotIndex from find_slot
 $data remove storage arc:lore_shelf shelf.Items[$(index)]

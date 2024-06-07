@@ -1,5 +1,5 @@
 # Find slot with slot id matching value in lastShelfSlot
-say checking slot
+#say checking slot
 
 # get number of slots left
 # if there are none throw an error and return

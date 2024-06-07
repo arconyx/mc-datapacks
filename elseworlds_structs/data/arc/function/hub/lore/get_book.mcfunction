@@ -1,4 +1,4 @@
-say getting book from slot
+#say getting book from slot
 
 # this function and its children have three key score objectives
 # lastShelfSlot: last slot interacted with on the bookshelf, as set from the bookshelf data below
