@@ -23,7 +23,7 @@
         {
             "type": "minecraft:environment_scan",
             "direction_of_search": "up",
-            "max_steps": 32,
+            "max_steps": 16,
             "target_condition": {
                 "type": "minecraft:matching_blocks",
                 "offset": [
