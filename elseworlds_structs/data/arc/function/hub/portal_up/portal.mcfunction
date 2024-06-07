@@ -1,3 +1,6 @@
+# spawn shop items on approach
+function arc:hub/shop/entities/load_all
+
 # Basic particle effect to indicate presence of portal
 particle minecraft:portal ~ ~ ~ 0.05 1 0.05 1 1
 # If all players are >5 blocks away terminate
