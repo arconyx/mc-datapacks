@@ -2,7 +2,7 @@
     "feature": "minecraft:forest_flowers",
     "placement": [
         {
-            "type": "minecraft:count_on_every_layer",
+            "type": "minecraft:count",
             "count": {
                 "type": "minecraft:clamped",
                 "min_inclusive": 0,

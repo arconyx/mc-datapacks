@@ -2,7 +2,7 @@
     "feature": "arc:trees_flower_forest",
     "placement": [
         {
-            "type": "minecraft:count_on_every_layer",
+            "type": "minecraft:count",
             "count": {
                 "type": "minecraft:weighted_list",
                 "distribution": [

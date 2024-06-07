@@ -2,7 +2,7 @@
     "feature": "minecraft:patch_tall_grass",
     "placement": [
         {
-            "type": "minecraft:count_on_every_layer",
+            "type": "minecraft:count",
             "count": {
                 "type": "minecraft:uniform",
                 "min_inclusive": 2,

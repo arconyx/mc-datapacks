@@ -2,7 +2,7 @@
     "feature": "minecraft:trees_savanna",
     "placement": [
         {
-            "type": "minecraft:count_on_every_layer",
+            "type": "minecraft:count",
             "count": {
                 "type": "minecraft:weighted_list",
                 "distribution": [
