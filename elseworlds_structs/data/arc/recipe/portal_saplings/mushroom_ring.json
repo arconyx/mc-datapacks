@@ -16,9 +16,14 @@
         "c": {
             "item": "minecraft:chain_command_block"
         },
-        "s": {
-            "item": "minecraft:mangrove_propagule"
-        },
+        "s": [
+            {
+                "item": "minecraft:red_mushroom"
+            },
+            {
+                "item": "minecraft:brown_mushroom"
+            }
+        ],
         "e": {
             "item": "minecraft:jigsaw"
         }
@@ -38,14 +43,14 @@
                 ],
                 "data": {
                     "sapling": {
-                        "tree": "arc:tree/mangrove1",
+                        "tree": "arc:tree/mushroom_ring",
                         "left": 5,
-                        "back": 0
+                        "back": 1
                     }
                 }
             },
-            "minecraft:custom_model_data": 104,
-            "minecraft:item_name": "{\"text\":\"Mangrove Portal Propagule\"}"
+            "minecraft:custom_model_data": 105,
+            "minecraft:item_name": "{\"text\":\"Mushroom Ring Portal Spores\"}"
         }
     }
 }
