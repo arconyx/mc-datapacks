@@ -134,10 +134,8 @@
         ],
         [
             "arc:glow_lichen",
-            "minecraft:trees_mangrove",
-            "arc:patch_grass_normal",
-            "arc:patch_waterlily",
-            "minecraft:seagrass_swamp"
+            "arc:trees_mangrove",
+            "arc:patch_grass_normal"
         ],
         [
             "minecraft:freeze_top_layer"
