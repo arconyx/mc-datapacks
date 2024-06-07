@@ -1,0 +1,1 @@
+execute in arc:lake run teleport @s ~ ~ ~

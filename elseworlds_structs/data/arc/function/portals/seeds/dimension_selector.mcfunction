@@ -15,11 +15,4 @@ execute if predicate arc:item_dimension/overworld run function arc:portals/seeds
 execute if predicate arc:item_dimension/nether run function arc:portals/seeds/nether_teleport
 execute if predicate arc:item_dimension/end run function arc:portals/seeds/end_teleport
 
-execute if predicate arc:item_dimension/purelake run function arc:portals/seeds/purelake_teleport
-execute if predicate arc:item_dimension/maze run function arc:portals/seeds/maze_teleport
-execute if predicate arc:item_dimension/spaghetti run function arc:portals/seeds/spaghetti_teleport
-
-effect give @s minecraft:resistance 6 5 true
-function arc:portals/safe_landing
-
-item modify entity @s weapon.mainhand arc:remove_one_item
+execute if predicate arc:item_dimension/lake run function arc:portals/seeds/lake_teleportecexecute if predicate arc:item_dimension/maze run function arc:portals/seeds/maze_teleportecexecute if predicate arc:item_dimension/spaghetti run function arc:portals/seeds/spaghetti_teleporteffeeffect give @s minecraft:resistance 6 5 truencfunction arc:portals/safe_landingitemitem modify entity @s weapon.mainhand arc:remove_one_item

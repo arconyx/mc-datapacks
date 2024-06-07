@@ -16,9 +16,9 @@ scoreboard objectives add mazeCoordinateX dummy
 scoreboard objectives add mazeCoordinateY dummy
 scoreboard objectives add mazeCoordinateZ dummy
 
-scoreboard objectives add purelakeCoordinateX dummy
-scoreboard objectives add purelakeCoordinateY dummy
-scoreboard objectives add purelakeCoordinateZ dummy
+scoreboard objectives add lakeCoordinateX dummy
+scoreboard objectives add lakeCoordinateY dummy
+scoreboard objectives add lakeCoordinateZ dummy
 
 # hub location search
 scoreboard objectives add locationSearch1 dummy

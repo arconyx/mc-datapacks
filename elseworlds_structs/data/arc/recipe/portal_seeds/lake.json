@@ -15,7 +15,7 @@
         "components": {
             "minecraft:custom_data": {
                 "teleporting": true,
-                "dimension": "arc:purelake"
+                "dimension": "arc:lake"
             },
             "minecraft:food": {
                 "nutrition": 0,

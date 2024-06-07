@@ -1,1 +1,0 @@
-execute in arc:purelake run teleport @s ~ ~ ~
