@@ -1,0 +1,22 @@
+{
+    "parent": "arc:story/three_dimensions",
+    "display": {
+        "icon": {
+            "id": "minecraft:oak_sapling"
+        },
+        "title": "Nexus of Worlds",
+        "description": "Grow a link to a nexus world",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "lake": {
+            "trigger": "minecraft:changed_dimension",
+            "conditions": {
+                "to": "arc:hub"
+            }
+        }
+    },
+    "rewards": {}
+}
