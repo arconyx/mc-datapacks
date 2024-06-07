@@ -1,0 +1,24 @@
+{
+    "parent": "arc:hidden",
+    "display": {
+        "icon": {
+            "id": "minecraft:dragon_egg"
+        },
+        "title": "Grant dragon egg recipes",
+        "description": "There are multiple recipes so this is a bit of a hack",
+        "show_toast": false,
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "criteria": {
+        "lucky": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "arc:dragon_egg"
+            }
+        }
+    },
+    "rewards": {
+        "function": "arc:additional_recipes/spawn_eggs"
+    }
+}
