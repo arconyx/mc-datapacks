@@ -1,0 +1,51 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "equipment",
+    "pattern": [
+        "abc",
+        " s ",
+        " e "
+    ],
+    "key": {
+        "a": {
+            "item": "minecraft:command_block"
+        },
+        "b": {
+            "item": "minecraft:repeating_command_block"
+        },
+        "c": {
+            "item": "minecraft:chain_command_block"
+        },
+        "s": {
+            "item": "minecraft:dark_oak_sapling"
+        },
+        "e": {
+            "item": "minecraft:jigsaw"
+        }
+    },
+    "result": {
+        "id": "minecraft:elder_guardian_spawn_egg",
+        "components": {
+            "minecraft:rarity": "uncommon",
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:custom_data": {
+                "portal_sapling": true
+            },
+            "minecraft:entity_data": {
+                "id": "minecraft:marker",
+                "Tags": [
+                    "portal_sapling"
+                ],
+                "data": {
+                    "sapling": {
+                        "tree": "arc:tree/dark_oak1",
+                        "left": 5,
+                        "back": 3
+                    }
+                }
+            },
+            "minecraft:custom_model_data": 103,
+            "minecraft:item_name": "{\"text\":\"Dark Oak Portal Sapling\"}"
+        }
+    }
+}
