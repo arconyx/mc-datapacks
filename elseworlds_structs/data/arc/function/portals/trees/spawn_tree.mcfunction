@@ -1,4 +1,4 @@
-tellraw @p {"text": "Growing sapling", "color": "gray"}
+# tellraw @p {"text": "Growing sapling", "color": "gray"}
 execute unless data entity @s data.sapling run tellraw @p {"text": "No sapling data found", "color": "red"}
 
 execute if entity @p[y_rotation=-45..45] run function arc:portals/trees/place_rotated/clockwise_90 with entity @s data.sapling
