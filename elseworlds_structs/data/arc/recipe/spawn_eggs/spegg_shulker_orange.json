@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "shulker_spawn_eggs",
   "category": "misc",
   "pattern": [
     "xXx",
@@ -23,7 +24,7 @@
       "minecraft:item_name": "{\"text\":\"Orange Shulker Spawn Egg\"}",
       "minecraft:entity_data": {
         "id": "minecraft:shulker",
-        "Color":1
+        "Color": 1
       }
     }
   }

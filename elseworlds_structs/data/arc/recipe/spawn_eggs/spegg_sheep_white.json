@@ -1,5 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
+  "group": "sheep_spawn_eggs",
   "category": "misc",
   "pattern": [
     "xXx",
@@ -23,7 +24,7 @@
       "minecraft:item_name": "{\"text\":\"White Sheep Spawn Egg\"}",
       "minecraft:entity_data": {
         "id": "minecraft:sheep",
-        "Color":0
+        "Color": 0
       }
     }
   }
