@@ -19,8 +19,7 @@
                 "effects": []
             },
             "minecraft:max_stack_size": 1,
-            "minecraft:rarity": "uncommon",
-            "minecraft:enchantment_glint_override": false
+            "minecraft:rarity": "uncommon"
         }
     },
     {
