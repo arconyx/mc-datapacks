@@ -3,27 +3,5 @@
 	"parent": "minecraft:item/brick",
 	"textures": {
 		"layer0": "minecraft:item/maze_brick"
-	},
-	"groups": [
-		{
-			"name": "brick",
-			"origin": [
-				8,
-				8,
-				8
-			],
-			"color": 0,
-			"children": []
-		},
-		{
-			"name": "deepslate_bricks",
-			"origin": [
-				8,
-				8,
-				8
-			],
-			"color": 0,
-			"children": []
-		}
-	]
+	}
 }
