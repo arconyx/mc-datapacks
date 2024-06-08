@@ -2,7 +2,7 @@
     "parent": "arc:elseworlds",
     "display": {
         "icon": {
-            "id": "minecraft:jigsaw"
+            "id": "minecraft:structure_block"
         },
         "title": "Essence of Worlds",
         "description": "Find a token of each of the elseworlds",

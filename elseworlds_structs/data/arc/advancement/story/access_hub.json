@@ -2,7 +2,7 @@
     "parent": "arc:story/three_dimensions",
     "display": {
         "icon": {
-            "id": "minecraft:oak_sapling"
+            "id": "minecraft:jigsaw"
         },
         "title": "Nexus of Worlds",
         "description": "Grow a link to a nexus world",
