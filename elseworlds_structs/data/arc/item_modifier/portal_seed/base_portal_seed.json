@@ -1,0 +1,21 @@
+[
+    {
+        "function": "set_components",
+        "components": {
+            "minecraft:custom_data": {
+                "teleporting": true
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 3000
+            }
+        }
+    },
+    {
+        "function": "set_name",
+        "name": "Portal Seed",
+        "target": "item_name"
+    }
+]

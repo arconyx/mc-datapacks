@@ -15,6 +15,17 @@
                     "functions": [
                         {
                             "function": "minecraft:reference",
+                            "name": "arc:portal_seed/base_portal_seed"
+                        }
+                    ]
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:jigsaw",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
                             "name": "arc:portal_seed/maze_portal_seed"
                         }
                     ]
