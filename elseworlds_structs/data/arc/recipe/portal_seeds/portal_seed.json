@@ -32,7 +32,6 @@
             "minecraft:custom_data": {
                 "teleporting": true
             },
-            "minecraft:enchantment_glint_override": true,
             "minecraft:food": {
                 "nutrition": 0,
                 "saturation": 0,

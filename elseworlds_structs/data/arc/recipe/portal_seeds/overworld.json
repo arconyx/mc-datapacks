@@ -28,7 +28,7 @@
             "minecraft:max_stack_size": 1,
             "minecraft:rarity": "uncommon",
             "minecraft:item_name": "{\"text\":\"Overworld Portal Seed\"}",
-            "minecraft:enchantment_glint_override": true
+            "minecraft:custom_model_data": 201
         }
     }
 }
