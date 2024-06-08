@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "arc:old_growth_spruce_taiga",
         "lake:taiga"
     ]
 }

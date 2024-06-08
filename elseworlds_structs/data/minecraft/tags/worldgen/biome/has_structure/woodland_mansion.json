@@ -1,6 +1,7 @@
 {
     "replace": false,
     "values": [
+        "arc:dark_forest",
         "lake:dark_forest"
     ]
 }
