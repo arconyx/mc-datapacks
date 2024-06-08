@@ -1,5 +1,5 @@
 {
-    "parent": "arc:elseworlds",
+    "parent": "arc:story/find_seed",
     "display": {
         "icon": {
             "id": "minecraft:chain_command_block"

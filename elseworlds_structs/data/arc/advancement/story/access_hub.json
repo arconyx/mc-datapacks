@@ -2,10 +2,10 @@
     "parent": "arc:story/three_dimensions",
     "display": {
         "icon": {
-            "id": "minecraft:jigsaw"
+            "id": "minecraft:structure_block"
         },
         "title": "Nexus of Worlds",
-        "description": "Grow a link to a nexus world",
+        "description": "Find the centre of the elseworlds",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false

@@ -1,8 +1,8 @@
 {
-    "parent": "arc:elseworlds",
+    "parent": "arc:story/find_seed",
     "display": {
         "icon": {
-            "id": "minecraft:structure_block"
+            "id": "minecraft:chest"
         },
         "title": "Essence of Worlds",
         "description": "Find a token of each of the elseworlds",
