@@ -8,7 +8,7 @@
         "description": "Find a seed of the tree that grows through realms",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": false
+        "hidden": true
     },
     "criteria": {
         "alltree": {
