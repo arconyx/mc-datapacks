@@ -183,7 +183,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:structure_block",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "reference",
@@ -202,7 +202,7 @@
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 3.0,
+        "max": 4.0,
         "min": 2.0
       }
     },
