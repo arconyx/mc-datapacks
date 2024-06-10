@@ -10,7 +10,8 @@
                 "saturation": 0,
                 "can_always_eat": true,
                 "eat_seconds": 3000
-            }
+            },
+            "minecraft:rarity": "uncommon"
         }
     },
     {

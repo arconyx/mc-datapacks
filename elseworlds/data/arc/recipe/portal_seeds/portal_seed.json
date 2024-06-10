@@ -38,7 +38,8 @@
                 "can_always_eat": true,
                 "eat_seconds": 3000
             },
-            "minecraft:item_name": "{\"text\":\"Portal Seed\"}"
+            "minecraft:item_name": "{\"text\":\"Portal Seed\"}",
+            "minecraft:rarity": "uncommon"
         }
     }
 }
