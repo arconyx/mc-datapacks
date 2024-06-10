@@ -10,6 +10,7 @@ execute unless data entity @s SelectedItem.components.minecraft:custom_data.flig
 execute if score @s featherRightClickCooldown matches 1.. run return fail
 # If cooldown is inactive start it
 scoreboard players set @s featherRightClickCooldown 4
+# more update_counts into this script, before the return fail, so it doesn't run every tick?
 
 # Update feather
 # If sneaking
