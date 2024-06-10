@@ -184,7 +184,9 @@
                         },
                         {
                             "function": "minecraft:set_enchantments",
-                            "enchantments": {},
+                            "enchantments": {
+                                "arc:spring_heeled": 1
+                            },
                             "add": true,
                             "conditions": [
                                 {
