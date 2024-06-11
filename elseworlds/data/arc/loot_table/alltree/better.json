@@ -28,7 +28,7 @@
                         {
                             "function": "minecraft:set_count",
                             "count": {
-                                "min": 4,
+                                "min": 8,
                                 "max": 24
                             }
                         }
@@ -255,6 +255,54 @@
                         {
                             "function": "minecraft:reference",
                             "name": "arc:attack_bee"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": {
+                "type": "minecraft:binomial",
+                "n": 5,
+                "p": 0.3
+            },
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "arc:randomiser/portal_seed"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 0,
+            "entries": [
+                {
+                    "type": "minecraft:loot_table",
+                    "value": "arc:randomiser/portal_seed"
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "bonus_rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:structure_block",
+                    "weight": 2,
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "arc:currency"
+                        },
+                        {
+                            "function": "minecraft:set_count",
+                            "count": {
+                                "min": 4,
+                                "max": 12
+                            }
                         }
                     ]
                 }
