@@ -119,7 +119,18 @@
           ],
           "name": "minecraft:map",
           "weight": 10
-        },
+        }
+      ],
+      "rolls": 1.0
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 5,
+        "p": 0.3
+      },
+      "bonus_rolls": 1,
+      "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:jigsaw",
@@ -131,8 +142,7 @@
             }
           ]
         }
-      ],
-      "rolls": 1.0
+      ]
     }
   ],
   "random_sequence": "minecraft:chests/underwater_ruin_big"
