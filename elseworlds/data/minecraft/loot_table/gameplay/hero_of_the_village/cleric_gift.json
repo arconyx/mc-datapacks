@@ -32,7 +32,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:repeating_command_block",
+          "name": "minecraft:chain_command_block",
           "functions": [
             {
               "function": "reference",
@@ -50,7 +50,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:repeating_command_block",
+          "name": "minecraft:command_block",
           "functions": [
             {
               "function": "reference",
