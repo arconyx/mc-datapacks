@@ -267,17 +267,26 @@
             }
           ],
           "name": "minecraft:gold_block"
-        },
-        {
-          "type": "minecraft:loot_table",
-          "value": "arc:randomiser/portal_seed"
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
-        "max": 9.0,
+        "max": 8.0,
         "min": 4.0
       }
+    },
+    {
+      "rolls": {
+        "type": "minecraft:binomial",
+        "n": 3,
+        "p": 0.2
+      },
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "value": "arc:randomiser/portal_seed"
+        }
+      ]
     }
   ],
   "random_sequence": "minecraft:chests/ruined_portal"
