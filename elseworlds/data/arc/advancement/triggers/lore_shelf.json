@@ -7,7 +7,7 @@
         "title": "Lore bookshelf use detection",
         "description": "You shouldn't be able to see this",
         "show_toast": false,
-        "announce_to_chat": true,
+        "announce_to_chat": false,
         "hidden": true
     },
     "criteria": {
