@@ -426,7 +426,7 @@
     },
     {
       "rolls": {
-        "type": "minecraft:bionomial",
+        "type": "minecraft:binomial",
         "n": 5,
         "p": 0.4
       },
