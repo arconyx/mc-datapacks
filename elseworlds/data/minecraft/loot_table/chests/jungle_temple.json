@@ -210,23 +210,6 @@
           ]
         }
       ]
-    },
-    {
-      "rolls": 1,
-      "bonus_rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:jigsaw",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "minecraft:reference",
-              "name": "arc:portal_seed/spaghetti_portal_seed"
-            }
-          ]
-        }
-      ]
     }
   ],
   "random_sequence": "minecraft:chests/jungle_temple"
