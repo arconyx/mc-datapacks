@@ -270,7 +270,19 @@
             "entries": [
                 {
                     "type": "minecraft:loot_table",
-                    "value": "arc:randomiser/portal_seed"
+                    "value": "arc:randomiser/portal_seed",
+                    "weight": 2
+                },
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:command_block",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "arc:keys/alltree"
+                        }
+                    ]
                 }
             ]
         },
