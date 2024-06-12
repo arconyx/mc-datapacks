@@ -220,7 +220,7 @@
         },
         {
             "rolls": 3,
-            "bonus_rolls": 2,
+            "bonus_rolls": 1,
             "entries": [
                 {
                     "type": "minecraft:empty",
