@@ -261,19 +261,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:enchanted_book",
+          "name": "minecraft:book",
           "weight": 2,
           "quality": 1,
           "functions": [
             {
-              "function": "minecraft:enchant_with_levels",
-              "levels": {
-                "min": 20,
-                "max": {
-                  "min": 25,
-                  "max": 35
-                }
-              },
+              "function": "minecraft:enchant_randomly",
               "options": "#minecraft:on_random_loot"
             }
           ]
