@@ -1,15 +1,5 @@
 {
     "parent": "arc:hidden",
-    "display": {
-        "icon": {
-            "id": "minecraft:compass"
-        },
-        "title": "Compass right click detection",
-        "description": "You shouldn't be able to see this",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
-    },
     "criteria": {
         "compass_rc": {
             "trigger": "minecraft:using_item",

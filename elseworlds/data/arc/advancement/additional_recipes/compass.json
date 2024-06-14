@@ -1,15 +1,5 @@
 {
     "parent": "arc:hidden",
-    "display": {
-        "icon": {
-            "id": "minecraft:compass"
-        },
-        "title": "Grant second compass recipe",
-        "description": "There are two recipes so this is a bit of a hack",
-        "show_toast": false,
-        "announce_to_chat": false,
-        "hidden": true
-    },
     "criteria": {
         "compass_rc": {
             "trigger": "minecraft:recipe_unlocked",
