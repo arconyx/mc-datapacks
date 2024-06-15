@@ -89,7 +89,9 @@
       "minecraft:patch_pumpkin",
       "minecraft:seagrass_normal",
       "minecraft:seagrass_simple",
-      "minecraft:kelp_cold"
+      "minecraft:kelp_cold",
+      "arc:seagrass",
+      "arc:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"

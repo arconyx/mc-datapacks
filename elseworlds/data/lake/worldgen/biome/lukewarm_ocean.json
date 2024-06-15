@@ -88,7 +88,9 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:seagrass_warm",
-      "minecraft:kelp_warm"
+      "minecraft:kelp_warm",
+      "arc:seagrass",
+      "arc:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"

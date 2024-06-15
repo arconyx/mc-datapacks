@@ -92,7 +92,9 @@
       "minecraft:patch_tall_grass_2",
       "minecraft:patch_grass_plain",
       "minecraft:flower_meadow",
-      "minecraft:trees_meadow"
+      "minecraft:trees_meadow",
+      "arc:seagrass",
+      "arc:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"
