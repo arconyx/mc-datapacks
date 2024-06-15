@@ -4,6 +4,7 @@
     "lake:taiga",
     "lake:snowy_taiga",
     "lake:old_growth_pine_taiga",
-    "lake:old_growth_spruce_taiga"
+    "lake:old_growth_spruce_taiga",
+    "arc:old_growth_spruce_taiga"
   ]
 }
