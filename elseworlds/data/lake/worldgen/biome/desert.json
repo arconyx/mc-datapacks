@@ -70,7 +70,7 @@
       "minecraft:ore_lapis",
       "minecraft:ore_lapis_buried",
       "minecraft:ore_copper",
-      "minecraft:underwater_magma",
+      "lake:underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
       "minecraft:disk_gravel",
