@@ -3,16 +3,7 @@
     "placement": [
         {
             "type": "minecraft:count",
-            "count": {
-                "type": "minecraft:clamped",
-                "min_inclusive": 0,
-                "max_inclusive": 3,
-                "source": {
-                    "type": "minecraft:uniform",
-                    "min_inclusive": -1,
-                    "max_inclusive": 3
-                }
-            }
+            "count": 80
         },
         {
             "type": "minecraft:rarity_filter",
@@ -20,6 +11,18 @@
         },
         {
             "type": "minecraft:in_square"
+        },
+        {
+            "type": "minecraft:height_range",
+            "height": {
+                "type": "minecraft:uniform",
+                "min_inclusive": {
+                    "above_bottom": 0
+                },
+                "max_inclusive": {
+                    "below_top": 0
+                }
+            }
         },
         {
             "type": "minecraft:biome"
