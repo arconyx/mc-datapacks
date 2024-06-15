@@ -7,6 +7,9 @@
     "lake:old_growth_birch_forest",
     "lake:dark_forest",
     "lake:grove",
-    "#arc:alltree_biomes"
+    "arc:forest",
+    "arc:flower_forest",
+    "arc:birch_forest",
+    "arc:dark_forest"
   ]
 }
