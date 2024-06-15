@@ -3,7 +3,7 @@
     "placement": [
         {
             "type": "minecraft:count",
-            "count": 256
+            "count": 180
         },
         {
             "type": "minecraft:in_square"
@@ -25,16 +25,24 @@
             "direction_of_search": "up",
             "max_steps": 16,
             "target_condition": {
-                "type": "minecraft:matching_blocks",
-                "offset": [
-                    0,
-                    -1,
-                    0
-                ],
-                "blocks": [
-                    "minecraft:dark_oak_wood",
-                    "minecraft:grass_block",
-                    "minecraft:moss_block"
+                "type": "minecraft:all_of",
+                "predicates": [
+                    {
+                        "type": "minecraft:replaceable"
+                    },
+                    {
+                        "type": "minecraft:matching_blocks",
+                        "offset": [
+                            0,
+                            -1,
+                            0
+                        ],
+                        "blocks": [
+                            "minecraft:dark_oak_wood",
+                            "minecraft:grass_block",
+                            "minecraft:moss_block"
+                        ]
+                    }
                 ]
             }
         },
