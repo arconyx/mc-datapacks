@@ -21,15 +21,6 @@
             }
         },
         {
-            "type": "minecraft:count",
-            "count": {
-                "type": "minecraft:clamped",
-                "min_inclusive": 0,
-                "max_inclusive": 10,
-                "source": 0
-            }
-        },
-        {
             "type": "minecraft:biome"
         }
     ]
