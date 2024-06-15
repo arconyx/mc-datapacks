@@ -255,7 +255,7 @@
             "Name": "minecraft:red_stained_glass"
           },
           "replacement": {
-            "Name": "minecraft:oak_wood"
+            "Name": "minecraft:oak_log"
           }
         }
       ]
@@ -270,21 +270,10 @@
             "Name": "minecraft:orange_stained_glass"
           },
           "replacement": {
-            "Name": "minecraft:oak_wood"
+            "Name": "minecraft:oak_log"
           }
         }
       ]
-    },
-    {
-      "input_block": "minecraft:cobblestone_stairs",
-      "output_blocks": [
-        "minecraft:oak_stairs"
-      ],
-      "probability": 1.0,
-      "processor_type": "repurposed_structures:random_replace_with_properties_processor"
-    },
-    {
-      "processor_type": "repurposed_structures:waterlogging_fix_processor"
     }
   ]
 }
