@@ -90,8 +90,8 @@
     ],
     [
       "minecraft:glow_lichen",
-      "arc:seagrass",
-      "arc:sea_pickle"
+      "lake:seagrass",
+      "lake:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"

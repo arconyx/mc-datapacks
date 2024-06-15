@@ -95,8 +95,8 @@
       "minecraft:patch_pumpkin",
       "minecraft:vines",
       "minecraft:patch_melon_sparse",
-      "arc:seagrass",
-      "arc:sea_pickle"
+      "lake:seagrass",
+      "lake:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"

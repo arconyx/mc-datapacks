@@ -99,8 +99,8 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
       "minecraft:patch_berry_common",
-      "arc:seagrass",
-      "arc:sea_pickle"
+      "lake:seagrass",
+      "lake:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"

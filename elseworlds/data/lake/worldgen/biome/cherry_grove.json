@@ -95,8 +95,8 @@
       "minecraft:patch_grass_plain",
       "minecraft:flower_cherry",
       "minecraft:trees_cherry",
-      "arc:seagrass",
-      "arc:sea_pickle"
+      "lake:seagrass",
+      "lake:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"

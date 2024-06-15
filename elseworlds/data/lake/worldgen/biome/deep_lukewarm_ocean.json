@@ -90,8 +90,8 @@
       "minecraft:seagrass_deep_warm",
       "minecraft:seagrass_simple",
       "minecraft:kelp_warm",
-      "arc:seagrass",
-      "arc:sea_pickle"
+      "lake:seagrass",
+      "lake:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"

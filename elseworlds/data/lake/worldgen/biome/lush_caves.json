@@ -95,8 +95,8 @@
       "minecraft:rooted_azalea_tree",
       "minecraft:spore_blossom",
       "minecraft:classic_vines_cave_feature",
-      "arc:seagrass",
-      "arc:sea_pickle"
+      "lake:seagrass",
+      "lake:sea_pickle"
     ],
     [
       "minecraft:freeze_top_layer"
