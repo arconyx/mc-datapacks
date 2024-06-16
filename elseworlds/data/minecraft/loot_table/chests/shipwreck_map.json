@@ -128,7 +128,21 @@
           "functions": [
             {
               "function": "minecraft:reference",
-              "name": "arc:portal_seed/purelake_portal_seed"
+              "name": "arc:portal_seed/purelake_portal_seed",
+              "weight": 1
+            },
+            {
+              "function": "minecraft:reference",
+              "name": "arc:portal_seed/overworld_portal_seed",
+              "weight": 2,
+              "conditions": [
+                {
+                  "condition": "location_check",
+                  "predicate": {
+                    "dimension": "arc:purelake"
+                  }
+                }
+              ]
             }
           ]
         }
