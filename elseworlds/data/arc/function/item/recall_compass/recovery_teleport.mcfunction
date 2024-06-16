@@ -1,4 +1,6 @@
 # Check player is in the same dimension as last death
+execute unless data entity @s LastDeathLocation run return 0
+
 data modify storage arc:recall_compass dimension set from entity @s LastDeathLocation.dimension
 # Returns false (0) when dimensions match
 execute store success score @s teleportDimensionValid run data modify storage arc:recall_compass dimension set from entity @s Dimension
