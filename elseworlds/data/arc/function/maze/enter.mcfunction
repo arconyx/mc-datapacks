@@ -11,7 +11,7 @@ execute if dimension arc:hub run tag @s add fromHub
 execute in arc:maze if entity @a[x=0,y=0,z=0,tag=mazerunner] run return run function arc:maze/join_player
 
 # If in hub move maze to random coordinates
-execute if dimension arc:hub run function arc:randomise_coordinates {mag: 100000}
+execute if dimension arc:hub run function arc:randomise_coordinates {mag: 10000}
 # Else use the player's current coordinates
 execute unless dimension arc:hub store result storage arc:random_coord x int 1 run data get entity @s Pos[0]
 execute unless dimension arc:hub store result storage arc:random_coord z int 1 run data get entity @s Pos[2]
