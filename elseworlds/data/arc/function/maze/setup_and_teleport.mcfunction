@@ -1,6 +1,8 @@
 # Load area
 forceload add ~ ~
 
+execute in arc:maze unless entity @a[x=0,y=0,z=0] run kill @e[x=0,y=0,z=0,type=marker]
+
 # If no players are in the maze generate it
 # x,y,z are to restrict dimension. We probably don't need it with mazerunner tag but it pays to be safe.
 function arc:maze/setup
