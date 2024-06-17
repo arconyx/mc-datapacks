@@ -262,8 +262,15 @@
             "bonus_rolls": 0,
             "entries": [
                 {
-                    "type": "minecraft:loot_table",
-                    "value": "arc:randomiser/portal_seed"
+                    "type": "minecraft:item",
+                    "name": "minecraft:jigsaw",
+                    "weight": 1,
+                    "functions": [
+                        {
+                            "function": "minecraft:reference",
+                            "name": "arc:portal_seed/overworld_portal_seed"
+                        }
+                    ]
                 }
             ]
         },
