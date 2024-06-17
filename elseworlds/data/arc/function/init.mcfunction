@@ -2,6 +2,7 @@ scoreboard objectives add teleportDimensionValid dummy
 scoreboard objectives add mazeJoinSuccess dummy
 scoreboard objectives add featherRightClickCooldown dummy
 scoreboard objectives add showMarker trigger
+scoreboard objectives add deathDetector deathCount
 
 # dimension exit coordinates
 scoreboard objectives add overworldCoordinateX dummy

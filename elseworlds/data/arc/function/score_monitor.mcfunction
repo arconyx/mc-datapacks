@@ -1,0 +1,1 @@
+execute as @a[scores={deathDetector=1..}] run function arc:last_death with entity @s LastDeathLocation
