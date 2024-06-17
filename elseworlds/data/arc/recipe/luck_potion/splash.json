@@ -12,7 +12,7 @@
     ],
     "result": {
         "id": "minecraft:splash_potion",
-        "count": 1,
+        "count": 3,
         "components": {
             "minecraft:potion_contents": {
                 "potion": "minecraft:luck"
