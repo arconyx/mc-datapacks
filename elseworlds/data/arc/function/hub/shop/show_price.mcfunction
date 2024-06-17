@@ -1,2 +1,2 @@
 # Called as the interaction entity
-$execute run title @a actionbar [ {"nbt": "Passengers[0].item.components.minecraft:custom_data.store.name", "interpret": true, "source": "entity", "entity": "@s", "color": "gray"}, {"text": ": $(cost) rubies", "color": "gray"}]
+$execute run title @p actionbar [ {"nbt": "Passengers[0].item.components.minecraft:custom_data.store.name", "interpret": true, "source": "entity", "entity": "@s", "color": "gray"}, {"text": ": $(cost) rubies", "color": "gray"}]
