@@ -22,6 +22,32 @@
             }
           ],
           "name": "minecraft:map"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:map",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:exploration_map",
+              "destination": "arc:buried_lab",
+              "decoration": "blue_marker",
+              "skip_existing_chunks": true
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": "Buried Lab Map",
+              "target": "item_name"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "arc:purelake"
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0

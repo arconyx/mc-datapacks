@@ -73,13 +73,12 @@
                             "function": "minecraft:exploration_map",
                             "destination": "arc:buried_lab",
                             "decoration": "blue_marker",
-                            "skip_existing_chunks": true,
-                            "conditions": [
-                                {
-                                    "condition": "minecraft:random_chance",
-                                    "chance": 0.8
-                                }
-                            ]
+                            "skip_existing_chunks": true
+                        },
+                        {
+                            "function": "minecraft:set_name",
+                            "name": "Buried Lab Map",
+                            "target": "item_name"
                         }
                     ]
                 }
