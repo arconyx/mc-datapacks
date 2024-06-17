@@ -102,6 +102,18 @@
               }
             }
           ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "value": "arc:randomiser/portal_seed",
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "arc:purelake"
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0
