@@ -26,13 +26,13 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:map",
-          "weight": 1,
           "functions": [
             {
+              "decoration": "minecraft:blue_marker",
+              "destination": "arc:labs",
               "function": "minecraft:exploration_map",
-              "destination": "arc:buried_lab",
-              "decoration": "blue_marker",
-              "skip_existing_chunks": true
+              "skip_existing_chunks": false,
+              "zoom": 3
             },
             {
               "function": "minecraft:set_name",
