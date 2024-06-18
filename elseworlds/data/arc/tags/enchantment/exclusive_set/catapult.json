@@ -1,0 +1,7 @@
+{
+    "values": [
+        "minecraft:mending",
+        "arc:catapult",
+        "#minecraft:exclusive_set/crossbow"
+    ]
+}
