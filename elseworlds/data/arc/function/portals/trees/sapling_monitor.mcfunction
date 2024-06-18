@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,tag=portal_sapling] at @s run function arc:portals/trees/spawn_tree
