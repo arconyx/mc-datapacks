@@ -17,6 +17,24 @@
         {
           "type": "minecraft:loot_table",
           "value": "arc:randomiser/portal_seed"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:command_block",
+          "functions": [
+            {
+              "function": "reference",
+              "name": "arc:keys/alltree"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "location_check",
+              "predicate": {
+                "dimension": "arc:spaghetti"
+              }
+            }
+          ]
         }
       ],
       "rolls": 1.0
