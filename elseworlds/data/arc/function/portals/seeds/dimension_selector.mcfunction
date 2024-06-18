@@ -11,6 +11,9 @@ data modify storage arc:portal_seed dimension set from entity @s SelectedItem.co
 execute store success score @s teleportDimensionValid run data modify storage arc:portal_seed dimension set from entity @s Dimension
 execute unless score @s teleportDimensionValid matches 1 run return fail
 
+# tag entities for mass transit
+execute if data entity @s SelectedItem.components.minecraft:custom_data.mass run tag @e[type=!#arc:cannot_teleport,distance=..5] add massTeleport
+
 execute if predicate arc:item_dimension/overworld run function arc:portals/seeds/overworld_teleport
 execute if predicate arc:item_dimension/nether run function arc:portals/seeds/nether_teleport
 execute if predicate arc:item_dimension/end run function arc:portals/seeds/end_teleport
@@ -18,6 +21,9 @@ execute if predicate arc:item_dimension/end run function arc:portals/seeds/end_t
 execute if predicate arc:item_dimension/purelake run function arc:portals/seeds/purelake_teleport
 execute if predicate arc:item_dimension/maze run function arc:portals/seeds/maze_teleport
 execute if predicate arc:item_dimension/spaghetti run function arc:portals/seeds/spaghetti_teleport
+
+# teleport mass transit entities
+execute if data entity @s SelectedItem.components.minecraft:custom_data.mass run teleport @e[tag=massTeleport] @s
 
 effect give @s minecraft:resistance 6 5 true
 function arc:portals/safe_landing

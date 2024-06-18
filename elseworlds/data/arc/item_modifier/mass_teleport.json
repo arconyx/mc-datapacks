@@ -1,0 +1,13 @@
+[
+    {
+        "function": "set_custom_data",
+        "tag": {
+            "mass": true
+        }
+    },
+    {
+        "function": "set_name",
+        "name": "Mass Teleport",
+        "target": "item_name"
+    }
+]
