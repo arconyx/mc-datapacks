@@ -13,7 +13,7 @@ execute store result storage arc:recall_compass x int 1 run data get entity @s L
 execute store result storage arc:recall_compass y int 1 run data get entity @s LastDeathLocation.pos[1]
 execute store result storage arc:recall_compass z int 1 run data get entity @s LastDeathLocation.pos[2]
 
-function arc:item/recall_compass/teleport
+function arc:teleport_to_coords with storage arc:recall_compass
 
 # Remove compass
 item modify entity @s weapon.mainhand arc:remove_one_item
