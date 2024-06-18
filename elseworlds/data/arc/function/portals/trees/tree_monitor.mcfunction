@@ -1,1 +1,0 @@
-execute as @e[type=minecraft:marker,tag=portal_tree] at @s if entity @a[distance=..30] run function arc:portals/trees/tree_teleport

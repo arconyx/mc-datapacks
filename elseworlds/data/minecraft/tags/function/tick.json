@@ -1,17 +1,7 @@
 {
     "values": [
-        "arc:gamemode_monitor",
-        "arc:highlight_markers",
-        "arc:score_monitor",
-        "arc:update_counters",
-        "arc:hub/exits/portal_monitor",
-        "arc:hub/portal_up/monitor",
+        "arc:monitors/monitor",
         "arc:hub/shop/entities/rotate",
-        "arc:maze/internal_teleport_monitor",
-        "arc:maze/exit_monitor",
-        "arc:portals/trees/tree_monitor",
-        "arc:portals/trees/sapling_monitor",
-        "arc:portals/trees/buried_lab/monitor",
         "arc:wither/monitor"
     ]
 }
