@@ -1,1 +1,1 @@
-execute as @s at @s unless block ~ ~1 ~ #arc:head_safe run fill ~ ~1 ~ ~ ~1 ~ air destroy
+execute at @s anchored eyes unless block ~ ~ ~ #arc:head_safe run fill ~ ~ ~ ~ ~ ~ air destroy
