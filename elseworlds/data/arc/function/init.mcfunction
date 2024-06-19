@@ -21,6 +21,21 @@ scoreboard objectives add purelakeCoordinateX dummy
 scoreboard objectives add purelakeCoordinateY dummy
 scoreboard objectives add purelakeCoordinateZ dummy
 
+# maze entrance coordinates
+scoreboard objectives add mazeOverworldCoordinateX dummy
+scoreboard objectives add mazeOverworldCoordinateY dummy
+scoreboard objectives add mazeOverworldCoordinateZ dummy
+
+scoreboard objectives add mazeAlltreeCoordinateX dummy
+scoreboard objectives add mazeAlltreeCoordinateY dummy
+scoreboard objectives add mazeAlltreeCoordinateZ dummy
+
+scoreboard objectives add mazeLakeCoordinateX dummy
+scoreboard objectives add mazeLakeCoordinateY dummy
+scoreboard objectives add mazeLakeCoordinateZ dummy
+
+scoreboard objectives add mazeEntranceDimension dummy
+
 # hub location search
 scoreboard objectives add locationSearch1 dummy
 scoreboard objectives add locationSearch2 dummy
