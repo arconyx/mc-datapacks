@@ -24,6 +24,8 @@ execute if predicate arc:item_dimension/spaghetti run function arc:portals/seeds
 
 # teleport mass transit entities
 execute if data entity @s SelectedItem.components.minecraft:custom_data.mass run teleport @e[tag=massTeleport] @s
+effect give @e[tag=massTeleport] minecraft:resistance 6 5 true
+tag @e[tag=massTeleport] remove massTeleport
 
 function arc:portals/safe_landing
 
