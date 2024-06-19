@@ -27,7 +27,6 @@ execute if data entity @s SelectedItem.components.minecraft:custom_data.mass run
 effect give @e[tag=massTeleport] minecraft:resistance 6 5 true
 tag @e[tag=massTeleport] remove massTeleport
 
-effect give @s minecraft:resistance 6 5 true
 function arc:portals/safe_landing
 
 item modify entity @s weapon.mainhand arc:remove_one_item
