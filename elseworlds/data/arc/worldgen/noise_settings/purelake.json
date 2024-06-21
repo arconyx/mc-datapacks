@@ -125,7 +125,7 @@
                                         "if_true": {
                                             "type": "minecraft:biome",
                                             "biome_is": [
-                                                "minecraft:wooded_badlands"
+                                                "lake:wooded_badlands"
                                             ]
                                         },
                                         "then_run": {
@@ -224,7 +224,7 @@
                                         "if_true": {
                                             "type": "minecraft:biome",
                                             "biome_is": [
-                                                "minecraft:swamp"
+                                                "lake:swamp"
                                             ]
                                         },
                                         "then_run": {
@@ -276,7 +276,7 @@
                                         "if_true": {
                                             "type": "minecraft:biome",
                                             "biome_is": [
-                                                "minecraft:mangrove_swamp"
+                                                "lake:mangrove_swamp"
                                             ]
                                         },
                                         "then_run": {
@@ -331,9 +331,9 @@
                             "if_true": {
                                 "type": "minecraft:biome",
                                 "biome_is": [
-                                    "minecraft:badlands",
-                                    "minecraft:eroded_badlands",
-                                    "minecraft:wooded_badlands"
+                                    "lake:badlands",
+                                    "lake:eroded_badlands",
+                                    "lake:wooded_badlands"
                                 ]
                             },
                             "then_run": {
@@ -631,8 +631,8 @@
                                             "if_true": {
                                                 "type": "minecraft:biome",
                                                 "biome_is": [
-                                                    "minecraft:frozen_ocean",
-                                                    "minecraft:deep_frozen_ocean"
+                                                    "lake:frozen_ocean",
+                                                    "lake:deep_frozen_ocean"
                                                 ]
                                             },
                                             "then_run": {
@@ -691,7 +691,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:frozen_peaks"
+                                                            "lake:frozen_peaks"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -762,7 +762,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:snowy_slopes"
+                                                            "lake:snowy_slopes"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -827,7 +827,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:jagged_peaks"
+                                                            "lake:jagged_peaks"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -868,7 +868,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:grove"
+                                                            "lake:grove"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -924,7 +924,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:stony_peaks"
+                                                                    "lake:stony_peaks"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -959,7 +959,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:stony_shore"
+                                                                    "lake:stony_shore"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1015,7 +1015,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:windswept_hills"
+                                                                    "lake:windswept_hills"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1039,7 +1039,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:warm_ocean",
+                                                                    "lake:warm_ocean",
                                                                     "minecraft:beach",
                                                                     "minecraft:snowy_beach"
                                                                 ]
@@ -1077,7 +1077,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:desert"
+                                                                    "lake:desert"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1113,7 +1113,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:dripstone_caves"
+                                                                    "lake:dripstone_caves"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1130,7 +1130,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:windswept_savanna"
+                                                            "lake:windswept_savanna"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1174,7 +1174,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:windswept_gravelly_hills"
+                                                            "lake:windswept_gravelly_hills"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1304,7 +1304,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:old_growth_pine_taiga",
+                                                            "lake:old_growth_pine_taiga",
                                                             "minecraft:old_growth_spruce_taiga"
                                                         ]
                                                     },
@@ -1352,7 +1352,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:ice_spikes"
+                                                            "lake:ice_spikes"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1376,7 +1376,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:mangrove_swamp"
+                                                            "lake:mangrove_swamp"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1391,7 +1391,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:mushroom_fields"
+                                                            "lake:mushroom_fields"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1502,7 +1502,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:frozen_peaks"
+                                                            "lake:frozen_peaks"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1573,7 +1573,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:snowy_slopes"
+                                                            "lake:snowy_slopes"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1638,7 +1638,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:jagged_peaks"
+                                                            "lake:jagged_peaks"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1653,7 +1653,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:grove"
+                                                            "lake:grove"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1700,7 +1700,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:stony_peaks"
+                                                                    "lake:stony_peaks"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1735,7 +1735,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:stony_shore"
+                                                                    "lake:stony_shore"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1791,7 +1791,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:windswept_hills"
+                                                                    "lake:windswept_hills"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1815,9 +1815,9 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:warm_ocean",
-                                                                    "minecraft:beach",
-                                                                    "minecraft:snowy_beach"
+                                                                    "lake:warm_ocean",
+                                                                    "lake:beach",
+                                                                    "lake:snowy_beach"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1853,7 +1853,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:desert"
+                                                                    "lake:desert"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1889,7 +1889,7 @@
                                                             "if_true": {
                                                                 "type": "minecraft:biome",
                                                                 "biome_is": [
-                                                                    "minecraft:dripstone_caves"
+                                                                    "lake:dripstone_caves"
                                                                 ]
                                                             },
                                                             "then_run": {
@@ -1906,7 +1906,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:windswept_savanna"
+                                                            "lake:windswept_savanna"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -1930,7 +1930,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:windswept_gravelly_hills"
+                                                            "lake:windswept_gravelly_hills"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -2037,7 +2037,7 @@
                                                     "if_true": {
                                                         "type": "minecraft:biome",
                                                         "biome_is": [
-                                                            "minecraft:mangrove_swamp"
+                                                            "lake:mangrove_swamp"
                                                         ]
                                                     },
                                                     "then_run": {
@@ -2061,9 +2061,9 @@
                                         "if_true": {
                                             "type": "minecraft:biome",
                                             "biome_is": [
-                                                "minecraft:warm_ocean",
-                                                "minecraft:beach",
-                                                "minecraft:snowy_beach"
+                                                "lake:warm_ocean",
+                                                "lake:beach",
+                                                "lake:snowy_beach"
                                             ]
                                         },
                                         "then_run": {
@@ -2088,7 +2088,7 @@
                                         "if_true": {
                                             "type": "minecraft:biome",
                                             "biome_is": [
-                                                "minecraft:desert"
+                                                "lake:desert"
                                             ]
                                         },
                                         "then_run": {
@@ -2128,8 +2128,8 @@
                                         "if_true": {
                                             "type": "minecraft:biome",
                                             "biome_is": [
-                                                "minecraft:frozen_peaks",
-                                                "minecraft:jagged_peaks"
+                                                "lake:frozen_peaks",
+                                                "lake:jagged_peaks"
                                             ]
                                         },
                                         "then_run": {
@@ -2144,9 +2144,9 @@
                                         "if_true": {
                                             "type": "minecraft:biome",
                                             "biome_is": [
-                                                "minecraft:warm_ocean",
-                                                "minecraft:lukewarm_ocean",
-                                                "minecraft:deep_lukewarm_ocean"
+                                                "lake:warm_ocean",
+                                                "lake:lukewarm_ocean",
+                                                "lake:deep_lukewarm_ocean"
                                             ]
                                         },
                                         "then_run": {
