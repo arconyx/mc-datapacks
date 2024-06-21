@@ -6,7 +6,7 @@
             "minecraft:custom_data": {
                 "store": {
                     "cost": 12,
-                    "recipe": "arc:glowing"
+                    "recipe": "arc:glowing_token"
                 }
             }
         }
