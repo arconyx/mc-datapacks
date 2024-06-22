@@ -23,7 +23,7 @@
                 "eat_seconds": 3000,
                 "effects": []
             },
-            "minecraft:max_stack_size": 1,
+            "minecraft:max_stack_size": 16,
             "minecraft:rarity": "uncommon",
             "minecraft:can_place_on": {
                 "blocks": [
