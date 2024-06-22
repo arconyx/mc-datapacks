@@ -43,3 +43,6 @@ scoreboard objectives add stringComparison dummy
 scoreboard objectives add listSize dummy
 scoreboard objectives add getBookSuccess dummy
 scoreboard objectives add raycastIteration dummy
+
+# talking enchantment
+scoreboard objectives add talkingPostAttack dummy
