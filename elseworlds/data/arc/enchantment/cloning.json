@@ -1,0 +1,30 @@
+{
+    "anvil_cost": 80,
+    "description": "Cloning",
+    "effects": {
+        "minecraft:post_attack": [
+            {
+            	"affected": "victim",
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "arc:item/cloning1"
+                },
+                "enchanted": "attacker"
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "minecraft:heart_of_the_sea",
+    "weight": 1
+}
