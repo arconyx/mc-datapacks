@@ -9,4 +9,4 @@ execute unless entity @a[distance=..2] run return fail
 particle minecraft:portal ~ ~ ~ 0.05 1 0.05 1 10
 
 # If player within 1 block run teleport handler
-execute if entity @a[distance=..1] run teleport @a[distance=..1] @e[type=marker,tag=tower_centre,sort=nearest,limit=1]
+execute if entity @a[distance=..1] run teleport @a[distance=..0.5] @e[type=marker,tag=tower_centre,sort=nearest,limit=1]
