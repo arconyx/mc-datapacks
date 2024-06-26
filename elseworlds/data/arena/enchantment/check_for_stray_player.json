@@ -1,0 +1,29 @@
+{
+    "anvil_cost": 1,
+    "description": "Check for stray player",
+    "effects": {
+      "minecraft:tick": [
+        {
+          "affected":"this",
+          "effect": {
+            "type": "minecraft:run_function",
+            "function": "arena:stray_player_check"
+          }
+        }
+      ]
+    },
+    "max_cost": {
+      "base": 40,
+      "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+      "base": 10,
+      "per_level_above_first": 0
+    },
+    "slots": [
+      "any"
+    ],
+    "supported_items": "#minecraft:enchantable/chest_armor",
+    "weight": 2
+  }

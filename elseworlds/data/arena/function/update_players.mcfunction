@@ -1,0 +1,2 @@
+execute as @a[tag=!arenaPlayer] at @s in minecraft:overworld if entity @s[distance=..1] run tag @s add arenaPlayer
+execute as @a[tag=arenaPlayer] at @s in minecraft:overworld unless entity @s[distance=..1] run tag @s remove arenaPlayer
