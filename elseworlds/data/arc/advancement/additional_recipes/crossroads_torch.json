@@ -1,0 +1,28 @@
+{
+    "parent": "minecraft:recipes/root",
+    "criteria": {
+        "in_dimension": {
+            "trigger": "changed_dimension",
+            "conditions": {
+                "to": "arc:maze"
+            }
+        },
+        "has_the_recipe": {
+            "conditions": {
+                "recipe": "arc:crossroads_torch"
+            },
+            "trigger": "minecraft:recipe_unlocked"
+        }
+    },
+    "requirements": [
+        [
+            "in_dimension",
+            "has_item"
+        ]
+    ],
+    "rewards": {
+        "recipes": [
+            "arc:crossroads_torch"
+        ]
+    }
+}
