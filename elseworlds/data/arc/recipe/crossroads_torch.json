@@ -1,0 +1,27 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [
+        "X",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:stick"
+        },
+        "X": {
+            "item": "minecraft:chain_command_block"
+        }
+    },
+    "result": {
+        "id": "minecraft:soul_torch",
+        "count": 4,
+        "components": {
+            "minecraft:enchantment_glint_override": true,
+            "minecraft:can_place_on": {
+                "blocks": "#arc:crossroads_torch_place"
+            },
+            "minecraft:item_name": "{\"text\":\"Crossroads Torch\"}"
+        }
+    }
+}
