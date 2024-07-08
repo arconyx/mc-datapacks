@@ -18,7 +18,6 @@
         "minecraft:painting",
         "minecraft:trident",
         "minecraft:wither",
-        "minecraft:wither_skull",
-        "minecraft:wither"
+        "minecraft:wither_skull"
     ]
 }
