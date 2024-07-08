@@ -1,0 +1,1 @@
+$execute in $(dimension) run teleport @s $(x) $(y) $(z)

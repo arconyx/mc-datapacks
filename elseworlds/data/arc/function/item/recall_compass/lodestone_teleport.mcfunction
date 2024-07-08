@@ -5,8 +5,8 @@ execute if items entity @s weapon.mainhand minecraft:compass[!minecraft:lodeston
 # Save teleport target
 # Use scoreboard instead for per player?
 data modify storage arc:recall_compass dimension set from entity @s SelectedItem.components.minecraft:lodestone_tracker.target.dimension
-execute store result storage arc:recall_compass x int 1 run data get entity @s SelectedItem.components."minecraft:lodestone_tracker".target.pos[0]
-execute store result storage arc:recall_compass y int 1 run data get entity @s SelectedItem.components."minecraft:lodestone_tracker".target.pos[1]
-execute store result storage arc:recall_compass z int 1 run data get entity @s SelectedItem.components."minecraft:lodestone_tracker".target.pos[2]
+data modify storage arc:recall_compass x set from entity @s SelectedItem.components."minecraft:lodestone_tracker".target.pos[0]
+data modify storage arc:recall_compass y set from entity @s SelectedItem.components."minecraft:lodestone_tracker".target.pos[1]
+data modify storage arc:recall_compass z set from entity @s SelectedItem.components."minecraft:lodestone_tracker".target.pos[2]
 
 function arc:item/recall_compass/teleport
