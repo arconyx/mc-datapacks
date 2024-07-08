@@ -4,7 +4,7 @@
         "icon": {
             "id": "minecraft:command_block"
         },
-        "title": "Treerunner",
+        "title": "Treestrider",
         "description": "Ascend to the All-tree",
         "show_toast": true,
         "announce_to_chat": true,
