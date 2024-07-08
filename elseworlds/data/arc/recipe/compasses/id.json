@@ -1,6 +1,7 @@
 {
     "type": "crafting_shapeless",
     "category": "equipment",
+    "group": "recall_id",
     "ingredients": [
         {
             "item": "minecraft:chain_command_block"
