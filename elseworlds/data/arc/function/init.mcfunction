@@ -3,6 +3,7 @@ scoreboard objectives add mazeJoinSuccess dummy
 scoreboard objectives add featherRightClickCooldown dummy
 scoreboard objectives add showMarker trigger
 scoreboard objectives add deathDetector deathCount
+scoreboard objectives add lockPortalSapling dummy
 
 # dimension exit coordinates
 scoreboard objectives add overworldCoordinateX dummy

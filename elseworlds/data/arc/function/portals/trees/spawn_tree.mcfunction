@@ -1,3 +1,8 @@
+execute if score @p lockPortalSapling matches 1.. run return run scoreboard players remove @p lockPortalSapling 1
+scoreboard players set @p lockPortalSapling 20
+
+scoreboard players set @s lockPortalSapling 1
+
 execute if dimension minecraft:the_nether run title @p actionbar {"text": "Incompatible dimension", "color": "red"} 
 execute if dimension minecraft:the_end run title @p actionbar {"text": "Incompatible dimension", "color": "red"}
 execute if dimension minecraft:the_nether run return run kill @s
@@ -6,9 +11,6 @@ execute if dimension minecraft:the_end run return run kill @s
 # tellraw @p {"text": "Growing sapling", "color": "gray"}
 execute unless data entity @s data.sapling run tellraw @p {"text": "No sapling data found", "color": "red"}
 
-execute if entity @p[y_rotation=-45..45] run function arc:portals/trees/place_rotated/clockwise_90 with entity @s data.sapling
-execute if entity @p[y_rotation=-135..-45] run function arc:portals/trees/place_rotated/none with entity @s data.sapling
-execute if entity @p[y_rotation=45..135] run function arc:portals/trees/place_rotated/180 with entity @s data.sapling
-execute unless entity @p[y_rotation=-135..135] run function arc:portals/trees/place_rotated/counterclockwise_90 with entity @s data.sapling
+function arc:portals/trees/place_rotated/rotated_wrapper
 
 kill @s
