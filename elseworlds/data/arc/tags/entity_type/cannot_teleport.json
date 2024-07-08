@@ -1,7 +1,9 @@
 {
     "values": [
+        "minecraft:armor_stand",
         "minecraft:area_effect_cloud",
         "minecraft:end_crystal",
+        "minecraft:ender_dragon",
         "minecraft:evoker_fangs",
         "minecraft:fishing_bobber",
         "minecraft:glow_item_frame",
@@ -13,6 +15,8 @@
         "minecraft:block_display",
         "minecraft:item_display",
         "minecraft:text_display",
-        "minecraft:painting"
+        "minecraft:painting",
+        "minecraft:trident",
+        "minecraft:wither"
     ]
 }
