@@ -1,0 +1,34 @@
+{
+    "type": "crafting_shapeless",
+    "category": "equipment",
+    "ingredients": [
+        {
+            "item": "minecraft:chain_command_block"
+        },
+        {
+            "item": "minecraft:recovery_compass"
+        },
+        {
+            "item": "minecraft:repeating_command_block"
+        }
+    ],
+    "result": {
+        "id": "minecraft:recovery_compass",
+        "components": {
+            "minecraft:custom_data": {
+                "teleporting": true,
+                "mass": true
+            },
+            "minecraft:food": {
+                "nutrition": 0,
+                "saturation": 0,
+                "can_always_eat": true,
+                "eat_seconds": 3000,
+                "effects": []
+            },
+            "minecraft:max_stack_size": 16,
+            "minecraft:rarity": "uncommon",
+            "minecraft:item_name": "{\"text\":\"Mass Recall Compass\"}"
+        }
+    }
+}
