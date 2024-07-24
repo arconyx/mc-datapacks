@@ -32,7 +32,7 @@ jobs:
     - name: Zip qol subfolders
       run: |
         for subfolder in qol/*; do
-            (cd "qol/$subfolder" && zip -r "../../.builds/$(basename "$subfolder").zip" .) 
+          (cd "$subfolder" && zip -r "../../.builds/$(basename "$subfolder").zip" .) 
         done
 
     - name: List created zip files
