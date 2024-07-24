@@ -1,0 +1,61 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Update Server
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push or pull request events but only for the "main" branch
+  push:
+    branches: [ "main" ]
+    pathes:
+      - 'elseworlds/**'
+      - 'qol/**'
+
+
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+name: Zip and Upload
+
+on:
+  push:
+    branches: ['main']
+    paths:
+      - 'elseworlds/**'
+      - 'qol/**'
+
+    workflow_dispatch:
+
+jobs:
+  zip-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Zip elseworlds
+      run: zip -r .builds/elseworlds.zip elseworlds/*
+
+    - name: Zip changed qol subfolders
+      run: |
+        for subfolder in qol/*; do
+          if [ -d "$subfolder" ] && git diff --name-only HEAD^ HEAD | grep -q "^$subfolder/"; then
+            zip -r ".builds/$(basename "$subfolder").zip" "$subfolder"/*
+          fi
+        done
+
+    - name: List created zip files
+      run: ls -la
+
+    - name: Upload datapacks via FTP
+      uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      with:
+        server: ${{ secrets.FTP_HOST }}
+        username: ${{ secrets.FTP_USER }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        port: ${{ secrets,FTP_PORT }}
+        protocol: ftps
+        local-dir: .builds/
+        server-dir: /world/datapacks
