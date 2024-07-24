@@ -29,12 +29,10 @@ jobs:
     - name: Zip elseworlds
       run: zip -r .builds/elseworlds.zip elseworlds/*
 
-    - name: Zip changed qol subfolders
+    - name: Zip qol subfolders
       run: |
         for subfolder in qol/*; do
-          if [ -d "$subfolder" ] && git diff --name-only HEAD^ HEAD | grep -q "^$subfolder/"; then
             zip -r ".builds/$(basename "$subfolder").zip" "$subfolder"/*
-          fi
         done
 
     - name: List created zip files
