@@ -23,6 +23,9 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v4
 
+    - name: Make builds dir
+      run: mkdir .builds
+
     - name: Zip elseworlds
       run: zip -r .builds/elseworlds.zip elseworlds/*
 
