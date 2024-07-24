@@ -49,4 +49,4 @@ jobs:
         port: ${{ secrets.FTP_PORT }}
         protocol: ftps
         local-dir: .builds/
-        server-dir: /world/datapacks
+        server-dir: /world/datapacks/
