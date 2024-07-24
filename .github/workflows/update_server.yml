@@ -46,4 +46,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         port: ${{ secrets.FTP_PORT }}
         uploads: .builds/ => /world/datapacks/
-        dry-run: true
+        dry-run: false
