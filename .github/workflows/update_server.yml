@@ -27,12 +27,12 @@ jobs:
       run: mkdir .builds
 
     - name: Zip elseworlds
-      run: zip -r .builds/elseworlds.zip elseworlds/*
+      run: (cd directory && zip -r ../.builds/elseworlds.zip .) 
 
     - name: Zip qol subfolders
       run: |
         for subfolder in qol/*; do
-            zip -r ".builds/$(basename "$subfolder").zip" "$subfolder"/*
+            (cd "$subfolder" && zip -r "../.builds/$(basename "$subfolder").zip" .) 
         done
 
     - name: List created zip files
