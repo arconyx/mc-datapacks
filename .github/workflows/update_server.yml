@@ -27,7 +27,7 @@ jobs:
       run: mkdir .builds
 
     - name: Zip elseworlds
-      run: (cd directory && zip -r ../.builds/elseworlds.zip .) 
+      run: (cd elseworlds && zip -r ../.builds/elseworlds.zip .) 
 
     - name: Zip qol subfolders
       run: |
