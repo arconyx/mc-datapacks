@@ -38,7 +38,7 @@ jobs:
         done
 
     - name: List created zip files
-      run: ls -la
+      run: ls .builds/ -la
 
     - name: Upload datapacks via FTP
       uses: Dylan700/sftp-upload-action@latest
