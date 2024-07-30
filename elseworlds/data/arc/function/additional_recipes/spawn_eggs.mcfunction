@@ -67,8 +67,8 @@ recipe give @s arc:spawn_eggs/spegg_shulker_brown
 recipe give @s arc:spawn_eggs/spegg_shulker_cyan
 recipe give @s arc:spawn_eggs/spegg_shulker_gray
 recipe give @s arc:spawn_eggs/spegg_shulker_green
-recipe give @s arc:spawn_eggs/spegg_shulker_lightblue
-recipe give @s arc:spawn_eggs/spegg_shulker_lightgray
+recipe give @s arc:spawn_eggs/spegg_shulker_light_blue
+recipe give @s arc:spawn_eggs/spegg_shulker_light_gray
 recipe give @s arc:spawn_eggs/spegg_shulker_lime
 recipe give @s arc:spawn_eggs/spegg_shulker_magenta
 recipe give @s arc:spawn_eggs/spegg_shulker_orange
