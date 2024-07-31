@@ -4,8 +4,17 @@ tag @s add holdingTalkingItem
 
 scoreboard players add @s talkingTimesEquipped 1
 
+# action 1
 execute if score @s talkingTimesEquipped matches 1 run return run function talk:say {text: "Hey!"}
+# action 2
 execute if score @s talkingTimesEquipped matches 2 run return run function talk:say {text: "Hey you!"}
 
-# say line and start timer
-execute if score @s talkingTimesEquipped matches 3 run return run function talk:actions/5
+# action 3 and start timer for action 5
+execute if score @s talkingTimesEquipped matches 3 run scoreboard players set @s talkingTimer 1
+execute if score @s talkingTimesEquipped matches 3 run return run function talk:say {text: "You with the ugly face."}
+
+# action 7
+execute if score @s talkingActionFlag matches 6 if score @s talkingTimesEquipped matches 4 run function talk:say {text: "Rude."}
+execute if score @s talkingActionFlag matches 6 if score @s talkingTimesEquipped matches 4 run scoreboard players set @s talkingTimer 1
+execute if score @s talkingActionFlag matches 6 if score @s talkingTimesEquipped matches 4 run return run scoreboard players set @s talkingActionFlag 7
+

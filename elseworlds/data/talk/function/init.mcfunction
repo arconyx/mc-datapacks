@@ -3,5 +3,7 @@
 # scoreboard objectives add talkingTick dummy
 
 scoreboard objectives add talkingTimesEquipped dummy
+scoreboard objectives add talkingTimesUnequipped dummy
 scoreboard objectives add talkingNameKnown dummy
 scoreboard objectives add talkingTimer dummy
+scoreboard objectives add talkingActionFlag dummy
