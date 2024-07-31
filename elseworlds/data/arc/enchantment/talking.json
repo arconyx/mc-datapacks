@@ -14,7 +14,7 @@
             {
                 "effect": {
                     "type": "minecraft:run_function",
-                    "function": "arc:item/talking/post_attack"
+                    "function": "arc:item/talking/post_attack_attacker"
                 },
                 "enchanted": "attacker",
                 "affected": "attacker"
