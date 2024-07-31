@@ -2,6 +2,14 @@
     "anvil_cost": 8,
     "description": "Talking",
     "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "arc:item/talking/tick"
+                }
+            }
+        ],
         "minecraft:post_attack": [
             {
                 "effect": {
