@@ -1,6 +1,6 @@
 {
     "anvil_cost": 8,
-    "description": "Talking",
+    "description": "Curse of Sentience",
     "effects": {
         "minecraft:tick": [
             {
