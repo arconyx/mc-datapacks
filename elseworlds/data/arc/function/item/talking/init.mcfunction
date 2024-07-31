@@ -4,3 +4,4 @@
 
 scoreboard objectives add talkingTimesEquipped dummy
 scoreboard objectives add talkingNameKnown dummy
+scoreboard objectives add talkingTimer dummy
