@@ -1,5 +1,6 @@
 {
     "values": [
-        "arc:init"
+        "arc:init",
+        "talk:init"
     ]
 }

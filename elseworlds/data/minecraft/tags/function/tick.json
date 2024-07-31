@@ -12,6 +12,7 @@
         "arc:portals/trees/tree_monitor",
         "arc:portals/trees/sapling_monitor",
         "arc:portals/trees/buried_lab/monitor",
-        "arc:wither/monitor"
+        "arc:wither/monitor",
+        "talk:monitor"
     ]
 }

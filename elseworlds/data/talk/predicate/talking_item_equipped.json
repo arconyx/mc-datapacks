@@ -10,7 +10,7 @@
                         "predicates": {
                             "minecraft:enchantments": [
                                 {
-                                    "enchantments": "arc:talking"
+                                    "enchantments": "talk:talking"
                                 }
                             ]
                         }
@@ -27,7 +27,7 @@
                         "predicates": {
                             "minecraft:enchantments": [
                                 {
-                                    "enchantments": "arc:talking"
+                                    "enchantments": "talk:talking"
                                 }
                             ]
                         }
@@ -44,7 +44,7 @@
                         "predicates": {
                             "minecraft:enchantments": [
                                 {
-                                    "enchantments": "arc:talking"
+                                    "enchantments": "talk:talking"
                                 }
                             ]
                         }

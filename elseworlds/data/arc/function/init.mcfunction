@@ -43,6 +43,3 @@ scoreboard objectives add stringComparison dummy
 scoreboard objectives add listSize dummy
 scoreboard objectives add getBookSuccess dummy
 scoreboard objectives add raycastIteration dummy
-
-# talking
-function arc:item/talking/init
