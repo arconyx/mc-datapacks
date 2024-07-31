@@ -18,3 +18,7 @@ execute if score @s talkingActionFlag matches 6 if score @s talkingTimesEquipped
 execute if score @s talkingActionFlag matches 6 if score @s talkingTimesEquipped matches 4 run scoreboard players set @s talkingTimer 1
 execute if score @s talkingActionFlag matches 6 if score @s talkingTimesEquipped matches 4 run return run scoreboard players set @s talkingActionFlag 7
 
+# action 9
+execute if score @s talkingActionFlag matches 8 if score @s talkingTimesEquipped matches 5 run function talk:say {text: "Okay, listen man."}
+execute if score @s talkingActionFlag matches 8 if score @s talkingTimesEquipped matches 5 run scoreboard players set @s talkingTimer 1
+execute if score @s talkingActionFlag matches 8 if score @s talkingTimesEquipped matches 5 run return run scoreboard players set @s talkingActionFlag 9

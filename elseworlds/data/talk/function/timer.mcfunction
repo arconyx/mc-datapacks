@@ -10,5 +10,8 @@ execute if score @s talkingTimesEquipped matches 3 if score @s talkingTimer matc
 
 # action 7
 execute if score @s talkingActionFlag matches 7 if score @s talkingTimer matches 40 run function talk:say {text: "Don't leave when I'm talking to you."}
-execute if score @s talkingActionFlag matches 7 if score @s talkingTimer matches 40 run scoreboard players set @s talkingActionFlag 7
+execute if score @s talkingActionFlag matches 7 if score @s talkingTimer matches 40 run return run scoreboard players reset @s talkingTimer
+
+# action 7
+execute if score @s talkingActionFlag matches 9 if score @s talkingTimer matches 40 run function talk:say {text: "Trying to have a conversation here."}
 execute if score @s talkingActionFlag matches 7 if score @s talkingTimer matches 40 run return run scoreboard players reset @s talkingTimer
