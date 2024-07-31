@@ -19,3 +19,7 @@ execute if score @s talkingActionFlag matches 9 if score @s talkingTimer matches
 # action 11
 execute if score @s talkingActionFlag matches 11 if score @s talkingTimer matches 40 run function talk:say {text: "I swear, man, if you do that again, we are going to have a problem."}
 execute if score @s talkingActionFlag matches 11 if score @s talkingTimer matches 40 run return run scoreboard players reset @s talkingTimer
+
+# action 13
+execute if score @s talkingActionFlag matches 13 if score @s talkingTimer matches 40 run function talk:say {text: "Play stupid games, win stupid prizes."}
+execute if score @s talkingActionFlag matches 13 if score @s talkingTimer matches 40 run return run scoreboard players reset @s talkingTimer
