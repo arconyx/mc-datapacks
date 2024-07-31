@@ -15,3 +15,8 @@ execute if score @s talkingActionFlag matches 7 if score @s talkingTimesUnequipp
 # action 10
 execute if score @s talkingActionFlag matches 9 if score @s talkingTimesUnequipped matches 5 run function talk:say {text: "Alright-"} 
 execute if score @s talkingActionFlag matches 9 if score @s talkingTimesUnequipped matches 5 run return run scoreboard players set @s talkingActionFlag 10
+
+# action 12
+execute if score @s talkingActionFlag matches 11 if score @s talkingTimesUnequipped matches 6 run function talk:say {text: "FINE-"} 
+execute if score @s talkingActionFlag matches 11 if score @s talkingTimesUnequipped matches 6 run scoreboard players set @s talkingTriggerFire 1
+execute if score @s talkingActionFlag matches 11 if score @s talkingTimesUnequipped matches 6 run return run scoreboard players set @s talkingActionFlag 12
