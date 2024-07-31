@@ -25,7 +25,7 @@ execute if score @s talkingActionFlag matches 13 if score @s talkingTimer matche
 execute if score @s talkingActionFlag matches 5..13 if score @s talkingTimer matches 200 run return run function talk:say {text: "So... Hey. How's it hanging?"}
 execute if score @s talkingActionFlag matches 5..13 if score @s talkingTimer matches 240 run return run function talk:say {text: "Man, I should have thought through this introduction."}
 execute if score @s talkingActionFlag matches 5..13 if score @s talkingTimer matches 260 run return run function talk:say {text: "I mean, what do you even say?"}
-execute if score @s talkingActionFlag matches 5..13 if score @s talkingTimer matches 280 run return run function talk:say {text: "Hi, you cursed me with sentience and now I'm a magic talking [ITEM]?"}
+execute if score @s talkingActionFlag matches 5..13 if score @s talkingTimer matches 280 run return run function talk:say_nbt {text: [{text: "Hi, you cursed me with sentience and now I'm a magic talking "}, {entity: "@s", nbt: "SelectedItem.components.minecraft:item_name", interpret: true}, {text: "?"}]}
 execute if score @s talkingActionFlag matches 5..13 if score @s talkingTimer matches 300 run return run function talk:say {text: "For the record, no, you're not crazy."}
 execute if score @s talkingActionFlag matches 5..13 if score @s talkingTimer matches 320 run return run function talk:say {text: "Well."}
 execute if score @s talkingActionFlag matches 5..13 if score @s talkingTimer matches 340 run return run function talk:say {text: "Not any more crazy than someone who cursed a [ITEM] with sentience."}
