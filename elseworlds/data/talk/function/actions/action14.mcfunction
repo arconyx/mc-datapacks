@@ -3,7 +3,7 @@ execute if score @s talkingTimer matches 240 run return run function talk:say {t
 execute if score @s talkingTimer matches 260 run return run function talk:say {text: "I mean, what do you even say?"}
 
 execute if score @s talkingTimer matches 280 run function talk:utils/set_item_type
-execute if score @s talkingTimer matches 280 run return run function talk:say_nbt {text: [{text: "Hi, you cursed me with sentience and now I'm a magic talking "}, {"storage": "talk:item", "nbt": "name", "interpret": true}, {text: "?"}]}
+execute if score @s talkingTimer matches 280 run return run function talk:say_raw {text: '[{"text": "Hi, you cursed me with sentience and now I\'m a magic talking "}, {"storage": "talk:item", "nbt": "name", "interpret": true}, {"text": "?"}]'}
 execute if score @s talkingTimer matches 300 run return run function talk:say {text: "For the record, no, you're not crazy."}
 execute if score @s talkingTimer matches 320 run return run function talk:say {text: "Well."}
 execute if score @s talkingTimer matches 340 run return run function talk:say {text: "Not any more crazy than someone who cursed a [ITEM] with sentience."}

@@ -1,0 +1,2 @@
+$execute if score @s talkingNameKnown matches 1 run tellraw @s [{"text": "["}, {"entity": "@s", "nbt": "SelectedItem.components.minecraft:custom_name", "interpret": true}, {"text": "] ", "extra": $(text)}] 
+$tellraw @s {"text": "[Voice] ", "extra": $(text)}
