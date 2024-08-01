@@ -19,4 +19,4 @@ execute if score @s talkingTimer matches 520 run return run function talk:say {t
 execute if score @s talkingTimer matches 600 run return run function talk:say {text: "Nope. Can't walk."}
 execute if score @s talkingTimer matches 620 run function talk:say {text: "We're doomed to companionship."}
 execute if score @s talkingTimer matches 620 run scoreboard players set @s talkingActionFlag 14
-execute if score @s talkingTimer matches 620 run scoreboard players reset @s talkingTimer
+execute if score @s talkingTimer matches 620 run scoreboard players set @s talkingTimer 1
