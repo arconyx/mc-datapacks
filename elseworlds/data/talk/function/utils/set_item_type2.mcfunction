@@ -1,0 +1,1 @@
+$data modify storage talk:item name set value {"translate": "item.minecraft.$(type)", "fallback": "item"}
