@@ -6,3 +6,4 @@ scoreboard players reset @s talkingTimesUnequipped
 scoreboard players reset @s talkingTimer
 scoreboard players reset @s talkingActionFlag
 scoreboard players reset @s talkingTriggerFire
+scoreboard players reset @s talkingRandom

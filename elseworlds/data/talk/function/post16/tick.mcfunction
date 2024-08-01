@@ -1,0 +1,1 @@
+function talk:post16/random_interval

@@ -8,3 +8,4 @@ scoreboard objectives add talkingNameKnown dummy
 scoreboard objectives add talkingTimer dummy
 scoreboard objectives add talkingActionFlag dummy
 scoreboard objectives add talkingTriggerFire dummy
+scoreboard objectives add talkingRandom dummy
