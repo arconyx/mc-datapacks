@@ -1,56 +1,17 @@
 {
-    "condition": "any_of",
-    "terms": [
-        {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "equipment": {
-                    "mainhand": {
-                        "predicates": {
-                            "minecraft:enchantments": [
-                                {
-                                    "enchantments": "talk:talking"
-                                }
-                            ]
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "predicates": {
+                    "minecraft:enchantments": [
+                        {
+                            "enchantments": "talk:talking"
                         }
-                    }
-                }
-            }
-        },
-        {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "equipment": {
-                    "offhand": {
-                        "predicates": {
-                            "minecraft:enchantments": [
-                                {
-                                    "enchantments": "talk:talking"
-                                }
-                            ]
-                        }
-                    }
-                }
-            }
-        },
-        {
-            "condition": "entity_properties",
-            "entity": "this",
-            "predicate": {
-                "equipment": {
-                    "body": {
-                        "predicates": {
-                            "minecraft:enchantments": [
-                                {
-                                    "enchantments": "talk:talking"
-                                }
-                            ]
-                        }
-                    }
+                    ]
                 }
             }
         }
-    ]
+    }
 }
