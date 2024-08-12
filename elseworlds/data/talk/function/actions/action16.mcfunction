@@ -1,6 +1,6 @@
 execute if score @s talkingTimer matches 200 run return run function talk:say {text: "You got a name?"}
-execute if score @s talkingTimer matches 240 run return run function talk:say_raw {text: '{"selector": "@s"}'}
-execute if score @s talkingTimer matches 240 run return run function talk:say_raw {text: '[{"selector": "@s"}, {"text": ". "}, {"selector": "@s", "italic": true}, {"text": ". "},  {"selector": "@s"}, {"text": "."}}]'}
+execute if score @s talkingTimer matches 240 run return run function talk:say_raw {text: '[{"selector": "@s"}]'}
+execute if score @s talkingTimer matches 260 run return run function talk:say_raw {text: '[{"selector": "@s"}, {"text": ". "}, {"selector": "@s"}, {"text": ". "}, {"selector": "@s", "italic": true}, {"text": "."}]'}
 execute if score @s talkingTimer matches 280 run return run function talk:say {text: "That's a dumb name."}
 execute if score @s talkingTimer matches 320 run return run function talk:say {text: "That's fine, I can give you a better one."}
 execute if score @s talkingTimer matches 360 run return run function talk:say {text: "How about..."}
