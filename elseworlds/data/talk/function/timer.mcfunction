@@ -25,9 +25,7 @@ execute if score @s talkingActionFlag matches 13 if score @s talkingTimer matche
 execute if score @s talkingActionFlag matches 5..13 run return run function talk:actions/action14
 
 # action 16
-execute if score @s talkingActionFlag matches 14..15 if score @s talkingTimer matches 200 run function talk:say {text: "You got a name?"}
-execute if score @s talkingActionFlag matches 14..15 if score @s talkingTimer matches 200 run scoreboard players set @s talkingActionFlag 16
-execute if score @s talkingActionFlag matches 14..15 if score @s talkingTimer matches 200 run return run scoreboard players reset @s talkingTimer
+execute if score @s talkingActionFlag matches 14..15 run return run function talk:actions/action16
 
 
 

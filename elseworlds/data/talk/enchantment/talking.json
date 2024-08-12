@@ -32,6 +32,14 @@
                 "enchanted": "attacker",
                 "affected": "attacker"
             }
+        ],
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "talk:location_changed"
+                }
+            }
         ]
     },
     "max_cost": {
