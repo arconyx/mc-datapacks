@@ -1,0 +1,1 @@
+execute as @a[tag=holdingTalkingItem] unless predicate talk:talking_item_equipped run function talk:unequipped

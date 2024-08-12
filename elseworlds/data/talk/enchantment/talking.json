@@ -1,0 +1,59 @@
+{
+    "anvil_cost": 8,
+    "description": "Curse of Sentience",
+    "effects": {
+        "minecraft:tick": [
+            {
+                "effect": {
+                    "type": "minecraft:ignite",
+                    "duration": 5
+                },
+                "requirements": {
+                    "condition": "entity_scores",
+                    "entity": "this",
+                    "scores": {
+                        "talkingTriggerFire": {"min": 1}
+                    }
+                }
+            },
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "talk:tick"
+                }
+            }
+        ],
+        "minecraft:post_attack": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "talk:post_attack_attacker"
+                },
+                "enchanted": "attacker",
+                "affected": "attacker"
+            }
+        ],
+        "minecraft:location_changed": [
+            {
+                "effect": {
+                    "type": "minecraft:run_function",
+                    "function": "talk:location_changed"
+                }
+            }
+        ]
+    },
+    "max_cost": {
+        "base": 50,
+        "per_level_above_first": 0
+    },
+    "max_level": 1,
+    "min_cost": {
+        "base": 20,
+        "per_level_above_first": 0
+    },
+    "slots": [
+        "mainhand"
+    ],
+    "supported_items": "#minecraft:enchantable/weapon",
+    "weight": 1
+}
