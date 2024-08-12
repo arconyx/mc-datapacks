@@ -3,5 +3,5 @@ execute if score @s talkingTimer matches 560 run return run function talk:say {t
 
 execute if score @s talkingTimer matches 600 run function talk:say {text: "You should get onto that."}
 execute if score @s talkingTimer matches 600.. run scoreboard players set @s talkingActionFlag 16
-execute if score @s talkingTimer matches 600.. run scoreboard players reset @s talkingActionFlag
+execute if score @s talkingTimer matches 600.. run scoreboard players reset @s talkingTimer
 

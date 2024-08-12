@@ -1,7 +1,7 @@
-scoreboard players add @s talkingTimer 1
-
 # track consecutive holding
-execute unless predicate talk:talking_item_equipped run return run scoreboard players reset @s talkingTimer
+execute unless predicate talk:talking_item_equipped run return run scoreboard players set @s talkingTimer 1
+
+scoreboard players add @s talkingTimer 1
 
 # action 5
 execute unless score @s talkingActionFlag matches 5.. if score @s talkingTimesEquipped matches 3 if score @s talkingTimer matches 200 run return run function talk:say {text: "...I got your attention now?"}

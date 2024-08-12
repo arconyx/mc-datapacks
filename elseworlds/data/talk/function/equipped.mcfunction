@@ -4,6 +4,8 @@ tag @s add holdingTalkingItem
 
 scoreboard players add @s talkingTimesEquipped 1
 
+execute if score @s talkingActionFlag matches 16.. run return fail
+
 # action 1
 execute if score @s talkingTimesEquipped matches 1 run return run function talk:say {text: "Hey!"}
 # action 2
