@@ -1,0 +1,1 @@
+function talk:say {text: "Aw, man."}

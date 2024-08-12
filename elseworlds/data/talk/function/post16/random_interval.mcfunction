@@ -14,3 +14,6 @@ execute if score @s talkingRandom matches 5 run return run function talk:say {te
 execute if score @s talkingRandom matches 6 run return run function talk:say {text: "-humming nonsensical tune-"}
 execute if score @s talkingRandom matches 7 run return run function talk:say {text: "-humming Megalovania-"}
 execute if score @s talkingRandom matches 8 run return run function talk:say {text: "I think we should dig straight down. Y'know. For fun."}
+
+
+execute if score @s talkingRandom matches 100..200 run return run function talk:post16/mob_warnings

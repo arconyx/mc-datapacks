@@ -12,3 +12,4 @@ scoreboard objectives add talkingTriggerFire dummy
 scoreboard objectives add talkingRandom dummy
 # monitors status of custom_name
 scoreboard objectives add talkingIsNamed dummy
+scoreboard objectives add talkingMobWarningCooldown dummy
