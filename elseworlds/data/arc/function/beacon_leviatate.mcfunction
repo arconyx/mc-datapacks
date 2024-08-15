@@ -1,1 +1,1 @@
-execute at @e[type=minecraft:marker, tag=levitate] run effect give @a[dx=0, dz=0] minecraft:levitation 1
+execute at @e[type=minecraft:marker, tag=levitate] run effect give @a[dx=0, dz=0, dy=300] minecraft:levitation 1
