@@ -1,5 +1,6 @@
 {
     "values": [
+        "arc:beacon_leviatate",
         "arc:gamemode_monitor",
         "arc:highlight_markers",
         "arc:score_monitor",
