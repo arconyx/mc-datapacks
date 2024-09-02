@@ -1,0 +1,14 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "location": {
+            "position": {
+                "y": {"max": -48}
+            }
+        },
+        "flags": {
+            "is_on_ground": false
+        }
+    }
+}

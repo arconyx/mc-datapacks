@@ -10,6 +10,7 @@
         "arc:hub/shop/entities/rotate",
         "arc:maze/internal_teleport_monitor",
         "arc:maze/exit_monitor",
+        "arc:maze/void_safety",
         "arc:portals/trees/tree_monitor",
         "arc:portals/trees/sapling_monitor",
         "arc:portals/trees/buried_lab/monitor",

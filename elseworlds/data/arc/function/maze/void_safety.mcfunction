@@ -1,0 +1,1 @@
+execute as @a[tag=mazerunner] at @s if dimension arc:maze if predicate arc:near_void in minecraft:overworld run teleport @s 0 70 0
