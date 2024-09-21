@@ -1,4 +1,4 @@
-execute store result score @s talkingRandom run random value 1..54000
+execute store result score @s talkingRandom run random value 1..108000
 execute unless score @s talkingRandom matches 1..9 run return fail
 
 execute if score @s talkingRandom matches 1 run return run function talk:say {text: "This is boring. You're boring. Do something interesting."}
