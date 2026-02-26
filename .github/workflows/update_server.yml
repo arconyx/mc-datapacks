@@ -1,0 +1,26 @@
+name: Update Server
+
+on:
+  push:
+    branches: [ "main" ]
+    paths:
+      - 'forever/**'
+
+permissions:
+    contents: read
+
+jobs:
+  validate-and-upload:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v6
+    
+    - name: Validate json
+      uses: GrantBirki/json-yaml-validate@1da184a57665a2343e6b476629e5f1466aed10d9
+      with:
+        base_dir: forever
+
+    - name: Trigger update webhook
+      run: curl "https://hive.thehivemind.gay/hooks/update-mc-forever"
