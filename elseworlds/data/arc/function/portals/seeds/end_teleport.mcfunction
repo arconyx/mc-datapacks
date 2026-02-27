@@ -1,1 +1,0 @@
-execute in minecraft:the_end run teleport @s ~ ~ ~

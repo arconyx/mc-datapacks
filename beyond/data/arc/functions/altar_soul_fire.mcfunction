@@ -1,1 +1,0 @@
-execute at @e[tag=altar] run particle minecraft:soul_fire_flame ~ ~ ~ 2 2 2 0 500

@@ -1,7 +1,0 @@
-{
-	"credit": "Made with Blockbench",
-	"parent": "minecraft:item/brick",
-	"textures": {
-		"layer0": "minecraft:item/maze_brick"
-	}
-}

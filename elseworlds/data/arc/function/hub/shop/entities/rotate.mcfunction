@@ -1,1 +1,0 @@
-execute as @e[type=item_display,tag=shop_display] at @s run teleport @s ~ ~ ~ facing entity @p eyes

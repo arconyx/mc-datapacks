@@ -1,1 +1,0 @@
-$execute on target run title @s actionbar {"text": "Cost: $(cost) rubies", "color": "red"} 
