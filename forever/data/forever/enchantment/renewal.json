@@ -1,0 +1,43 @@
+{
+  "anvil_cost": 12,
+  "description": "Renewal",
+  "effects": {
+    "minecraft:repair_with_xp": [
+      {
+        "effect": {
+          "type": "minecraft:multiply",
+          "factor": 2
+        }
+      }
+    ],
+    "minecraft:ammo_use": [
+      {
+        "requirements": {
+          "condition": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:arrow"
+          }
+        },
+        "effect": {
+          "type": "minecraft:set",
+          "value": 0
+        }
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 80,
+    "per_level_above_first": 25
+  },
+  "max_level": 1,
+  "min_cost": {
+    "base": 30,
+    "per_level_above_first": 25
+  },
+  "slots": [
+    "any"
+  ],
+  "supported_items": "#minecraft:enchantable/bow",
+  "exclusive_set": "#minecraft:exclusive_set/bow",
+  "weight": 1
+}
