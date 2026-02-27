@@ -13,5 +13,5 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
-    
-      uses: GrantBirki/json-yaml-validate@1da184a57665a2343e6b476629e5f1466aed10d9
+    steps:
+      - uses: GrantBirki/json-yaml-validate@1da184a57665a2343e6b476629e5f1466aed10d9
