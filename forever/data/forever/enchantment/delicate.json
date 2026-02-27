@@ -1,0 +1,43 @@
+{
+  "anvil_cost": 2,
+  "description": "Delicate",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": -2,
+          "per_level_above_first": -2
+        },
+        "attribute": "minecraft:max_health",
+        "id": "forever:enchantment.delicate",
+        "operation": "add_value"
+      },
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 0.2,
+          "per_level_above_first": 0.2
+        },
+        "attribute": "minecraft:movement_speed",
+        "id": "forever:enchantment.delicate",
+        "operation": "add_multiplied_base"
+      }
+    ]
+  },
+  "exclusive_set": "#forever:exclusive_set/chest",
+  "max_cost": {
+    "base": 75,
+    "per_level_above_first": 5
+  },
+  "max_level": 4,
+  "min_cost": {
+    "base": 25,
+    "per_level_above_first": 5
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": "#minecraft:enchantable/chest_armor",
+  "weight": 1
+}
