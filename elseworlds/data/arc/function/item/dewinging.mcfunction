@@ -1,2 +1,0 @@
-execute if items entity @s armor.chest minecraft:elytra run item replace entity @s player.cursor from entity @s armor.chest
-execute if items entity @s player.cursor minecraft:elytra run item replace entity @s armor.chest with minecraft:air

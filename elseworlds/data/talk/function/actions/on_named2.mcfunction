@@ -1,1 +1,0 @@
-function talk:say {text: "I don't like it."}

@@ -1,7 +1,0 @@
-{
-    "criteria": {
-        "lucky": {
-            "trigger": "minecraft:impossible"
-        }
-    }
-}

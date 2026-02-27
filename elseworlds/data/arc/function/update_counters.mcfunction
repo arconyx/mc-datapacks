@@ -1,1 +1,0 @@
-scoreboard players remove @a[scores={featherRightClickCooldown=1..}] featherRightClickCooldown 1
