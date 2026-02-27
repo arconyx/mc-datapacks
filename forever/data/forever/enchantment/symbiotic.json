@@ -1,0 +1,32 @@
+{
+  "anvil_cost": 2,
+  "description": "Symbiotic",
+  "effects": {
+    "minecraft:attributes": [
+      {
+        "amount": {
+          "type": "minecraft:linear",
+          "base": 6,
+          "per_level_above_first": 2
+        },
+        "attribute": "minecraft:max_health",
+        "id": "forever:enchantment.symbiotic",
+        "operation": "add_value"
+      }
+    ]
+  },
+  "max_cost": {
+    "base": 40,
+    "per_level_above_first": 10
+  },
+  "max_level": 3,
+  "min_cost": {
+    "base": 15,
+    "per_level_above_first": 10
+  },
+  "slots": [
+    "chest"
+  ],
+  "supported_items": ["minecraft:elytra", "minecraft:leather_chestplate"],
+  "weight": 2
+}
