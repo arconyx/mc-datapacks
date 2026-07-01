@@ -18,8 +18,8 @@
             "trigger": "minecraft:player_killed_entity",
             "conditions": {
                 "entity": {
-                    "type": "minecraft:player",
-                    "team": "arconyxTitle"
+                    "minecraft:entity_type": "minecraft:player",
+                    "minecraft:team": "arconyxTitle"
                 }
             }
         }
