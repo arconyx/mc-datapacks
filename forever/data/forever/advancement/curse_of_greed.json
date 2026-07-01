@@ -17,8 +17,7 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type": "minecraft:player",
+                    "minecraft:type_specific/player": {
                         "advancements": {
                             "forever:mint_access": false
                         }
@@ -50,8 +49,7 @@
             "trigger": "minecraft:inventory_changed",
             "conditions": {
                 "player": {
-                    "type_specific": {
-                        "type": "minecraft:player",
+                    "minecraft:type_specific/player": {
                         "advancements": {
                             "forever:mint_access": false
                         }
