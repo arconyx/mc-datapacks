@@ -1,7 +1,6 @@
 {
-    "pack": {
-        "min_format": 94,
-        "max_format": 94,
-        "description": "Override vanilla stuff for QOL reasons"
-    }
+  "pack": {
+    "pack_format": 121,
+    "description": "Craft string from wool"
+  }
 }

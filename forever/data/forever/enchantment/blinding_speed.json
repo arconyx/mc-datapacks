@@ -2,7 +2,7 @@
     "anvil_cost": 1,
     "description": "Blinding Speed",
     "effects": {
-      
+
       "minecraft:tick": [
       {
         "effect": {

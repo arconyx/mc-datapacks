@@ -13,7 +13,7 @@
     "minecraft:ammo_use": [
       {
         "requirements": {
-          "condition": "minecraft:match_tool",
+          "type": "minecraft:match_tool",
           "predicate": {
             "items": "minecraft:arrow"
           }

@@ -1,32 +1,32 @@
 {
-    "parent": "minecraft:recipes/root",
-    "criteria": {
-        "has_item": {
-            "conditions": {
-                "items": [
-                    {
-                        "items": "minecraft:amethyst_shard"
-                    }
-                ]
-            },
-            "trigger": "minecraft:inventory_changed"
-        },
-        "has_the_recipe": {
-            "conditions": {
-                "recipe": "arc:amethyst_recipe"
-            },
-            "trigger": "minecraft:recipe_unlocked"
-        }
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_item": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:amethyst_shard"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     },
-    "requirements": [
-        [
-            "has_the_recipe",
-            "has_item"
-        ]
-    ],
-    "rewards": {
-        "recipes": [
-            "arc:amethyst_recipe"
-        ]
+    "has_the_recipe": {
+      "conditions": {
+        "recipes": "arc:amethyst_shards"
+      },
+      "trigger": "minecraft:recipe_unlocked"
     }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_item"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "arc:amethyst_shards"
+    ]
+  }
 }

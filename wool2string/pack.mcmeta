@@ -1,6 +1,6 @@
 {
-    "pack": {
-        "pack_format": 48,
-        "description": "Craft string from wool"
-    }
+  "pack": {
+    "pack_format": 121,
+    "description": "Craft string from wool"
+  }
 }
